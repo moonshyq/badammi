@@ -1,35 +1,54 @@
-namespace BadammiSite
+using BadammiSite.Services;
+using BadammiSite.Services.Base;
+
+namespace BadammiSite;
+
+public class Program
 {
-    public class Program
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
+        var builder = WebApplication.CreateBuilder(args);
+
+        if (!Directory.Exists("Resourse"))
         {
-            var builder = WebApplication.CreateBuilder(args);
-
-            // Add services to the container.
-            builder.Services.AddRazorPages();
-
-            var app = builder.Build();
-
-            // Configure the HTTP request pipeline.
-            if (!app.Environment.IsDevelopment())
-            {
-                app.UseExceptionHandler("/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
-            }
-
-            app.UseHttpsRedirection();
-
-            app.UseRouting();
-
-            app.UseAuthorization();
-
-            app.MapStaticAssets();
-            app.MapRazorPages()
-               .WithStaticAssets();
-
-            app.Run();
+            Directory.CreateDirectory("Resourse");
+            Directory.CreateDirectory("Resourse/Photo");
+            Directory.CreateDirectory("Resourse/Json");
         }
+        else if (!File.Exists("Resourse/Json/Fruits.json"))
+        {
+            File.Create("Resourse/Json/Fruits.json");
+        }
+
+        builder.Services.AddRazorPages();
+
+        builder.Services.AddScoped<IJsonService, JsonService>();
+
+        var app = builder.Build();
+
+        if (!app.Environment.IsDevelopment())
+        {
+            app.UseExceptionHandler("/Home/Error");
+            // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+            app.UseHsts();
+        }
+
+        app.UseExceptionHandler("/Error");
+        
+        app.UseHsts();
+        app.UseHttpsRedirection();
+
+        app.UseRouting();
+        app.UseAuthorization();
+        app.UseStaticFiles();
+        app.MapStaticAssets();
+        app.MapRazorPages()
+           .WithStaticAssets();
+
+        app.MapControllerRoute(
+            name: "default",
+            pattern: "{controller=Home}/{action=Index}/{id?}");
+
+        app.Run();
     }
 }

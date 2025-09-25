@@ -24,6 +24,22 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/lyoha)/source/repos/BadammiSite/BadammiSite/Pages/Fruits/AddFruitsView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnJ1aXRzXEFkZEZydWl0c1ZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lyoha)/source/repos/BadammiSite/BadammiSite/Pages/Fruits/DeleteFruitView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnJ1aXRzXERlbGV0ZUZydWl0Vmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lyoha)/source/repos/BadammiSite/BadammiSite/Pages/Fruits/GetAllFruitsView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnJ1aXRzXEdldEFsbEZydWl0c1ZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lyoha)/source/repos/BadammiSite/BadammiSite/Pages/Fruits/UpdateFruitView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnJ1aXRzXFVwZGF0ZUZydWl0Vmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/lyoha)/source/repos/BadammiSite/BadammiSite/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

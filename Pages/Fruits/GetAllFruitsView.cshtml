@@ -1,0 +1,59 @@
+﻿@using BadammiSite.Models
+@model IEnumerable<Fruit>
+@{
+    ViewData["Title"] = "Get All";
+}
+
+<h2>All Fruits</h2>
+
+<table class="table table-bordered table-striped mt-3">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Photo</th>
+            <th>Name</th>
+            <th>Composition</th>
+            <th>Benefits</th>
+            <th>Actions</th> 
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var fruit in Model)
+            {
+                <tr>
+                    <td>@fruit.Id</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(fruit.PhotoPath))
+                        {
+                            <img src="../@fruit.PhotoPath" alt="@fruit.Name" style="max-width: 100px; max-height: 100px;" />
+                        }
+                    </td>
+                    <td>@fruit.Name</td>
+                    <td>@fruit.Composition</td>
+                    <td>
+                        @if (fruit.Benefits != null && fruit.Benefits.Any())
+                        {
+                            <ul>
+                                @foreach (var benefit in fruit.Benefits)
+                                {
+                                    <li>@benefit</li>
+                                }
+                            </ul>
+                        }
+                    </td>
+                    <td>
+                        <a asp-controller="Fruits" asp-action="UpdateFruitView" asp-route-id="@fruit.Id" class="btn btn-warning btn-sm">Edit</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="6" class="text-center">No fruits available.</td>
+            </tr>
+        }
+    </tbody>
+</table>

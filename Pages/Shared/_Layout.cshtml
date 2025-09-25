@@ -26,6 +26,16 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Fruits" asp-action="AddFruitsView">Add Fruit</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Fruits" asp-action="GetAllFruitsView">Get Fruits</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Fruits" asp-action="DeleteFruit">Delete Fruit</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -50,3 +60,4 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+

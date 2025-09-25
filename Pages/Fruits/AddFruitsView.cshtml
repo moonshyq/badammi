@@ -1,0 +1,63 @@
+﻿@model BadammiSite.Dtos.FruitDto
+@{
+    ViewData["Title"] = "Add Fruits";
+}
+
+<h2>Add Fruit</h2>
+
+<form asp-action="AddFruits" asp-controller="Fruits" method="post" enctype="multipart/form-data">
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+
+    <div>
+        <label asp-for="Composition"></label>
+        <textarea asp-for="Composition" class="form-control"></textarea>
+    </div>
+
+    <div>
+        <label asp-for="PhotoPath">Photo</label>
+        <input type="file" name="Photo" class="form-control" accept=".jpg,.jpeg" />
+    </div>
+
+    <div id="benefits-container">
+        <label>Benefits</label>
+        <div class="benefit-item">
+            <input type="text" name="Benefits[0]" class="form-control" />
+            <button type="button" class="remove-benefit btn btn-danger btn-sm">–</button>
+        </div>
+    </div>
+
+    <button type="button" id="add-benefit" class="btn btn-primary btn-sm mt-2">+ Add Benefit</button>
+
+    <div class="mt-3">
+        <button type="submit" class="btn btn-success">Save</button>
+    </div>
+</form>
+
+@section Scripts {
+    <script>
+        let benefitIndex = 1;
+
+        document.getElementById("add-benefit").addEventListener("click", function () {
+            const container = document.getElementById("benefits-container");
+
+            const div = document.createElement("div");
+            div.classList.add("benefit-item", "mt-1");
+
+            div.innerHTML = `
+                <input type="text" name="Benefits[${benefitIndex}]" class="form-control" />
+                <button type="button" class="remove-benefit btn btn-danger btn-sm">–</button>
+            `;
+            container.appendChild(div);
+            benefitIndex++;
+        });
+
+        document.addEventListener("click", function (e) {
+            if (e.target && e.target.classList.contains("remove-benefit")) {
+                e.target.parentElement.remove();
+            }
+        });
+    </script>
+}

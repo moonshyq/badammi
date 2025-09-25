@@ -1,0 +1,86 @@
+﻿@using BadammiSite.Models
+@model Fruit
+
+@{
+    ViewData["Title"] = "Edit Fruit";
+}
+
+<h2>Edit Fruit</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <td>
+            <input id="fruitId" value="@Model.Id" class="form-control" readonly />
+        </td>
+    </tr>
+    <tr>
+        <th>Name</th>
+        <td>
+            <input id="fruitName" value="@Model.Name" class="form-control" />
+        </td>
+    </tr>
+    <tr>
+        <th>Photo</th>
+        <td>
+            @if (!string.IsNullOrEmpty(Model.PhotoPath))
+            {
+                <img src="~/@Model.PhotoPath" alt="@Model.Name" style="max-width: 100px; max-height: 100px;" />
+            }
+            <input id="fruitPhotoPath" type="hidden" value="@Model.PhotoPath" />
+            <input type="file" id="newPhoto" class="form-control" />
+        </td>
+    </tr>
+    <tr>
+        <th>Composition</th>
+        <td>
+            <textarea id="fruitComposition" class="form-control">@Model.Composition</textarea>
+        </td>
+    </tr>
+    <tr>
+        <th>Benefits</th>
+        <td>
+            <textarea id="fruitBenefits" class="form-control">@string.Join(", ", Model.Benefits ?? new List<string>())</textarea>
+            <small class="text-muted">Введите через запятую</small>
+        </td>
+    </tr>
+</table>
+
+<button id="saveBtn" class="btn btn-success">Save</button>
+<a asp-action="GetAllFruitsView" class="btn btn-secondary">Cancel</a>
+
+@section Scripts {
+    <script>
+            document.getElementById("saveBtn").addEventListener("click", async function () {
+            const id = document.getElementById("fruitId").value;
+            const name = document.getElementById("fruitName").value;
+            const composition = document.getElementById("fruitComposition").value;
+            const benefits = document.getElementById("fruitBenefits").value;
+            const photoFile = document.getElementById("newPhoto").files[0]; 
+            const photopath = "@Model.PhotoPath";
+
+            const formData = new FormData();
+            formData.append("Id", id);
+            formData.append("Name", name);
+            formData.append("Composition", composition);
+            formData.append("BenefitsString", benefits);
+            formData.append("PhotoPath",photopath);
+            if (photoFile) {
+                formData.append("newPhoto", photoFile);
+            }
+
+            const response = await fetch(`/Fruits/UpdateFruit/${id}`, {
+                method: "PUT",
+                body: formData
+            });
+
+            if (response.ok) {
+                alert("Fruit updated successfully!");
+                window.location.href = "/Fruits/GetAllFruitsView";
+            } else {
+                const err = await response.text();
+                alert("Error: " + err);
+            }
+        });
+    </script>
+}
