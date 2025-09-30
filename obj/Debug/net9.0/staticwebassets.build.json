@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4e/W+arpTuBndFwLhrciUAWBkSbIGNBdyQSgZsUD+DI=",
+  "Hash": "nu9ZaJkn1slqHIQShZAtG+l6uaLaR3pDyJfUuWOaX5A=",
   "Source": "BadammiSite",
   "BasePath": "_content/BadammiSite",
   "Mode": "Default",
@@ -36,6 +36,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\0h856mypne-kjgdxgeguj.gz",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "css/font-awesome.min#[.{fingerprint=kjgdxgeguj}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\font-awesome.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "js4qb6flxo",
+      "Integrity": "PXLVpk9yUHq/phW/NBOdUypblfUw1CBNvik5MEw6qh4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\font-awesome.min.css"
     },
     {
       "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\16o2lmgm3i-83jwlth58m.gz",
@@ -185,6 +206,27 @@
       "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\5x1soeouq3-gdliftyrn6.gz",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "css/subscribe-better#[.{fingerprint=gdliftyrn6}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\subscribe-better.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ng12slnrbj",
+      "Integrity": "57MAQ5ojFuZut38RHLiPSEVQBcrdKQZwUT9rWi3hUkM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\subscribe-better.css"
+    },
+    {
       "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\60ycx2b35v-mrlpezrjn3.gz",
       "SourceId": "BadammiSite",
       "SourceType": "Discovered",
@@ -225,6 +267,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\8ik4mgo2ep-j3wy3vomxf.gz",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "css/owl.carousel.min#[.{fingerprint=j3wy3vomxf}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\owl.carousel.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "z99kunjjjg",
+      "Integrity": "9/UTaMLPIkNqqJJzb7j1V6zB/KrhJxbnOpHsn+Vye7s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\owl.carousel.min.css"
     },
     {
       "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\9l70y5od6c-37tfw0ft22.gz",
@@ -437,12 +500,12 @@
       "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\ff7ib8k3zh-b9sayid5wm.gz",
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\ff7ib8k3zh-6k5t899ds4.gz",
       "SourceId": "BadammiSite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BadammiSite",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=6k5t899ds4}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -451,8 +514,8 @@
       "RelatedAsset": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "wf4wcyqcqt",
-      "Integrity": "fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=",
+      "Fingerprint": "1yzejswmzm",
+      "Integrity": "h++t7Q0Gk4iElrEc1PL0S8G3yf62pbaWI4ERRZmmlhk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\site.css"
@@ -477,6 +540,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\gi1mnzgaqx-fmhzntxchr.gz",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "css/bootstrap.min#[.{fingerprint=fmhzntxchr}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\bootstrap.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "uur2j0u62r",
+      "Integrity": "hkxw8UmlkiRS7w6FlCqjvEnq0FEpdsmyF4WfeJL9XGI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\bootstrap.min.css"
     },
     {
       "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\gl2uvk64ip-hrwsygsryq.gz",
@@ -729,6 +813,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\kgjn7sytv1-dwun78fpuq.gz",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "css/animate#[.{fingerprint=dwun78fpuq}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\animate.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "yo92g3x1ay",
+      "Integrity": "kumMfzCmBSUdZPT8WGs4loI8xEELCc1OklUOC3VoGII=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\animate.css"
     },
     {
       "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\kkkfz4pecu-87fc7y1x7t.gz",
@@ -1151,6 +1256,27 @@
       "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\qdhk4p8rq5-ix7r4kb3qc.gz",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "css/bootstrap-select.min#[.{fingerprint=ix7r4kb3qc}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\bootstrap-select.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "qhhrn36nkg",
+      "Integrity": "ThT3UQmeMhs3d78EgsRAGGjvKRCWxjba7HTLdXHtOI8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\bootstrap-select.min.css"
+    },
+    {
       "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\rewymdczb8-c2jlpeoesf.gz",
       "SourceId": "BadammiSite",
       "SourceType": "Discovered",
@@ -1403,6 +1529,111 @@
       "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BadammiSite.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\animate.css",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "css/animate#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dwun78fpuq",
+      "Integrity": "00w68NO3TLuHjKRHJmjrrgJBDtG/6OhbJEu1gtHcsuo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\animate.css"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\bootstrap.min.css",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "css/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fmhzntxchr",
+      "Integrity": "916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\bootstrap-select.min.css",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "css/bootstrap-select.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ix7r4kb3qc",
+      "Integrity": "5iQ5BzPFfOQnhh94oagmAQ1UR1UEPde5fTNOzzYmj4w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap-select.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\font-awesome.min.css",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "css/font-awesome.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kjgdxgeguj",
+      "Integrity": "AIodEDkC8V/bHBkfyxzolUMw57jeQ9CauwhVW6YJ9CA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\font-awesome.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\owl.carousel.min.css",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "css/owl.carousel.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j3wy3vomxf",
+      "Integrity": "AWqwvQ3kg5aA5KcXpX25sYKowsX97sTCTbeo33Yfyk0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\owl.carousel.min.css"
+    },
+    {
       "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\site.css",
       "SourceId": "BadammiSite",
       "SourceType": "Discovered",
@@ -1417,11 +1648,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "6k5t899ds4",
+      "Integrity": "mqLRjfkEJbbAdRZd5cmCbGCGzmfTxuUlYu87pjmZYa8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\subscribe-better.css",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "css/subscribe-better#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gdliftyrn6",
+      "Integrity": "tB8SrUt9SZctZ+4cNdJ4N/j7ejGkamMcf6TRnEF8C70=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\subscribe-better.css"
     },
     {
       "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\favicon.ico",
@@ -2726,6 +2978,237 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature.png",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "Resource/IMG/feature#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ivgv4y0zs8",
+      "Integrity": "LnMlnmjhIXsylG67GbxFpW5zWgHOYk6a942J2v0tClk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resource\\IMG\\feature.png"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature-1.png",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "Resource/IMG/feature-1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5r2dvhk0j1",
+      "Integrity": "zw1TlZBf9E6rCTf9cKLW/CF+qwOdiF3P4zPmcoDDQvc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resource\\IMG\\feature-1.png"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature-2.png",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "Resource/IMG/feature-2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tt3om9lvow",
+      "Integrity": "nywN1DJuo2m7iaMxyiFLhKcyT4lSV6i8FnwplQeH5x4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resource\\IMG\\feature-2.png"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature-3.png",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "Resource/IMG/feature-3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nb717qbp5a",
+      "Integrity": "U9ovan5POT5A6GXmpK+M6HX1BEqYaS5YcJFfJWGySSY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resource\\IMG\\feature-3.png"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature-4.png",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "Resource/IMG/feature-4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vw6rvtb47c",
+      "Integrity": "QeGXw7VnYIDybQIYFYsVhBdPC7g7Q9+UpVhnSYSyuiw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resource\\IMG\\feature-4.png"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\logo.png",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "Resource/IMG/logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ivrev68553",
+      "Integrity": "YmTq1p1lH7all1Q9EbeQ3wWU2d9auFgRx4zazb8Hf4I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resource\\IMG\\logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\organic-1.png",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "Resource/IMG/organic-1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wky0cot9dz",
+      "Integrity": "EKuhYVWdlu82Bb9ZtmzDT8nnU8V47V2iG6KxqSY8w8o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resource\\IMG\\organic-1.png"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\organic-2.png",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "Resource/IMG/organic-2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "46bb5rr1sd",
+      "Integrity": "TG4sHskCoCFZjDpAWgQaZbNeiAHeJUWR3zeWCSo9IQ8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resource\\IMG\\organic-2.png"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\organic-3.png",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "Resource/IMG/organic-3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4hs1ybnhgc",
+      "Integrity": "mJtF2H92hlKfyDwzAXE6h0214bvEB7o3z9CJLFroODk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resource\\IMG\\organic-3.png"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\sec-img-1.png",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "Resource/IMG/sec-img-1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y8gf082ybv",
+      "Integrity": "AsCZm81+aPYbYr8DVsEjOe4NOiWio6pdeMtYRamRzSM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resource\\IMG\\sec-img-1.png"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\sec-img-2.png",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "Resource/IMG/sec-img-2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "44ds9gdjp2",
+      "Integrity": "nFUXuyZAAjL04CCqJOExmUtBio1ooyUYJWI3MCSrbn8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resource\\IMG\\sec-img-2.png"
+    },
+    {
       "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\Photo\\33326149.jpg",
       "SourceId": "BadammiSite",
       "SourceType": "Discovered",
@@ -3345,13 +3828,13 @@
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\ff7ib8k3zh-b9sayid5wm.gz",
+      "Route": "css/animate.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\kgjn7sytv1-dwun78fpuq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003125000000"
+          "Quality": "0.000225835592"
         }
       ],
       "ResponseHeaders": [
@@ -3361,15 +3844,152 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "4427"
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"kumMfzCmBSUdZPT8WGs4loI8xEELCc1OklUOC3VoGII=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 24 Sep 2025 17:31:36 GMT"
+          "Value": "Tue, 30 Sep 2025 18:09:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"00w68NO3TLuHjKRHJmjrrgJBDtG/6OhbJEu1gtHcsuo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-00w68NO3TLuHjKRHJmjrrgJBDtG/6OhbJEu1gtHcsuo="
+        }
+      ]
+    },
+    {
+      "Route": "css/animate.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\animate.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"00w68NO3TLuHjKRHJmjrrgJBDtG/6OhbJEu1gtHcsuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-00w68NO3TLuHjKRHJmjrrgJBDtG/6OhbJEu1gtHcsuo="
+        }
+      ]
+    },
+    {
+      "Route": "css/animate.css.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\kgjn7sytv1-dwun78fpuq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4427"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kumMfzCmBSUdZPT8WGs4loI8xEELCc1OklUOC3VoGII=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kumMfzCmBSUdZPT8WGs4loI8xEELCc1OklUOC3VoGII="
+        }
+      ]
+    },
+    {
+      "Route": "css/animate.dwun78fpuq.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\kgjn7sytv1-dwun78fpuq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000225835592"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4427"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kumMfzCmBSUdZPT8WGs4loI8xEELCc1OklUOC3VoGII=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3389,13 +4009,1366 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"00w68NO3TLuHjKRHJmjrrgJBDtG/6OhbJEu1gtHcsuo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "dwun78fpuq"
+        },
+        {
+          "Name": "label",
+          "Value": "css/animate.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-00w68NO3TLuHjKRHJmjrrgJBDtG/6OhbJEu1gtHcsuo="
+        }
+      ]
+    },
+    {
+      "Route": "css/animate.dwun78fpuq.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\animate.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"00w68NO3TLuHjKRHJmjrrgJBDtG/6OhbJEu1gtHcsuo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dwun78fpuq"
+        },
+        {
+          "Name": "label",
+          "Value": "css/animate.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-00w68NO3TLuHjKRHJmjrrgJBDtG/6OhbJEu1gtHcsuo="
+        }
+      ]
+    },
+    {
+      "Route": "css/animate.dwun78fpuq.css.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\kgjn7sytv1-dwun78fpuq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4427"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kumMfzCmBSUdZPT8WGs4loI8xEELCc1OklUOC3VoGII=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dwun78fpuq"
+        },
+        {
+          "Name": "label",
+          "Value": "css/animate.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kumMfzCmBSUdZPT8WGs4loI8xEELCc1OklUOC3VoGII="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\gi1mnzgaqx-fmhzntxchr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000050655995"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19740"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hkxw8UmlkiRS7w6FlCqjvEnq0FEpdsmyF4WfeJL9XGI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "121200"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.min.css.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\gi1mnzgaqx-fmhzntxchr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19740"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hkxw8UmlkiRS7w6FlCqjvEnq0FEpdsmyF4WfeJL9XGI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hkxw8UmlkiRS7w6FlCqjvEnq0FEpdsmyF4WfeJL9XGI="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.min.fmhzntxchr.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\gi1mnzgaqx-fmhzntxchr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000050655995"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19740"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hkxw8UmlkiRS7w6FlCqjvEnq0FEpdsmyF4WfeJL9XGI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fmhzntxchr"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.min.fmhzntxchr.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "121200"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fmhzntxchr"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap.min.fmhzntxchr.css.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\gi1mnzgaqx-fmhzntxchr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19740"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hkxw8UmlkiRS7w6FlCqjvEnq0FEpdsmyF4WfeJL9XGI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fmhzntxchr"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.min.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hkxw8UmlkiRS7w6FlCqjvEnq0FEpdsmyF4WfeJL9XGI="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-select.min.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\qdhk4p8rq5-ix7r4kb3qc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000646412411"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1546"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ThT3UQmeMhs3d78EgsRAGGjvKRCWxjba7HTLdXHtOI8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5iQ5BzPFfOQnhh94oagmAQ1UR1UEPde5fTNOzzYmj4w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5iQ5BzPFfOQnhh94oagmAQ1UR1UEPde5fTNOzzYmj4w="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-select.min.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\bootstrap-select.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6432"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5iQ5BzPFfOQnhh94oagmAQ1UR1UEPde5fTNOzzYmj4w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5iQ5BzPFfOQnhh94oagmAQ1UR1UEPde5fTNOzzYmj4w="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-select.min.css.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\qdhk4p8rq5-ix7r4kb3qc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ThT3UQmeMhs3d78EgsRAGGjvKRCWxjba7HTLdXHtOI8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ThT3UQmeMhs3d78EgsRAGGjvKRCWxjba7HTLdXHtOI8="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-select.min.ix7r4kb3qc.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\qdhk4p8rq5-ix7r4kb3qc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000646412411"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1546"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ThT3UQmeMhs3d78EgsRAGGjvKRCWxjba7HTLdXHtOI8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5iQ5BzPFfOQnhh94oagmAQ1UR1UEPde5fTNOzzYmj4w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ix7r4kb3qc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-select.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5iQ5BzPFfOQnhh94oagmAQ1UR1UEPde5fTNOzzYmj4w="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-select.min.ix7r4kb3qc.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\bootstrap-select.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6432"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5iQ5BzPFfOQnhh94oagmAQ1UR1UEPde5fTNOzzYmj4w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ix7r4kb3qc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-select.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5iQ5BzPFfOQnhh94oagmAQ1UR1UEPde5fTNOzzYmj4w="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap-select.min.ix7r4kb3qc.css.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\qdhk4p8rq5-ix7r4kb3qc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ThT3UQmeMhs3d78EgsRAGGjvKRCWxjba7HTLdXHtOI8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ix7r4kb3qc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap-select.min.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ThT3UQmeMhs3d78EgsRAGGjvKRCWxjba7HTLdXHtOI8="
+        }
+      ]
+    },
+    {
+      "Route": "css/font-awesome.min.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\0h856mypne-kjgdxgeguj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000150082545"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6662"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PXLVpk9yUHq/phW/NBOdUypblfUw1CBNvik5MEw6qh4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"AIodEDkC8V/bHBkfyxzolUMw57jeQ9CauwhVW6YJ9CA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AIodEDkC8V/bHBkfyxzolUMw57jeQ9CauwhVW6YJ9CA="
+        }
+      ]
+    },
+    {
+      "Route": "css/font-awesome.min.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\font-awesome.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AIodEDkC8V/bHBkfyxzolUMw57jeQ9CauwhVW6YJ9CA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AIodEDkC8V/bHBkfyxzolUMw57jeQ9CauwhVW6YJ9CA="
+        }
+      ]
+    },
+    {
+      "Route": "css/font-awesome.min.css.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\0h856mypne-kjgdxgeguj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6662"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PXLVpk9yUHq/phW/NBOdUypblfUw1CBNvik5MEw6qh4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PXLVpk9yUHq/phW/NBOdUypblfUw1CBNvik5MEw6qh4="
+        }
+      ]
+    },
+    {
+      "Route": "css/font-awesome.min.kjgdxgeguj.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\0h856mypne-kjgdxgeguj.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000150082545"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6662"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PXLVpk9yUHq/phW/NBOdUypblfUw1CBNvik5MEw6qh4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"AIodEDkC8V/bHBkfyxzolUMw57jeQ9CauwhVW6YJ9CA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kjgdxgeguj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/font-awesome.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AIodEDkC8V/bHBkfyxzolUMw57jeQ9CauwhVW6YJ9CA="
+        }
+      ]
+    },
+    {
+      "Route": "css/font-awesome.min.kjgdxgeguj.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\font-awesome.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AIodEDkC8V/bHBkfyxzolUMw57jeQ9CauwhVW6YJ9CA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kjgdxgeguj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/font-awesome.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AIodEDkC8V/bHBkfyxzolUMw57jeQ9CauwhVW6YJ9CA="
+        }
+      ]
+    },
+    {
+      "Route": "css/font-awesome.min.kjgdxgeguj.css.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\0h856mypne-kjgdxgeguj.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6662"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PXLVpk9yUHq/phW/NBOdUypblfUw1CBNvik5MEw6qh4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kjgdxgeguj"
+        },
+        {
+          "Name": "label",
+          "Value": "css/font-awesome.min.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PXLVpk9yUHq/phW/NBOdUypblfUw1CBNvik5MEw6qh4="
+        }
+      ]
+    },
+    {
+      "Route": "css/owl.carousel.min.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\8ik4mgo2ep-j3wy3vomxf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001095290252"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "912"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9/UTaMLPIkNqqJJzb7j1V6zB/KrhJxbnOpHsn+Vye7s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"AWqwvQ3kg5aA5KcXpX25sYKowsX97sTCTbeo33Yfyk0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AWqwvQ3kg5aA5KcXpX25sYKowsX97sTCTbeo33Yfyk0="
+        }
+      ]
+    },
+    {
+      "Route": "css/owl.carousel.min.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\owl.carousel.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2936"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AWqwvQ3kg5aA5KcXpX25sYKowsX97sTCTbeo33Yfyk0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AWqwvQ3kg5aA5KcXpX25sYKowsX97sTCTbeo33Yfyk0="
+        }
+      ]
+    },
+    {
+      "Route": "css/owl.carousel.min.css.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\8ik4mgo2ep-j3wy3vomxf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "912"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9/UTaMLPIkNqqJJzb7j1V6zB/KrhJxbnOpHsn+Vye7s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9/UTaMLPIkNqqJJzb7j1V6zB/KrhJxbnOpHsn+Vye7s="
+        }
+      ]
+    },
+    {
+      "Route": "css/owl.carousel.min.j3wy3vomxf.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\8ik4mgo2ep-j3wy3vomxf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001095290252"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "912"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9/UTaMLPIkNqqJJzb7j1V6zB/KrhJxbnOpHsn+Vye7s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"AWqwvQ3kg5aA5KcXpX25sYKowsX97sTCTbeo33Yfyk0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j3wy3vomxf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/owl.carousel.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AWqwvQ3kg5aA5KcXpX25sYKowsX97sTCTbeo33Yfyk0="
+        }
+      ]
+    },
+    {
+      "Route": "css/owl.carousel.min.j3wy3vomxf.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\owl.carousel.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2936"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AWqwvQ3kg5aA5KcXpX25sYKowsX97sTCTbeo33Yfyk0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j3wy3vomxf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/owl.carousel.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AWqwvQ3kg5aA5KcXpX25sYKowsX97sTCTbeo33Yfyk0="
+        }
+      ]
+    },
+    {
+      "Route": "css/owl.carousel.min.j3wy3vomxf.css.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\8ik4mgo2ep-j3wy3vomxf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "912"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9/UTaMLPIkNqqJJzb7j1V6zB/KrhJxbnOpHsn+Vye7s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j3wy3vomxf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/owl.carousel.min.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9/UTaMLPIkNqqJJzb7j1V6zB/KrhJxbnOpHsn+Vye7s="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.6k5t899ds4.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\ff7ib8k3zh-6k5t899ds4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000067272116"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14864"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h++t7Q0Gk4iElrEc1PL0S8G3yf62pbaWI4ERRZmmlhk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:14:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"mqLRjfkEJbbAdRZd5cmCbGCGzmfTxuUlYu87pjmZYa8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6k5t899ds4"
         },
         {
           "Name": "label",
@@ -3403,12 +5376,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-mqLRjfkEJbbAdRZd5cmCbGCGzmfTxuUlYu87pjmZYa8="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
+      "Route": "css/site.6k5t899ds4.css",
       "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3418,7 +5391,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "90539"
         },
         {
           "Name": "Content-Type",
@@ -3426,11 +5399,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"mqLRjfkEJbbAdRZd5cmCbGCGzmfTxuUlYu87pjmZYa8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 24 Sep 2025 17:31:36 GMT"
+          "Value": "Tue, 30 Sep 2025 19:14:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3440,7 +5413,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "6k5t899ds4"
         },
         {
           "Name": "label",
@@ -3448,13 +5421,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-mqLRjfkEJbbAdRZd5cmCbGCGzmfTxuUlYu87pjmZYa8="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\ff7ib8k3zh-b9sayid5wm.gz",
+      "Route": "css/site.6k5t899ds4.css.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\ff7ib8k3zh-6k5t899ds4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3463,7 +5436,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "14864"
         },
         {
           "Name": "Content-Type",
@@ -3471,11 +5444,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"h++t7Q0Gk4iElrEc1PL0S8G3yf62pbaWI4ERRZmmlhk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 24 Sep 2025 17:31:36 GMT"
+          "Value": "Tue, 30 Sep 2025 19:14:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3493,7 +5466,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "6k5t899ds4"
         },
         {
           "Name": "label",
@@ -3501,18 +5474,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
+          "Value": "sha256-h++t7Q0Gk4iElrEc1PL0S8G3yf62pbaWI4ERRZmmlhk="
         }
       ]
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\ff7ib8k3zh-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\ff7ib8k3zh-6k5t899ds4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003125000000"
+          "Quality": "0.000067272116"
         }
       ],
       "ResponseHeaders": [
@@ -3522,15 +5495,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "14864"
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"h++t7Q0Gk4iElrEc1PL0S8G3yf62pbaWI4ERRZmmlhk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 24 Sep 2025 17:31:36 GMT"
+          "Value": "Tue, 30 Sep 2025 19:14:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3550,13 +5523,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"mqLRjfkEJbbAdRZd5cmCbGCGzmfTxuUlYu87pjmZYa8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-mqLRjfkEJbbAdRZd5cmCbGCGzmfTxuUlYu87pjmZYa8="
         }
       ]
     },
@@ -3571,7 +5544,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "90539"
         },
         {
           "Name": "Content-Type",
@@ -3579,11 +5552,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"mqLRjfkEJbbAdRZd5cmCbGCGzmfTxuUlYu87pjmZYa8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 24 Sep 2025 17:31:36 GMT"
+          "Value": "Tue, 30 Sep 2025 19:14:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3593,13 +5566,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-mqLRjfkEJbbAdRZd5cmCbGCGzmfTxuUlYu87pjmZYa8="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\ff7ib8k3zh-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\ff7ib8k3zh-6k5t899ds4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3608,7 +5581,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "14864"
         },
         {
           "Name": "Content-Type",
@@ -3616,11 +5589,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"h++t7Q0Gk4iElrEc1PL0S8G3yf62pbaWI4ERRZmmlhk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 24 Sep 2025 17:31:36 GMT"
+          "Value": "Tue, 30 Sep 2025 19:14:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3638,7 +5611,305 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
+          "Value": "sha256-h++t7Q0Gk4iElrEc1PL0S8G3yf62pbaWI4ERRZmmlhk="
+        }
+      ]
+    },
+    {
+      "Route": "css/subscribe-better.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\5x1soeouq3-gdliftyrn6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000838222967"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1192"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"57MAQ5ojFuZut38RHLiPSEVQBcrdKQZwUT9rWi3hUkM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tB8SrUt9SZctZ+4cNdJ4N/j7ejGkamMcf6TRnEF8C70=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tB8SrUt9SZctZ+4cNdJ4N/j7ejGkamMcf6TRnEF8C70="
+        }
+      ]
+    },
+    {
+      "Route": "css/subscribe-better.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\subscribe-better.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7724"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tB8SrUt9SZctZ+4cNdJ4N/j7ejGkamMcf6TRnEF8C70=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tB8SrUt9SZctZ+4cNdJ4N/j7ejGkamMcf6TRnEF8C70="
+        }
+      ]
+    },
+    {
+      "Route": "css/subscribe-better.css.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\5x1soeouq3-gdliftyrn6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"57MAQ5ojFuZut38RHLiPSEVQBcrdKQZwUT9rWi3hUkM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-57MAQ5ojFuZut38RHLiPSEVQBcrdKQZwUT9rWi3hUkM="
+        }
+      ]
+    },
+    {
+      "Route": "css/subscribe-better.gdliftyrn6.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\5x1soeouq3-gdliftyrn6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000838222967"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1192"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"57MAQ5ojFuZut38RHLiPSEVQBcrdKQZwUT9rWi3hUkM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tB8SrUt9SZctZ+4cNdJ4N/j7ejGkamMcf6TRnEF8C70=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gdliftyrn6"
+        },
+        {
+          "Name": "label",
+          "Value": "css/subscribe-better.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tB8SrUt9SZctZ+4cNdJ4N/j7ejGkamMcf6TRnEF8C70="
+        }
+      ]
+    },
+    {
+      "Route": "css/subscribe-better.gdliftyrn6.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\subscribe-better.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7724"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tB8SrUt9SZctZ+4cNdJ4N/j7ejGkamMcf6TRnEF8C70=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gdliftyrn6"
+        },
+        {
+          "Name": "label",
+          "Value": "css/subscribe-better.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tB8SrUt9SZctZ+4cNdJ4N/j7ejGkamMcf6TRnEF8C70="
+        }
+      ]
+    },
+    {
+      "Route": "css/subscribe-better.gdliftyrn6.css.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\5x1soeouq3-gdliftyrn6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"57MAQ5ojFuZut38RHLiPSEVQBcrdKQZwUT9rWi3hUkM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:09:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gdliftyrn6"
+        },
+        {
+          "Name": "label",
+          "Value": "css/subscribe-better.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-57MAQ5ojFuZut38RHLiPSEVQBcrdKQZwUT9rWi3hUkM="
         }
       ]
     },
@@ -21899,6 +24170,908 @@
         {
           "Name": "integrity",
           "Value": "sha256-1HkjQSVuV0/ji/X/lGeDTHeagBS0BwopMrHDQuwqgtU="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/IMG/feature.ivgv4y0zs8.png",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "412960"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LnMlnmjhIXsylG67GbxFpW5zWgHOYk6a942J2v0tClk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:49:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ivgv4y0zs8"
+        },
+        {
+          "Name": "label",
+          "Value": "Resource/IMG/feature.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LnMlnmjhIXsylG67GbxFpW5zWgHOYk6a942J2v0tClk="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/IMG/feature.png",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "412960"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LnMlnmjhIXsylG67GbxFpW5zWgHOYk6a942J2v0tClk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:49:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LnMlnmjhIXsylG67GbxFpW5zWgHOYk6a942J2v0tClk="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/IMG/feature-1.5r2dvhk0j1.png",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature-1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9725"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zw1TlZBf9E6rCTf9cKLW/CF+qwOdiF3P4zPmcoDDQvc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:49:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5r2dvhk0j1"
+        },
+        {
+          "Name": "label",
+          "Value": "Resource/IMG/feature-1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zw1TlZBf9E6rCTf9cKLW/CF+qwOdiF3P4zPmcoDDQvc="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/IMG/feature-1.png",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature-1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9725"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zw1TlZBf9E6rCTf9cKLW/CF+qwOdiF3P4zPmcoDDQvc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:49:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zw1TlZBf9E6rCTf9cKLW/CF+qwOdiF3P4zPmcoDDQvc="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/IMG/feature-2.png",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9624"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nywN1DJuo2m7iaMxyiFLhKcyT4lSV6i8FnwplQeH5x4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:49:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nywN1DJuo2m7iaMxyiFLhKcyT4lSV6i8FnwplQeH5x4="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/IMG/feature-2.tt3om9lvow.png",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9624"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nywN1DJuo2m7iaMxyiFLhKcyT4lSV6i8FnwplQeH5x4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:49:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tt3om9lvow"
+        },
+        {
+          "Name": "label",
+          "Value": "Resource/IMG/feature-2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nywN1DJuo2m7iaMxyiFLhKcyT4lSV6i8FnwplQeH5x4="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/IMG/feature-3.nb717qbp5a.png",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11092"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U9ovan5POT5A6GXmpK+M6HX1BEqYaS5YcJFfJWGySSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:49:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nb717qbp5a"
+        },
+        {
+          "Name": "label",
+          "Value": "Resource/IMG/feature-3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U9ovan5POT5A6GXmpK+M6HX1BEqYaS5YcJFfJWGySSY="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/IMG/feature-3.png",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11092"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U9ovan5POT5A6GXmpK+M6HX1BEqYaS5YcJFfJWGySSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:49:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U9ovan5POT5A6GXmpK+M6HX1BEqYaS5YcJFfJWGySSY="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/IMG/feature-4.png",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature-4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8339"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QeGXw7VnYIDybQIYFYsVhBdPC7g7Q9+UpVhnSYSyuiw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:49:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QeGXw7VnYIDybQIYFYsVhBdPC7g7Q9+UpVhnSYSyuiw="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/IMG/feature-4.vw6rvtb47c.png",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature-4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8339"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QeGXw7VnYIDybQIYFYsVhBdPC7g7Q9+UpVhnSYSyuiw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:49:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vw6rvtb47c"
+        },
+        {
+          "Name": "label",
+          "Value": "Resource/IMG/feature-4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QeGXw7VnYIDybQIYFYsVhBdPC7g7Q9+UpVhnSYSyuiw="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/IMG/logo.ivrev68553.png",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59377"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YmTq1p1lH7all1Q9EbeQ3wWU2d9auFgRx4zazb8Hf4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:22:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ivrev68553"
+        },
+        {
+          "Name": "label",
+          "Value": "Resource/IMG/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YmTq1p1lH7all1Q9EbeQ3wWU2d9auFgRx4zazb8Hf4I="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/IMG/logo.png",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59377"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YmTq1p1lH7all1Q9EbeQ3wWU2d9auFgRx4zazb8Hf4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:22:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YmTq1p1lH7all1Q9EbeQ3wWU2d9auFgRx4zazb8Hf4I="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/IMG/organic-1.png",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\organic-1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21645"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EKuhYVWdlu82Bb9ZtmzDT8nnU8V47V2iG6KxqSY8w8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:51:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EKuhYVWdlu82Bb9ZtmzDT8nnU8V47V2iG6KxqSY8w8o="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/IMG/organic-1.wky0cot9dz.png",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\organic-1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21645"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EKuhYVWdlu82Bb9ZtmzDT8nnU8V47V2iG6KxqSY8w8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:51:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wky0cot9dz"
+        },
+        {
+          "Name": "label",
+          "Value": "Resource/IMG/organic-1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EKuhYVWdlu82Bb9ZtmzDT8nnU8V47V2iG6KxqSY8w8o="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/IMG/organic-2.46bb5rr1sd.png",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\organic-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19668"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TG4sHskCoCFZjDpAWgQaZbNeiAHeJUWR3zeWCSo9IQ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:51:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "46bb5rr1sd"
+        },
+        {
+          "Name": "label",
+          "Value": "Resource/IMG/organic-2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TG4sHskCoCFZjDpAWgQaZbNeiAHeJUWR3zeWCSo9IQ8="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/IMG/organic-2.png",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\organic-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19668"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TG4sHskCoCFZjDpAWgQaZbNeiAHeJUWR3zeWCSo9IQ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:51:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TG4sHskCoCFZjDpAWgQaZbNeiAHeJUWR3zeWCSo9IQ8="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/IMG/organic-3.4hs1ybnhgc.png",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\organic-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19186"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mJtF2H92hlKfyDwzAXE6h0214bvEB7o3z9CJLFroODk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:50:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4hs1ybnhgc"
+        },
+        {
+          "Name": "label",
+          "Value": "Resource/IMG/organic-3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mJtF2H92hlKfyDwzAXE6h0214bvEB7o3z9CJLFroODk="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/IMG/organic-3.png",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\organic-3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19186"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mJtF2H92hlKfyDwzAXE6h0214bvEB7o3z9CJLFroODk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:50:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mJtF2H92hlKfyDwzAXE6h0214bvEB7o3z9CJLFroODk="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/IMG/sec-img-1.png",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\sec-img-1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33843"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AsCZm81+aPYbYr8DVsEjOe4NOiWio6pdeMtYRamRzSM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:57:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AsCZm81+aPYbYr8DVsEjOe4NOiWio6pdeMtYRamRzSM="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/IMG/sec-img-1.y8gf082ybv.png",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\sec-img-1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33843"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AsCZm81+aPYbYr8DVsEjOe4NOiWio6pdeMtYRamRzSM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:57:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y8gf082ybv"
+        },
+        {
+          "Name": "label",
+          "Value": "Resource/IMG/sec-img-1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AsCZm81+aPYbYr8DVsEjOe4NOiWio6pdeMtYRamRzSM="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/IMG/sec-img-2.44ds9gdjp2.png",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\sec-img-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33221"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nFUXuyZAAjL04CCqJOExmUtBio1ooyUYJWI3MCSrbn8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:57:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "44ds9gdjp2"
+        },
+        {
+          "Name": "label",
+          "Value": "Resource/IMG/sec-img-2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nFUXuyZAAjL04CCqJOExmUtBio1ooyUYJWI3MCSrbn8="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/IMG/sec-img-2.png",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\sec-img-2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33221"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nFUXuyZAAjL04CCqJOExmUtBio1ooyUYJWI3MCSrbn8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 18:57:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nFUXuyZAAjL04CCqJOExmUtBio1ooyUYJWI3MCSrbn8="
         }
       ]
     },

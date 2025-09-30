@@ -8,49 +8,132 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/BadammiSite.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/animate.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/bootstrap-select.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/subscribe-better.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/font-awesome.min.css" asp-append-version="true" />
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">BadammiSite</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Fruits" asp-action="AddFruitsView">Add Fruit</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Fruits" asp-action="GetAllFruitsView">Get Fruits</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Fruits" asp-action="DeleteFruit">Delete Fruit</a>
-                        </li>
-                    </ul>
+            <div class="container-fluid rel-div">
+                <div class="col-lg-4 col-sm-8">
+                    <div class="main-logo">
+                        <a asp-route="Index.html"> <img alt="" src="~/Resource/IMG/logo.png" />  </a>
+                        <span class="medium-font">ORGANIC STORE</span>
+                    </div>
                 </div>
-            </div>
+
+                <div class="col-lg-6 responsive-menu">
+                    <div class="responsive-toggle fa fa-bars"> </div>
+                    <nav class="fix-navbar" id="primary-navigation">
+                        <ul class="primary-navbar">
+                            <li class="dropdown active">
+                                <a class="nav-link" role="button" asp-route="Index.html" aria-haspopup="true">Home</a>
+                            </li>
+                            <li><a class="nav-link">About Us</a></li>
+                            <li class="dropdown">
+                                <a class="nav-link" role="button" aria-haspopup="true">Shop</a>
+                            </li>
+                            <li>
+                                <a class="nav-link">Contact Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                </div>
         </nav>
     </header>
+
+    
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - BadammiSite - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
+    <footer class="page-footer">
+        <section class="sec-space light-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-12 footer-widget">
+                        <div class="main-logo">
+                            <a href="index.html"> <img alt="" src="assets/img/logo/main-logo.png" />  </a>
+                            <span class="medium-font">ORGANIC STORE</span>
+                        </div>
+                        <span class="divider-2"></span>
+                        <div class="text-widget">
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                            <ul>
+                                <li> <i class="fa fa-map-marker"></i> <span> <strong>100 highland ave,</strong> california, united state </span> </li>
+                                <li> <i class="fa fa-envelope-square"></i> <span><a href="#">contact@naturix.com</a> </span> </li>
+                                <li> <i class="fa fa-phone-square"></i> <span><a href="#">www.naturix.com</a> </span> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 footer-widget">
+                        <h2 class="title-1">  <span class="light-font">naturix  </span> <strong>information </strong> </h2>
+                        <span class="divider-2"></span>
+                        <ul class="list">
+                            <li> <a href="#"> about our shop </a> </li>
+                            <li> <a href="#"> top sellers </a> </li>
+                            <li> <a href="#"> our blog </a> </li>
+                            <li> <a href="#"> new products </a> </li>
+                            <li> <a href="#"> secure shopping </a> </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-4 footer-widget">
+                        <h2 class="title-1">  <span class="light-font">my  </span> <strong>account </strong> </h2>
+                        <span class="divider-2"></span>
+                        <ul class="list">
+                            <li> <a href="my-account.html"> my account </a> </li>
+                            <li><a href="account-information.html"> Account Information </a></li>
+                            <li><a href="address-book.html"> Address Books</a></li>
+                            <li><a href="order-history.html"> Order History</a></li>
+                            <li><a href="review-rating.html"> Reviews and Ratings</a></li>
+                            <li><a href="return.html"> Returns Requests</a></li>
+                            <li><a href="newsletter.html"> Newsletter</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-4 footer-widget">
+                        <h2 class="title-1">  <span class="light-font">photo  </span> <strong>instagram </strong> </h2>
+                        <span class="divider-2"></span>
+                        <ul class="instagram-widget">
+                            <li> <a href="#"> <img src="assets/img/extra/80x80-1.jpg" alt="" /> </a> </li>
+                            <li> <a href="#"> <img src="assets/img/extra/80x80-2.jpg" alt="" /> </a> </li>
+                            <li> <a href="#"> <img src="assets/img/extra/80x80-3.jpg" alt="" /> </a> </li>
+                            <li> <a href="#"> <img src="assets/img/extra/80x80-4.jpg" alt="" /> </a> </li>
+                            <li> <a href="#"> <img src="assets/img/extra/80x80-5.jpg" alt="" /> </a> </li>
+                            <li> <a href="#"> <img src="assets/img/extra/80x80-6.jpg" alt="" /> </a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer-bottom">
+            <div class="pattern">
+                <img alt="" src="assets/img/icons/white-pattern.png">
+            </div>
+            <div id="to-top" class="to-top"> <i class="fa fa-arrow-circle-o-up"></i> </div>
+            <div class="container ptb-50">
+                <div class="row">
+                    <div class="col-md-6 col-sm-5">
+                        <p>©2016 <a href="#"> <strong> naturix.com</strong> </a>, made with <i class="fa fa-heart red-clr"></i> by jThemes Studio, all right reserved</p>
+                    </div>
+                    <div class="col-md-6 col-sm-7">
+                        <ul class="primary-navbar footer-menu">
+                            <li> <a href="#">contact us </a> </li>
+                            <li> <a href="#">term of use  </a> </li>
+                            <li> <a href="#">site map  </a> </li>
+                            <li> <a href="#">privacy policy</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

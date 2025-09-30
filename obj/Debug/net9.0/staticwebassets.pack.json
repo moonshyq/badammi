@@ -5,12 +5,80 @@
       "PackagePath": "staticwebassets\\BadammiSite.x5ibjdji28.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature-1.png",
+      "PackagePath": "staticwebassets\\Resource\\IMG\\feature-1.png"
+    },
+    {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature-2.png",
+      "PackagePath": "staticwebassets\\Resource\\IMG\\feature-2.png"
+    },
+    {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature-3.png",
+      "PackagePath": "staticwebassets\\Resource\\IMG\\feature-3.png"
+    },
+    {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature-4.png",
+      "PackagePath": "staticwebassets\\Resource\\IMG\\feature-4.png"
+    },
+    {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature.png",
+      "PackagePath": "staticwebassets\\Resource\\IMG\\feature.png"
+    },
+    {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\logo.png",
+      "PackagePath": "staticwebassets\\Resource\\IMG\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\organic-1.png",
+      "PackagePath": "staticwebassets\\Resource\\IMG\\organic-1.png"
+    },
+    {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\organic-2.png",
+      "PackagePath": "staticwebassets\\Resource\\IMG\\organic-2.png"
+    },
+    {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\organic-3.png",
+      "PackagePath": "staticwebassets\\Resource\\IMG\\organic-3.png"
+    },
+    {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\sec-img-1.png",
+      "PackagePath": "staticwebassets\\Resource\\IMG\\sec-img-1.png"
+    },
+    {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\sec-img-2.png",
+      "PackagePath": "staticwebassets\\Resource\\IMG\\sec-img-2.png"
+    },
+    {
       "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\Photo\\33326149.jpg",
       "PackagePath": "staticwebassets\\Resource\\Photo\\33326149.jpg"
     },
     {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\bootstrap-select.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-select.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
       "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\subscribe-better.css",
+      "PackagePath": "staticwebassets\\css\\subscribe-better.css"
     },
     {
       "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\favicon.ico",
