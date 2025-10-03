@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\js\plugin\" />
     <Folder Include="wwwroot\Resource\Photo\" />
   </ItemGroup>
 

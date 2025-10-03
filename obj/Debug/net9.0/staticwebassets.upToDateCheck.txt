@@ -2,6 +2,7 @@ C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\bootstrap\dist\
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\css\font-awesome.min.css
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\jquery-validation\dist\additional-methods.js
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\jquery\dist\jquery.min.js
+C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\js\plugin\bootstrap.min.js
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\jquery\dist\jquery.js
@@ -9,6 +10,7 @@ C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\bootstrap\dist\
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\css\subscribe-better.css
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\js\plugin\bootstrap-select.min.js
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\css\owl.carousel.min.css
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
@@ -28,6 +30,7 @@ C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\bootstrap\dist\
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\favicon.ico
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\js\plugin\jquery-2.2.4.min.js
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\js\site.js
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
@@ -49,6 +52,7 @@ C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\bootstrap\dist\
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\js\plugin\jquery.plugin.min.js
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
@@ -59,7 +63,10 @@ C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\css\bootstrap-selec
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\js\plugin\jquery.countdown.js
+C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\js\theme.js
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\jquery-validation\LICENSE.md
+C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\js\plugin\owl.carousel.min.js
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\wwwroot\lib\jquery\dist\jquery.min.map
@@ -74,7 +81,14 @@ wwwroot\css\owl.carousel.min.css
 wwwroot\css\site.css
 wwwroot\css\subscribe-better.css
 wwwroot\favicon.ico
+wwwroot\js\plugin\bootstrap.min.js
+wwwroot\js\plugin\bootstrap-select.min.js
+wwwroot\js\plugin\jquery.countdown.js
+wwwroot\js\plugin\jquery.plugin.min.js
+wwwroot\js\plugin\jquery-2.2.4.min.js
+wwwroot\js\plugin\owl.carousel.min.js
 wwwroot\js\site.js
+wwwroot\js\theme.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
@@ -135,6 +149,7 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\Resource\IMG\background.jpg
 wwwroot\Resource\IMG\feature.png
 wwwroot\Resource\IMG\feature-1.png
 wwwroot\Resource\IMG\feature-2.png
@@ -147,3 +162,4 @@ wwwroot\Resource\IMG\organic-3.png
 wwwroot\Resource\IMG\sec-img-1.png
 wwwroot\Resource\IMG\sec-img-2.png
 wwwroot\Resource\Photo\33326149.jpg
+wwwroot\Resource\Photo\63082797.jpg

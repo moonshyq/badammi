@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nu9ZaJkn1slqHIQShZAtG+l6uaLaR3pDyJfUuWOaX5A=",
+  "Hash": "RXHJrzGr8M2QhvmyD5t6NsW2AY0wrl+I/yTYPNLZP0Y=",
   "Source": "BadammiSite",
   "BasePath": "_content/BadammiSite",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\3pboa5gmge-lqjz3ug8zc.gz",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "js/plugin/bootstrap.min#[.{fingerprint=lqjz3ug8zc}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\bootstrap.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "2kq4r429oe",
+      "Integrity": "jrXP7uIyaXHqRA41ZxUlycXYFpY+qMG+BKB5VW0SoEE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\bootstrap.min.js"
     },
     {
       "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\4edv8wlc4i-aexeepp0ev.gz",
@@ -248,6 +269,27 @@
       "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\6k27ld5s9r-uabgbkgdt5.gz",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "js/plugin/bootstrap-select.min#[.{fingerprint=uabgbkgdt5}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\bootstrap-select.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "v7qnerrpj0",
+      "Integrity": "e+50JiNKoMMJ/ioKm0Y21pYwdEzrPQoJLqMrpeXCQw8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\bootstrap-select.min.js"
+    },
+    {
       "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\78cbyp93n2-c2oey78nd0.gz",
       "SourceId": "BadammiSite",
       "SourceType": "Discovered",
@@ -269,12 +311,12 @@
       "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\8ik4mgo2ep-j3wy3vomxf.gz",
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\8ik4mgo2ep-tf6buel1xr.gz",
       "SourceId": "BadammiSite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BadammiSite",
-      "RelativePath": "css/owl.carousel.min#[.{fingerprint=j3wy3vomxf}]?.css.gz",
+      "RelativePath": "css/owl.carousel.min#[.{fingerprint=tf6buel1xr}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -283,8 +325,8 @@
       "RelatedAsset": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\owl.carousel.min.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "z99kunjjjg",
-      "Integrity": "9/UTaMLPIkNqqJJzb7j1V6zB/KrhJxbnOpHsn+Vye7s=",
+      "Fingerprint": "24gqx7qwpc",
+      "Integrity": "7k78WOLkqJbdXbiJFbwCatsAtmy8DCDJvaxZk2qRKhE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\owl.carousel.min.css"
@@ -500,12 +542,12 @@
       "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\ff7ib8k3zh-6k5t899ds4.gz",
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\ff7ib8k3zh-zp79co5xtm.gz",
       "SourceId": "BadammiSite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/BadammiSite",
-      "RelativePath": "css/site#[.{fingerprint=6k5t899ds4}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=zp79co5xtm}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -514,8 +556,8 @@
       "RelatedAsset": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "1yzejswmzm",
-      "Integrity": "h++t7Q0Gk4iElrEc1PL0S8G3yf62pbaWI4ERRZmmlhk=",
+      "Fingerprint": "56vwp350tj",
+      "Integrity": "zVosgHbufqBggZPGx498Bvy8PPLg4AZ9DfOP9JsOGRE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\site.css"
@@ -645,6 +687,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\h21jjuyu0o-r0izaq9iwr.gz",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "js/plugin/jquery-2.2.4.min#[.{fingerprint=r0izaq9iwr}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\jquery-2.2.4.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "99xeq3vzok",
+      "Integrity": "3ZUiEXCAlY8Z4KoE6un7NzMnBaG8g6fNdcroMFNcdSU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\jquery-2.2.4.min.js"
     },
     {
       "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\h3jma2xwgk-4v8eqarkd7.gz",
@@ -1109,6 +1172,27 @@
       "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\no7afzlitw-fkse1kw0kq.gz",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "js/plugin/jquery.plugin.min#[.{fingerprint=fkse1kw0kq}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\jquery.plugin.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "yl77q3emj2",
+      "Integrity": "ujeZ7+djOKLZnMykFWPLh/yrn/F4EEoV4Bf2C+zyMkc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\jquery.plugin.min.js"
+    },
+    {
       "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\ohrcngcmi3-v0zj4ognzu.gz",
       "SourceId": "BadammiSite",
       "SourceType": "Discovered",
@@ -1340,6 +1424,48 @@
       "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\s8fxqrlcxq-vrrz0q8qk3.gz",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "js/plugin/jquery.countdown#[.{fingerprint=vrrz0q8qk3}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\jquery.countdown.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "arsjktdzyv",
+      "Integrity": "qi8ID6zXZRvfb6w6cgn7+ekwGMji9FX46eegNqU2fE8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\jquery.countdown.js"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\sbmie9yfnd-d5sq9bf80i.gz",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "js/theme#[.{fingerprint=d5sq9bf80i}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\theme.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "pomotntcb9",
+      "Integrity": "2VFsoi+F3qdhCjv8/i7afHCUFV7Esa5UlR+lC9H+eJc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\theme.js"
+    },
+    {
       "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\sgwjrwazsb-x0q3zqp4vz.gz",
       "SourceId": "BadammiSite",
       "SourceType": "Discovered",
@@ -1359,6 +1485,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\snqwylmp3f-fdie9m09qq.gz",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "js/plugin/owl.carousel.min#[.{fingerprint=fdie9m09qq}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\owl.carousel.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "995ooe7blt",
+      "Integrity": "nXC8XiIVGgtfr7TU5NuS+ouCG2mOlgu+WDNcSLqdoZQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\owl.carousel.min.js"
     },
     {
       "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\t43nkprycn-erw9l3u2r3.gz",
@@ -1627,8 +1774,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "j3wy3vomxf",
-      "Integrity": "AWqwvQ3kg5aA5KcXpX25sYKowsX97sTCTbeo33Yfyk0=",
+      "Fingerprint": "tf6buel1xr",
+      "Integrity": "WVtl+TZCC6JVNTDfqI3xiAhlHuEKkfJsI2NxuPbeu9A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\owl.carousel.min.css"
@@ -1648,8 +1795,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6k5t899ds4",
-      "Integrity": "mqLRjfkEJbbAdRZd5cmCbGCGzmfTxuUlYu87pjmZYa8=",
+      "Fingerprint": "zp79co5xtm",
+      "Integrity": "qfSf7H1f+FWKDzwDkRCt/7gkkLBd7YMu4Xv5IxMDfFk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1697,6 +1844,132 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\bootstrap.min.js",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "js/plugin/bootstrap.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lqjz3ug8zc",
+      "Integrity": "U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\plugin\\bootstrap.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\bootstrap-select.min.js",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "js/plugin/bootstrap-select.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uabgbkgdt5",
+      "Integrity": "NpjFqxNtMOVQfuoDn4f9ZgUe3ua/MTbmkM8kl+mfU70=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\plugin\\bootstrap-select.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\jquery.countdown.js",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "js/plugin/jquery.countdown#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vrrz0q8qk3",
+      "Integrity": "Wx+pteuJ4M5cu6qWihbWVjl7n4axxQ+PQSZX1WLDi6I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\plugin\\jquery.countdown.js"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\jquery.plugin.min.js",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "js/plugin/jquery.plugin.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fkse1kw0kq",
+      "Integrity": "H/kGS5SBmrBnS4eUnCrcFOXD6iiW1zMzOoMb3e3Y0no=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\plugin\\jquery.plugin.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\jquery-2.2.4.min.js",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "js/plugin/jquery-2.2.4.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r0izaq9iwr",
+      "Integrity": "BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\plugin\\jquery-2.2.4.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\owl.carousel.min.js",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "js/plugin/owl.carousel.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fdie9m09qq",
+      "Integrity": "g1U9IszVblV21UT2upNHXHErPALTEok+6irMFt5fz5E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\plugin\\owl.carousel.min.js"
+    },
+    {
       "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\site.js",
       "SourceId": "BadammiSite",
       "SourceType": "Discovered",
@@ -1716,6 +1989,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\theme.js",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "js/theme#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d5sq9bf80i",
+      "Integrity": "AbbKzgb+jYAzCbJnbHR72BObj8PSIwcAvcQfK8Ag3/Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\theme.js"
     },
     {
       "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -2978,6 +3272,27 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\background.jpg",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "Resource/IMG/background#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b0ffj3e0xo",
+      "Integrity": "u7iVtfBz8z0Hxxqj36FopbiJL06sNP5dvifOS+PJRNs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resource\\IMG\\background.jpg"
+    },
+    {
       "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature.png",
       "SourceId": "BadammiSite",
       "SourceType": "Discovered",
@@ -3228,6 +3543,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Resource\\Photo\\33326149.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\Photo\\63082797.jpg",
+      "SourceId": "BadammiSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\",
+      "BasePath": "_content/BadammiSite",
+      "RelativePath": "Resource/Photo/63082797#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "i7t4n1gekq",
+      "Integrity": "3gfQ3rgdSnhN+X2QyJVlzCMZTNqQOynMPGPRunbHjYk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Resource\\Photo\\63082797.jpg"
     }
   ],
   "Endpoints": [
@@ -5021,12 +5357,12 @@
     },
     {
       "Route": "css/owl.carousel.min.css",
-      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\8ik4mgo2ep-j3wy3vomxf.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\8ik4mgo2ep-tf6buel1xr.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001095290252"
+          "Quality": "0.001062699256"
         }
       ],
       "ResponseHeaders": [
@@ -5036,15 +5372,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "912"
+          "Value": "940"
         },
         {
           "Name": "ETag",
-          "Value": "\"9/UTaMLPIkNqqJJzb7j1V6zB/KrhJxbnOpHsn+Vye7s=\""
+          "Value": "\"7k78WOLkqJbdXbiJFbwCatsAtmy8DCDJvaxZk2qRKhE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 30 Sep 2025 18:09:19 GMT"
+          "Value": "Thu, 02 Oct 2025 23:54:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5064,13 +5400,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"AWqwvQ3kg5aA5KcXpX25sYKowsX97sTCTbeo33Yfyk0=\""
+          "Value": "W/\"WVtl+TZCC6JVNTDfqI3xiAhlHuEKkfJsI2NxuPbeu9A=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AWqwvQ3kg5aA5KcXpX25sYKowsX97sTCTbeo33Yfyk0="
+          "Value": "sha256-WVtl+TZCC6JVNTDfqI3xiAhlHuEKkfJsI2NxuPbeu9A="
         }
       ]
     },
@@ -5085,7 +5421,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2936"
+          "Value": "3009"
         },
         {
           "Name": "Content-Type",
@@ -5093,11 +5429,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AWqwvQ3kg5aA5KcXpX25sYKowsX97sTCTbeo33Yfyk0=\""
+          "Value": "\"WVtl+TZCC6JVNTDfqI3xiAhlHuEKkfJsI2NxuPbeu9A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 30 Sep 2025 18:09:19 GMT"
+          "Value": "Thu, 02 Oct 2025 23:54:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5107,13 +5443,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AWqwvQ3kg5aA5KcXpX25sYKowsX97sTCTbeo33Yfyk0="
+          "Value": "sha256-WVtl+TZCC6JVNTDfqI3xiAhlHuEKkfJsI2NxuPbeu9A="
         }
       ]
     },
     {
       "Route": "css/owl.carousel.min.css.gz",
-      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\8ik4mgo2ep-j3wy3vomxf.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\8ik4mgo2ep-tf6buel1xr.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5122,7 +5458,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "912"
+          "Value": "940"
         },
         {
           "Name": "Content-Type",
@@ -5130,11 +5466,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9/UTaMLPIkNqqJJzb7j1V6zB/KrhJxbnOpHsn+Vye7s=\""
+          "Value": "\"7k78WOLkqJbdXbiJFbwCatsAtmy8DCDJvaxZk2qRKhE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 30 Sep 2025 18:09:19 GMT"
+          "Value": "Thu, 02 Oct 2025 23:54:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5152,18 +5488,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9/UTaMLPIkNqqJJzb7j1V6zB/KrhJxbnOpHsn+Vye7s="
+          "Value": "sha256-7k78WOLkqJbdXbiJFbwCatsAtmy8DCDJvaxZk2qRKhE="
         }
       ]
     },
     {
-      "Route": "css/owl.carousel.min.j3wy3vomxf.css",
-      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\8ik4mgo2ep-j3wy3vomxf.gz",
+      "Route": "css/owl.carousel.min.tf6buel1xr.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\8ik4mgo2ep-tf6buel1xr.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001095290252"
+          "Quality": "0.001062699256"
         }
       ],
       "ResponseHeaders": [
@@ -5173,15 +5509,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "912"
+          "Value": "940"
         },
         {
           "Name": "ETag",
-          "Value": "\"9/UTaMLPIkNqqJJzb7j1V6zB/KrhJxbnOpHsn+Vye7s=\""
+          "Value": "\"7k78WOLkqJbdXbiJFbwCatsAtmy8DCDJvaxZk2qRKhE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 30 Sep 2025 18:09:19 GMT"
+          "Value": "Thu, 02 Oct 2025 23:54:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5201,13 +5537,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"AWqwvQ3kg5aA5KcXpX25sYKowsX97sTCTbeo33Yfyk0=\""
+          "Value": "W/\"WVtl+TZCC6JVNTDfqI3xiAhlHuEKkfJsI2NxuPbeu9A=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j3wy3vomxf"
+          "Value": "tf6buel1xr"
         },
         {
           "Name": "label",
@@ -5215,12 +5551,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-AWqwvQ3kg5aA5KcXpX25sYKowsX97sTCTbeo33Yfyk0="
+          "Value": "sha256-WVtl+TZCC6JVNTDfqI3xiAhlHuEKkfJsI2NxuPbeu9A="
         }
       ]
     },
     {
-      "Route": "css/owl.carousel.min.j3wy3vomxf.css",
+      "Route": "css/owl.carousel.min.tf6buel1xr.css",
       "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\owl.carousel.min.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5230,7 +5566,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2936"
+          "Value": "3009"
         },
         {
           "Name": "Content-Type",
@@ -5238,11 +5574,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AWqwvQ3kg5aA5KcXpX25sYKowsX97sTCTbeo33Yfyk0=\""
+          "Value": "\"WVtl+TZCC6JVNTDfqI3xiAhlHuEKkfJsI2NxuPbeu9A=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 30 Sep 2025 18:09:19 GMT"
+          "Value": "Thu, 02 Oct 2025 23:54:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5252,7 +5588,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j3wy3vomxf"
+          "Value": "tf6buel1xr"
         },
         {
           "Name": "label",
@@ -5260,13 +5596,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-AWqwvQ3kg5aA5KcXpX25sYKowsX97sTCTbeo33Yfyk0="
+          "Value": "sha256-WVtl+TZCC6JVNTDfqI3xiAhlHuEKkfJsI2NxuPbeu9A="
         }
       ]
     },
     {
-      "Route": "css/owl.carousel.min.j3wy3vomxf.css.gz",
-      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\8ik4mgo2ep-j3wy3vomxf.gz",
+      "Route": "css/owl.carousel.min.tf6buel1xr.css.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\8ik4mgo2ep-tf6buel1xr.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5275,7 +5611,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "912"
+          "Value": "940"
         },
         {
           "Name": "Content-Type",
@@ -5283,11 +5619,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9/UTaMLPIkNqqJJzb7j1V6zB/KrhJxbnOpHsn+Vye7s=\""
+          "Value": "\"7k78WOLkqJbdXbiJFbwCatsAtmy8DCDJvaxZk2qRKhE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 30 Sep 2025 18:09:19 GMT"
+          "Value": "Thu, 02 Oct 2025 23:54:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5305,7 +5641,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j3wy3vomxf"
+          "Value": "tf6buel1xr"
         },
         {
           "Name": "label",
@@ -5313,18 +5649,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-9/UTaMLPIkNqqJJzb7j1V6zB/KrhJxbnOpHsn+Vye7s="
+          "Value": "sha256-7k78WOLkqJbdXbiJFbwCatsAtmy8DCDJvaxZk2qRKhE="
         }
       ]
     },
     {
-      "Route": "css/site.6k5t899ds4.css",
-      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\ff7ib8k3zh-6k5t899ds4.gz",
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\ff7ib8k3zh-zp79co5xtm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000067272116"
+          "Quality": "0.000067159167"
         }
       ],
       "ResponseHeaders": [
@@ -5334,19 +5670,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14864"
+          "Value": "14889"
         },
         {
           "Name": "ETag",
-          "Value": "\"h++t7Q0Gk4iElrEc1PL0S8G3yf62pbaWI4ERRZmmlhk=\""
+          "Value": "\"zVosgHbufqBggZPGx498Bvy8PPLg4AZ9DfOP9JsOGRE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 30 Sep 2025 19:14:09 GMT"
+          "Value": "Fri, 03 Oct 2025 00:47:32 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -5362,26 +5698,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"mqLRjfkEJbbAdRZd5cmCbGCGzmfTxuUlYu87pjmZYa8=\""
+          "Value": "W/\"qfSf7H1f+FWKDzwDkRCt/7gkkLBd7YMu4Xv5IxMDfFk=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "6k5t899ds4"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-mqLRjfkEJbbAdRZd5cmCbGCGzmfTxuUlYu87pjmZYa8="
+          "Value": "sha256-qfSf7H1f+FWKDzwDkRCt/7gkkLBd7YMu4Xv5IxMDfFk="
         }
       ]
     },
     {
-      "Route": "css/site.6k5t899ds4.css",
+      "Route": "css/site.css",
       "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5391,7 +5719,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "90539"
+          "Value": "90651"
         },
         {
           "Name": "Content-Type",
@@ -5399,11 +5727,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mqLRjfkEJbbAdRZd5cmCbGCGzmfTxuUlYu87pjmZYa8=\""
+          "Value": "\"qfSf7H1f+FWKDzwDkRCt/7gkkLBd7YMu4Xv5IxMDfFk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 30 Sep 2025 19:14:09 GMT"
+          "Value": "Fri, 03 Oct 2025 00:47:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qfSf7H1f+FWKDzwDkRCt/7gkkLBd7YMu4Xv5IxMDfFk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\ff7ib8k3zh-zp79co5xtm.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14889"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zVosgHbufqBggZPGx498Bvy8PPLg4AZ9DfOP9JsOGRE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Oct 2025 00:47:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zVosgHbufqBggZPGx498Bvy8PPLg4AZ9DfOP9JsOGRE="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.zp79co5xtm.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\ff7ib8k3zh-zp79co5xtm.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000067159167"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14889"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zVosgHbufqBggZPGx498Bvy8PPLg4AZ9DfOP9JsOGRE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Oct 2025 00:47:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"qfSf7H1f+FWKDzwDkRCt/7gkkLBd7YMu4Xv5IxMDfFk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zp79co5xtm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qfSf7H1f+FWKDzwDkRCt/7gkkLBd7YMu4Xv5IxMDfFk="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.zp79co5xtm.css",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90651"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qfSf7H1f+FWKDzwDkRCt/7gkkLBd7YMu4Xv5IxMDfFk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Oct 2025 00:47:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5413,7 +5886,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6k5t899ds4"
+          "Value": "zp79co5xtm"
         },
         {
           "Name": "label",
@@ -5421,13 +5894,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mqLRjfkEJbbAdRZd5cmCbGCGzmfTxuUlYu87pjmZYa8="
+          "Value": "sha256-qfSf7H1f+FWKDzwDkRCt/7gkkLBd7YMu4Xv5IxMDfFk="
         }
       ]
     },
     {
-      "Route": "css/site.6k5t899ds4.css.gz",
-      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\ff7ib8k3zh-6k5t899ds4.gz",
+      "Route": "css/site.zp79co5xtm.css.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\ff7ib8k3zh-zp79co5xtm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5436,7 +5909,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14864"
+          "Value": "14889"
         },
         {
           "Name": "Content-Type",
@@ -5444,11 +5917,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"h++t7Q0Gk4iElrEc1PL0S8G3yf62pbaWI4ERRZmmlhk=\""
+          "Value": "\"zVosgHbufqBggZPGx498Bvy8PPLg4AZ9DfOP9JsOGRE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 30 Sep 2025 19:14:09 GMT"
+          "Value": "Fri, 03 Oct 2025 00:47:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5466,7 +5939,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6k5t899ds4"
+          "Value": "zp79co5xtm"
         },
         {
           "Name": "label",
@@ -5474,144 +5947,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-h++t7Q0Gk4iElrEc1PL0S8G3yf62pbaWI4ERRZmmlhk="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\ff7ib8k3zh-6k5t899ds4.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000067272116"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "14864"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"h++t7Q0Gk4iElrEc1PL0S8G3yf62pbaWI4ERRZmmlhk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 30 Sep 2025 19:14:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"mqLRjfkEJbbAdRZd5cmCbGCGzmfTxuUlYu87pjmZYa8=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-mqLRjfkEJbbAdRZd5cmCbGCGzmfTxuUlYu87pjmZYa8="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "90539"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mqLRjfkEJbbAdRZd5cmCbGCGzmfTxuUlYu87pjmZYa8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 30 Sep 2025 19:14:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-mqLRjfkEJbbAdRZd5cmCbGCGzmfTxuUlYu87pjmZYa8="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\ff7ib8k3zh-6k5t899ds4.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "14864"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"h++t7Q0Gk4iElrEc1PL0S8G3yf62pbaWI4ERRZmmlhk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 30 Sep 2025 19:14:09 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-h++t7Q0Gk4iElrEc1PL0S8G3yf62pbaWI4ERRZmmlhk="
+          "Value": "sha256-zVosgHbufqBggZPGx498Bvy8PPLg4AZ9DfOP9JsOGRE="
         }
       ]
     },
@@ -6212,6 +6548,1794 @@
       ]
     },
     {
+      "Route": "js/plugin/bootstrap.min.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\3pboa5gmge-lqjz3ug8zc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000101698363"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9832"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jrXP7uIyaXHqRA41ZxUlycXYFpY+qMG+BKB5VW0SoEE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/bootstrap.min.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37045"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/bootstrap.min.js.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\3pboa5gmge-lqjz3ug8zc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9832"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jrXP7uIyaXHqRA41ZxUlycXYFpY+qMG+BKB5VW0SoEE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jrXP7uIyaXHqRA41ZxUlycXYFpY+qMG+BKB5VW0SoEE="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/bootstrap.min.lqjz3ug8zc.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\3pboa5gmge-lqjz3ug8zc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000101698363"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9832"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jrXP7uIyaXHqRA41ZxUlycXYFpY+qMG+BKB5VW0SoEE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lqjz3ug8zc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/plugin/bootstrap.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/bootstrap.min.lqjz3ug8zc.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\bootstrap.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37045"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lqjz3ug8zc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/plugin/bootstrap.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/bootstrap.min.lqjz3ug8zc.js.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\3pboa5gmge-lqjz3ug8zc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9832"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jrXP7uIyaXHqRA41ZxUlycXYFpY+qMG+BKB5VW0SoEE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lqjz3ug8zc"
+        },
+        {
+          "Name": "label",
+          "Value": "js/plugin/bootstrap.min.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jrXP7uIyaXHqRA41ZxUlycXYFpY+qMG+BKB5VW0SoEE="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/bootstrap-select.min.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\6k27ld5s9r-uabgbkgdt5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000101378751"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9863"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e+50JiNKoMMJ/ioKm0Y21pYwdEzrPQoJLqMrpeXCQw8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"NpjFqxNtMOVQfuoDn4f9ZgUe3ua/MTbmkM8kl+mfU70=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NpjFqxNtMOVQfuoDn4f9ZgUe3ua/MTbmkM8kl+mfU70="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/bootstrap-select.min.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\bootstrap-select.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34156"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NpjFqxNtMOVQfuoDn4f9ZgUe3ua/MTbmkM8kl+mfU70=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NpjFqxNtMOVQfuoDn4f9ZgUe3ua/MTbmkM8kl+mfU70="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/bootstrap-select.min.js.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\6k27ld5s9r-uabgbkgdt5.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9863"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e+50JiNKoMMJ/ioKm0Y21pYwdEzrPQoJLqMrpeXCQw8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e+50JiNKoMMJ/ioKm0Y21pYwdEzrPQoJLqMrpeXCQw8="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/bootstrap-select.min.uabgbkgdt5.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\6k27ld5s9r-uabgbkgdt5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000101378751"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9863"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e+50JiNKoMMJ/ioKm0Y21pYwdEzrPQoJLqMrpeXCQw8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"NpjFqxNtMOVQfuoDn4f9ZgUe3ua/MTbmkM8kl+mfU70=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uabgbkgdt5"
+        },
+        {
+          "Name": "label",
+          "Value": "js/plugin/bootstrap-select.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NpjFqxNtMOVQfuoDn4f9ZgUe3ua/MTbmkM8kl+mfU70="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/bootstrap-select.min.uabgbkgdt5.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\bootstrap-select.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34156"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NpjFqxNtMOVQfuoDn4f9ZgUe3ua/MTbmkM8kl+mfU70=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uabgbkgdt5"
+        },
+        {
+          "Name": "label",
+          "Value": "js/plugin/bootstrap-select.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NpjFqxNtMOVQfuoDn4f9ZgUe3ua/MTbmkM8kl+mfU70="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/bootstrap-select.min.uabgbkgdt5.js.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\6k27ld5s9r-uabgbkgdt5.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9863"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e+50JiNKoMMJ/ioKm0Y21pYwdEzrPQoJLqMrpeXCQw8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uabgbkgdt5"
+        },
+        {
+          "Name": "label",
+          "Value": "js/plugin/bootstrap-select.min.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e+50JiNKoMMJ/ioKm0Y21pYwdEzrPQoJLqMrpeXCQw8="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/jquery.countdown.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\s8fxqrlcxq-vrrz0q8qk3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000106530308"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9386"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qi8ID6zXZRvfb6w6cgn7+ekwGMji9FX46eegNqU2fE8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:37:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Wx+pteuJ4M5cu6qWihbWVjl7n4axxQ+PQSZX1WLDi6I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wx+pteuJ4M5cu6qWihbWVjl7n4axxQ+PQSZX1WLDi6I="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/jquery.countdown.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\jquery.countdown.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35865"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wx+pteuJ4M5cu6qWihbWVjl7n4axxQ+PQSZX1WLDi6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:37:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wx+pteuJ4M5cu6qWihbWVjl7n4axxQ+PQSZX1WLDi6I="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/jquery.countdown.js.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\s8fxqrlcxq-vrrz0q8qk3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9386"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qi8ID6zXZRvfb6w6cgn7+ekwGMji9FX46eegNqU2fE8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:37:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qi8ID6zXZRvfb6w6cgn7+ekwGMji9FX46eegNqU2fE8="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/jquery.countdown.vrrz0q8qk3.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\s8fxqrlcxq-vrrz0q8qk3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000106530308"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9386"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qi8ID6zXZRvfb6w6cgn7+ekwGMji9FX46eegNqU2fE8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:37:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Wx+pteuJ4M5cu6qWihbWVjl7n4axxQ+PQSZX1WLDi6I=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vrrz0q8qk3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/plugin/jquery.countdown.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wx+pteuJ4M5cu6qWihbWVjl7n4axxQ+PQSZX1WLDi6I="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/jquery.countdown.vrrz0q8qk3.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\jquery.countdown.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35865"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wx+pteuJ4M5cu6qWihbWVjl7n4axxQ+PQSZX1WLDi6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:37:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vrrz0q8qk3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/plugin/jquery.countdown.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wx+pteuJ4M5cu6qWihbWVjl7n4axxQ+PQSZX1WLDi6I="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/jquery.countdown.vrrz0q8qk3.js.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\s8fxqrlcxq-vrrz0q8qk3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9386"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qi8ID6zXZRvfb6w6cgn7+ekwGMji9FX46eegNqU2fE8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:37:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vrrz0q8qk3"
+        },
+        {
+          "Name": "label",
+          "Value": "js/plugin/jquery.countdown.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qi8ID6zXZRvfb6w6cgn7+ekwGMji9FX46eegNqU2fE8="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/jquery.plugin.min.fkse1kw0kq.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\no7afzlitw-fkse1kw0kq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000744601638"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1342"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ujeZ7+djOKLZnMykFWPLh/yrn/F4EEoV4Bf2C+zyMkc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:37:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"H/kGS5SBmrBnS4eUnCrcFOXD6iiW1zMzOoMb3e3Y0no=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fkse1kw0kq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/plugin/jquery.plugin.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H/kGS5SBmrBnS4eUnCrcFOXD6iiW1zMzOoMb3e3Y0no="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/jquery.plugin.min.fkse1kw0kq.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\jquery.plugin.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3178"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H/kGS5SBmrBnS4eUnCrcFOXD6iiW1zMzOoMb3e3Y0no=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:37:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fkse1kw0kq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/plugin/jquery.plugin.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H/kGS5SBmrBnS4eUnCrcFOXD6iiW1zMzOoMb3e3Y0no="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/jquery.plugin.min.fkse1kw0kq.js.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\no7afzlitw-fkse1kw0kq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1342"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ujeZ7+djOKLZnMykFWPLh/yrn/F4EEoV4Bf2C+zyMkc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:37:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fkse1kw0kq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/plugin/jquery.plugin.min.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ujeZ7+djOKLZnMykFWPLh/yrn/F4EEoV4Bf2C+zyMkc="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/jquery.plugin.min.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\no7afzlitw-fkse1kw0kq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000744601638"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1342"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ujeZ7+djOKLZnMykFWPLh/yrn/F4EEoV4Bf2C+zyMkc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:37:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"H/kGS5SBmrBnS4eUnCrcFOXD6iiW1zMzOoMb3e3Y0no=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H/kGS5SBmrBnS4eUnCrcFOXD6iiW1zMzOoMb3e3Y0no="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/jquery.plugin.min.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\jquery.plugin.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3178"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H/kGS5SBmrBnS4eUnCrcFOXD6iiW1zMzOoMb3e3Y0no=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:37:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H/kGS5SBmrBnS4eUnCrcFOXD6iiW1zMzOoMb3e3Y0no="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/jquery.plugin.min.js.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\no7afzlitw-fkse1kw0kq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1342"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ujeZ7+djOKLZnMykFWPLh/yrn/F4EEoV4Bf2C+zyMkc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:37:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ujeZ7+djOKLZnMykFWPLh/yrn/F4EEoV4Bf2C+zyMkc="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/jquery-2.2.4.min.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\h21jjuyu0o-r0izaq9iwr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000033494105"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29855"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3ZUiEXCAlY8Z4KoE6un7NzMnBaG8g6fNdcroMFNcdSU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/jquery-2.2.4.min.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\jquery-2.2.4.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85578"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/jquery-2.2.4.min.js.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\h21jjuyu0o-r0izaq9iwr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3ZUiEXCAlY8Z4KoE6un7NzMnBaG8g6fNdcroMFNcdSU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3ZUiEXCAlY8Z4KoE6un7NzMnBaG8g6fNdcroMFNcdSU="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/jquery-2.2.4.min.r0izaq9iwr.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\h21jjuyu0o-r0izaq9iwr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000033494105"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29855"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3ZUiEXCAlY8Z4KoE6un7NzMnBaG8g6fNdcroMFNcdSU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r0izaq9iwr"
+        },
+        {
+          "Name": "label",
+          "Value": "js/plugin/jquery-2.2.4.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/jquery-2.2.4.min.r0izaq9iwr.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\jquery-2.2.4.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85578"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r0izaq9iwr"
+        },
+        {
+          "Name": "label",
+          "Value": "js/plugin/jquery-2.2.4.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/jquery-2.2.4.min.r0izaq9iwr.js.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\h21jjuyu0o-r0izaq9iwr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3ZUiEXCAlY8Z4KoE6un7NzMnBaG8g6fNdcroMFNcdSU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r0izaq9iwr"
+        },
+        {
+          "Name": "label",
+          "Value": "js/plugin/jquery-2.2.4.min.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3ZUiEXCAlY8Z4KoE6un7NzMnBaG8g6fNdcroMFNcdSU="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/owl.carousel.min.fdie9m09qq.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\snqwylmp3f-fdie9m09qq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000095029934"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10522"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nXC8XiIVGgtfr7TU5NuS+ouCG2mOlgu+WDNcSLqdoZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:37:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"g1U9IszVblV21UT2upNHXHErPALTEok+6irMFt5fz5E=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fdie9m09qq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/plugin/owl.carousel.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g1U9IszVblV21UT2upNHXHErPALTEok+6irMFt5fz5E="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/owl.carousel.min.fdie9m09qq.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\owl.carousel.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40401"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g1U9IszVblV21UT2upNHXHErPALTEok+6irMFt5fz5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:37:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fdie9m09qq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/plugin/owl.carousel.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g1U9IszVblV21UT2upNHXHErPALTEok+6irMFt5fz5E="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/owl.carousel.min.fdie9m09qq.js.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\snqwylmp3f-fdie9m09qq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10522"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nXC8XiIVGgtfr7TU5NuS+ouCG2mOlgu+WDNcSLqdoZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:37:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fdie9m09qq"
+        },
+        {
+          "Name": "label",
+          "Value": "js/plugin/owl.carousel.min.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nXC8XiIVGgtfr7TU5NuS+ouCG2mOlgu+WDNcSLqdoZQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/owl.carousel.min.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\snqwylmp3f-fdie9m09qq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000095029934"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10522"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nXC8XiIVGgtfr7TU5NuS+ouCG2mOlgu+WDNcSLqdoZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:37:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"g1U9IszVblV21UT2upNHXHErPALTEok+6irMFt5fz5E=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g1U9IszVblV21UT2upNHXHErPALTEok+6irMFt5fz5E="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/owl.carousel.min.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\owl.carousel.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40401"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g1U9IszVblV21UT2upNHXHErPALTEok+6irMFt5fz5E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:37:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g1U9IszVblV21UT2upNHXHErPALTEok+6irMFt5fz5E="
+        }
+      ]
+    },
+    {
+      "Route": "js/plugin/owl.carousel.min.js.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\snqwylmp3f-fdie9m09qq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10522"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nXC8XiIVGgtfr7TU5NuS+ouCG2mOlgu+WDNcSLqdoZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:37:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nXC8XiIVGgtfr7TU5NuS+ouCG2mOlgu+WDNcSLqdoZQ="
+        }
+      ]
+    },
+    {
       "Route": "js/site.fyhlzi0smj.js",
       "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\j5ha1lbseq-fyhlzi0smj.gz",
       "Selectors": [
@@ -6506,6 +8630,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-9n1cSXU/FFKWc/D4FvHDHDfOOjHHWzu7OObSYaGywUk="
+        }
+      ]
+    },
+    {
+      "Route": "js/theme.d5sq9bf80i.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\sbmie9yfnd-d5sq9bf80i.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000342583076"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2918"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2VFsoi+F3qdhCjv8/i7afHCUFV7Esa5UlR+lC9H+eJc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"AbbKzgb+jYAzCbJnbHR72BObj8PSIwcAvcQfK8Ag3/Y=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d5sq9bf80i"
+        },
+        {
+          "Name": "label",
+          "Value": "js/theme.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AbbKzgb+jYAzCbJnbHR72BObj8PSIwcAvcQfK8Ag3/Y="
+        }
+      ]
+    },
+    {
+      "Route": "js/theme.d5sq9bf80i.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\theme.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13654"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AbbKzgb+jYAzCbJnbHR72BObj8PSIwcAvcQfK8Ag3/Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d5sq9bf80i"
+        },
+        {
+          "Name": "label",
+          "Value": "js/theme.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AbbKzgb+jYAzCbJnbHR72BObj8PSIwcAvcQfK8Ag3/Y="
+        }
+      ]
+    },
+    {
+      "Route": "js/theme.d5sq9bf80i.js.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\sbmie9yfnd-d5sq9bf80i.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2918"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2VFsoi+F3qdhCjv8/i7afHCUFV7Esa5UlR+lC9H+eJc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d5sq9bf80i"
+        },
+        {
+          "Name": "label",
+          "Value": "js/theme.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2VFsoi+F3qdhCjv8/i7afHCUFV7Esa5UlR+lC9H+eJc="
+        }
+      ]
+    },
+    {
+      "Route": "js/theme.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\sbmie9yfnd-d5sq9bf80i.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000342583076"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2918"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2VFsoi+F3qdhCjv8/i7afHCUFV7Esa5UlR+lC9H+eJc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"AbbKzgb+jYAzCbJnbHR72BObj8PSIwcAvcQfK8Ag3/Y=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AbbKzgb+jYAzCbJnbHR72BObj8PSIwcAvcQfK8Ag3/Y="
+        }
+      ]
+    },
+    {
+      "Route": "js/theme.js",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\theme.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13654"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AbbKzgb+jYAzCbJnbHR72BObj8PSIwcAvcQfK8Ag3/Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AbbKzgb+jYAzCbJnbHR72BObj8PSIwcAvcQfK8Ag3/Y="
+        }
+      ]
+    },
+    {
+      "Route": "js/theme.js.gz",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\compressed\\sbmie9yfnd-d5sq9bf80i.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2918"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2VFsoi+F3qdhCjv8/i7afHCUFV7Esa5UlR+lC9H+eJc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:36:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2VFsoi+F3qdhCjv8/i7afHCUFV7Esa5UlR+lC9H+eJc="
         }
       ]
     },
@@ -24174,6 +26596,88 @@
       ]
     },
     {
+      "Route": "Resource/IMG/background.b0ffj3e0xo.jpg",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\background.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "102185"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u7iVtfBz8z0Hxxqj36FopbiJL06sNP5dvifOS+PJRNs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:42:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b0ffj3e0xo"
+        },
+        {
+          "Name": "label",
+          "Value": "Resource/IMG/background.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u7iVtfBz8z0Hxxqj36FopbiJL06sNP5dvifOS+PJRNs="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/IMG/background.jpg",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\background.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "102185"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u7iVtfBz8z0Hxxqj36FopbiJL06sNP5dvifOS+PJRNs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Oct 2025 23:42:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u7iVtfBz8z0Hxxqj36FopbiJL06sNP5dvifOS+PJRNs="
+        }
+      ]
+    },
+    {
       "Route": "Resource/IMG/feature.ivgv4y0zs8.png",
       "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature.png",
       "Selectors": [],
@@ -25154,6 +27658,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-UY7wXPcZDCqWYy5m3BUvQKeEetUhcUXkB3V8wSkgjq0="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/Photo/63082797.i7t4n1gekq.jpg",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\Photo\\63082797.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59099"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3gfQ3rgdSnhN+X2QyJVlzCMZTNqQOynMPGPRunbHjYk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Oct 2025 00:14:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i7t4n1gekq"
+        },
+        {
+          "Name": "label",
+          "Value": "Resource/Photo/63082797.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3gfQ3rgdSnhN+X2QyJVlzCMZTNqQOynMPGPRunbHjYk="
+        }
+      ]
+    },
+    {
+      "Route": "Resource/Photo/63082797.jpg",
+      "AssetFile": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\Photo\\63082797.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59099"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3gfQ3rgdSnhN+X2QyJVlzCMZTNqQOynMPGPRunbHjYk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Oct 2025 00:14:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3gfQ3rgdSnhN+X2QyJVlzCMZTNqQOynMPGPRunbHjYk="
         }
       ]
     }

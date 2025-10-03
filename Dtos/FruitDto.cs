@@ -6,6 +6,7 @@
         public string PhotoPath { get; set; }
         public string Name { get; set; }
         public string Composition { get; set; }
+        public double Price { get; set; }   
         public List<string> Benefits { get; set; } = new List<string>();
     }
 }

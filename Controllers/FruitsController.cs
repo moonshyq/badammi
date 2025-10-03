@@ -66,6 +66,7 @@ public class FruitsController : Controller
             Composition = fruit.Composition,
             Id = id,
             PhotoPath = fruit.PhotoPath,
+            Price = fruit.Price,
         });
         return Redirect("../Index");
     }
@@ -131,4 +132,32 @@ public class FruitsController : Controller
         _jsonService.UpdateFruit(id, fruit);
         return Ok("ok");
     }
+
+    [HttpGet]
+    public async Task<IActionResult> Shop()
+    {
+        var result = _jsonService.GetFruits();
+        return View("/Pages/Fruits/Shop.cshtml", result);
+    }
+
+    [HttpGet]
+    [ActionName("search")]
+    public async Task<IActionResult> ShopSearch(string name)
+    {
+        var result = _jsonService.GetFruits();
+        var toshow = result
+        .Where(x => x.Name.ToLower().Contains(name.ToLower()));
+        Console.WriteLine(name);
+        return View("/Pages/Fruits/Shop.cshtml", toshow);
+    }
+
+    [HttpGet]
+    public async Task<IActionResult> ShopOne(string id)
+    {
+        var int_id = int.Parse(id);
+        var result = _jsonService.GetFruits();
+        var toshow = result.First(x => x.Id == int_id);
+        return View("/Pages/Fruits/ShopOne.cshtml", toshow);
+    }
+
 }

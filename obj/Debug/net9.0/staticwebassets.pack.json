@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\BadammiSite.x5ibjdji28.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\background.jpg",
+      "PackagePath": "staticwebassets\\Resource\\IMG\\background.jpg"
+    },
+    {
       "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature-1.png",
       "PackagePath": "staticwebassets\\Resource\\IMG\\feature-1.png"
     },
@@ -53,6 +57,10 @@
       "PackagePath": "staticwebassets\\Resource\\Photo\\33326149.jpg"
     },
     {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\Photo\\63082797.jpg",
+      "PackagePath": "staticwebassets\\Resource\\Photo\\63082797.jpg"
+    },
+    {
       "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\animate.css",
       "PackagePath": "staticwebassets\\css\\animate.css"
     },
@@ -85,8 +93,36 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\bootstrap-select.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\bootstrap-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\jquery-2.2.4.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\jquery-2.2.4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\jquery.countdown.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\jquery.countdown.js"
+    },
+    {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\jquery.plugin.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\jquery.plugin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\plugin\\owl.carousel.min.js"
+    },
+    {
       "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\theme.js",
+      "PackagePath": "staticwebassets\\js\\theme.js"
     },
     {
       "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\LICENSE",

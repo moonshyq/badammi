@@ -101,6 +101,13 @@ C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\obj\Debug\net9.0\compressed
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\obj\Debug\net9.0\compressed\qdhk4p8rq5-ix7r4kb3qc.gz
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\obj\Debug\net9.0\compressed\gi1mnzgaqx-fmhzntxchr.gz
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\obj\Debug\net9.0\compressed\0h856mypne-kjgdxgeguj.gz
-C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\obj\Debug\net9.0\compressed\8ik4mgo2ep-j3wy3vomxf.gz
 C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\obj\Debug\net9.0\compressed\5x1soeouq3-gdliftyrn6.gz
-C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\obj\Debug\net9.0\compressed\ff7ib8k3zh-6k5t899ds4.gz
+C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\obj\Debug\net9.0\compressed\6k27ld5s9r-uabgbkgdt5.gz
+C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\obj\Debug\net9.0\compressed\3pboa5gmge-lqjz3ug8zc.gz
+C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\obj\Debug\net9.0\compressed\h21jjuyu0o-r0izaq9iwr.gz
+C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\obj\Debug\net9.0\compressed\s8fxqrlcxq-vrrz0q8qk3.gz
+C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\obj\Debug\net9.0\compressed\no7afzlitw-fkse1kw0kq.gz
+C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\obj\Debug\net9.0\compressed\snqwylmp3f-fdie9m09qq.gz
+C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\obj\Debug\net9.0\compressed\sbmie9yfnd-d5sq9bf80i.gz
+C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\obj\Debug\net9.0\compressed\8ik4mgo2ep-tf6buel1xr.gz
+C:\Users\lyoha)\source\repos\BadammiSite\BadammiSite\obj\Debug\net9.0\compressed\ff7ib8k3zh-zp79co5xtm.gz

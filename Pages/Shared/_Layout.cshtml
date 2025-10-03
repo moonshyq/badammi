@@ -14,6 +14,17 @@
     <link rel="stylesheet" href="~/css/subscribe-better.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/owl.carousel.min.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/font-awesome.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="~/js/plugin/bootstrap.min.js"></script>
+    <script src="~/js/plugin/bootstrap-select.min.js"></script>
+    <script src="~/js/plugin/owl.carousel.min.js"></script>
+    <script src="~/js/plugin/jquery.plugin.min.js"></script>
+    <script src="~/js/plugin/jquery.countdown.js"></script>
+    <script src="~/js/plugin/jquery.subscribe-better.min.js"></script>
+    <script src="~/js/theme.js"></script>
 </head>
 <body>
     <header>
@@ -21,7 +32,7 @@
             <div class="container-fluid rel-div">
                 <div class="col-lg-4 col-sm-8">
                     <div class="main-logo">
-                        <a asp-route="Index.html"> <img alt="" src="~/Resource/IMG/logo.png" />  </a>
+                        <a asp-controller="Home" asp-action="Index"> <img alt="" src="~/Resource/IMG/logo.png" />  </a>
                         <span class="medium-font">ORGANIC STORE</span>
                     </div>
                 </div>
@@ -31,11 +42,11 @@
                     <nav class="fix-navbar" id="primary-navigation">
                         <ul class="primary-navbar">
                             <li class="dropdown active">
-                                <a class="nav-link" role="button" asp-route="Index.html" aria-haspopup="true">Home</a>
+                                <a class="nav-link" role="button" asp-controller="Home" asp-action="Index" aria-haspopup="true">Home</a>
                             </li>
                             <li><a class="nav-link">About Us</a></li>
                             <li class="dropdown">
-                                <a class="nav-link" role="button" aria-haspopup="true">Shop</a>
+                                <a class="nav-link" role="button" asp-controller="Fruits" asp-action="Shop" aria-haspopup="true">Shop</a>
                             </li>
                             <li>
                                 <a class="nav-link">Contact Us</a>
@@ -83,31 +94,6 @@
                             <li> <a href="#"> our blog </a> </li>
                             <li> <a href="#"> new products </a> </li>
                             <li> <a href="#"> secure shopping </a> </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 col-sm-4 footer-widget">
-                        <h2 class="title-1">  <span class="light-font">my  </span> <strong>account </strong> </h2>
-                        <span class="divider-2"></span>
-                        <ul class="list">
-                            <li> <a href="my-account.html"> my account </a> </li>
-                            <li><a href="account-information.html"> Account Information </a></li>
-                            <li><a href="address-book.html"> Address Books</a></li>
-                            <li><a href="order-history.html"> Order History</a></li>
-                            <li><a href="review-rating.html"> Reviews and Ratings</a></li>
-                            <li><a href="return.html"> Returns Requests</a></li>
-                            <li><a href="newsletter.html"> Newsletter</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 col-sm-4 footer-widget">
-                        <h2 class="title-1">  <span class="light-font">photo  </span> <strong>instagram </strong> </h2>
-                        <span class="divider-2"></span>
-                        <ul class="instagram-widget">
-                            <li> <a href="#"> <img src="assets/img/extra/80x80-1.jpg" alt="" /> </a> </li>
-                            <li> <a href="#"> <img src="assets/img/extra/80x80-2.jpg" alt="" /> </a> </li>
-                            <li> <a href="#"> <img src="assets/img/extra/80x80-3.jpg" alt="" /> </a> </li>
-                            <li> <a href="#"> <img src="assets/img/extra/80x80-4.jpg" alt="" /> </a> </li>
-                            <li> <a href="#"> <img src="assets/img/extra/80x80-5.jpg" alt="" /> </a> </li>
-                            <li> <a href="#"> <img src="assets/img/extra/80x80-6.jpg" alt="" /> </a> </li>
                         </ul>
                     </div>
                 </div>

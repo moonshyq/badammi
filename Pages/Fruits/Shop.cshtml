@@ -1,0 +1,166 @@
+﻿@using BadammiSite.Models
+@model IEnumerable<Fruit>
+@{
+    ViewData["Title"] = "Search";
+}
+
+<section class="shop-wrap sec-space-bottom">
+    <div class="container rel-div">
+        <div class="top-bar d-flex align-items-center justify-content-between">
+
+            <!-- Категория и поиск -->
+            <div class="category-search d-flex align-items-center">
+                <!-- Категория -->
+                <div class="category me-3">
+                    <span>NAME</span>
+                </div>
+
+                <!-- Поиск -->
+                <div class="search-wrap d-flex">
+                    <input id="fruitSearch" class="form-control me-2" placeholder="Search...">
+                    <button class="btn" type="button" id="searchBtn">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Лого по центру -->
+            <div class="logo mx-auto">
+                <img alt="" src="~/Resource/IMG/logo.png" height="250px" width="250px">
+            </div>
+
+            <!-- Сортировка по цене -->
+            <div class="price-sort">
+                <span>BY PRICE</span>
+                <select class="form-select input-price" style="min-width: 150px;">
+                    <option>Low to High</option>
+                    <option>High to Low</option>
+                </select>
+            </div>
+
+        </div>
+    </div>
+        <div class="divider-full-1"></div>
+
+            <div class="col-md-9">
+                <div class="result-bar block-inline">
+                    <h4 class="result-txt">search result <b> @Model.Count() </b> </h4>
+                    <ul class="view-tabs">
+                        <li class="">
+                            <a href="#grid-view" data-toggle="tab">
+                                <i class="fa fa-th"></i>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="#list-view" data-toggle="tab">
+                                <i class="fa fa-th-list"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content shop-content">
+                    <div id="grid-view" class="tab-pane fade" role="tabpanel">
+                        <div class="row">
+                            @foreach(var item in Model){
+                            <div class="col-lg-4 col-sm-6">
+                                <div class="product-box">
+                                    <div class="product-media">
+                                        <img class="prod-img" alt="" src="/@item.PhotoPath" />
+                                        <div class="prod-icons">
+                                            <a asp-controller="Fruits" asp-action="ShopOne" asp-route-id="@item.Id" data-toggle="modal" class="fa fa-expand"></a>
+                                        </div>
+                                    </div>
+                                    <div class="product-caption">
+                                        <h3 class="product-title">
+                                            <a href="#"> <strong>@item.Name</strong></a>
+                                        </h3>
+                                        <div class="price">
+                                            <strong class="clr-txt">@item.Price </strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            }
+                        </div>
+                            
+
+                        <div class="rel-div pt-50">
+                            <div class="divider-full-1"></div>
+                            <div class="nav-page">
+                                <a href="#" class="fa fa-long-arrow-left left"></a>
+                                <a href="#" class="fa fa-long-arrow-right right"></a>
+                            </div>
+                        </div>
+
+                        <div class="pagination-wrap">
+                            <ul class="pagintn">
+                                <li><a href="#">01</a></li>
+                                <li><a href="#">02</a></li>
+                                <li><a href="#">03</a></li>
+                                <li><a href="#">04</a></li>
+                                <li><a href="#">05</a></li>
+                                <li><a href="#">...</a></li>
+                                <li><a href="#">15</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div id="list-view" class="tab-pane fade active in" role="tabpanel">
+                    <div class="row" id="fruitList">
+                            @foreach(var item in Model){
+                                <div class="col-sm-12">
+                                <div class="deal-item list-view">
+                                    <div class="deal-icons">
+                                        <a asp-controller="Fruits" asp-action="ShopOne" asp-route-id="@item.Id" data-toggle="modal" class="fa fa-expand"></a>
+                                    </div>
+                                    <div class="deal-content">
+                                        <div class="deal-text">
+                                            <h4 class="sub-title"> BADAMMI FRUITS </h4>
+                                            <h2 class="fsz-30 pb-15"> <a href="#"> <strong>@item.Name </strong> </a> </h2>
+                                            <p>@item.Composition</p>
+                                            <div class="price pt-15">
+                                                <strong class="clr-txt">@item.Price </strong>
+                                            </div>
+                                        </div>
+                                    <div class="img"> <img class="shopimg" alt="" src="/@item.PhotoPath"> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+
+                        <div class="rel-div pt-50">
+                            <div class="divider-full-1"></div>
+                            <div class="nav-page">
+                                <a href="#" class="fa fa-long-arrow-left left"></a>
+                                <a href="#" class="fa fa-long-arrow-right right"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<script>
+     const searchInput = document.getElementById("fruitSearch"); // <-- добавлено
+    const searchBtn = document.getElementById("searchBtn");
+
+    async function sendSearch() {
+        const query = searchInput.value.trim();
+        if(query === "") return;
+
+        try {
+            await fetch(`search?name=${encodeURIComponent(query)}`);
+            console.log("Запрос отправлен на /search?name=" + query);
+            window.location.href = `search?name=${encodeURIComponent(query)}`
+        } catch(err) {
+            console.error(err);
+        }
+    }
+
+    searchBtn.addEventListener("click", sendSearch);
+    searchInput.addEventListener("keypress", function(e) {
+        if(e.key === "Enter") sendSearch();
+    });
+     
+</script>

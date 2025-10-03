@@ -1,0 +1,97 @@
+﻿@using BadammiSite.Models
+@model Fruit
+@{
+    ViewData["Title"] = "Search";
+}
+
+<section class="shop-wrap sec-space-bottom">
+    <div class="container rel-div">
+        <div class="top-bar d-flex align-items-center justify-content-between">
+
+            <!-- Категория и поиск -->
+            <div class="category-search d-flex align-items-center">
+                <!-- Категория -->
+                <div class="category me-3">
+                    <span>NAME</span>
+                </div>
+
+                <!-- Поиск -->
+                <div class="search-wrap d-flex">
+                    <input id="fruitSearch" class="form-control me-2" placeholder="Search...">
+                    <button class="btn" type="button" id="searchBtn">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Лого по центру -->
+            <div class="logo mx-auto">
+                <img alt="" src="~/Resource/IMG/logo.png" height="250px" width="250px">
+            </div>
+
+            <!-- Сортировка по цене -->
+            <div class="price-sort">
+                <span>BY PRICE</span>
+                <select class="form-select input-price" style="min-width: 150px;">
+                    <option>Low to High</option>
+                    <option>High to Low</option>
+                </select>
+            </div>
+
+        </div>
+    </div>
+
+    
+    <div class="col-lg-6">
+        
+
+        <div class="product-content block-inline">
+            <div class="item">
+                <img  src="/@Model.PhotoPath" alt="">
+            </div>
+            <div class="single-caption">
+                <h3 class="section-title">
+                    <a href="#"> <strong>@Model.Name</strong></a>
+                </h3>
+                <span class="divider-2"></span>
+                <p class="price">
+                    <strong class="clr-txt fsz-20">@Model.Price </strong> 
+                </p>
+
+                <div class="fsz-16">
+                    <p>@Model.Composition </p>
+                </div>
+                @foreach(var item in Model.Benefits){
+                    <div class="fsz-16">
+                        <p>@item </p>
+                    </div>
+                }
+        </div>
+    </div>
+    </div>
+
+</section>
+
+<script>
+     const searchInput = document.getElementById("fruitSearch"); // <-- добавлено
+    const searchBtn = document.getElementById("searchBtn");
+
+    async function sendSearch() {
+        const query = searchInput.value.trim();
+        if(query === "") return;
+
+        try {
+            await fetch(`search?name=${encodeURIComponent(query)}`);
+            console.log("Запрос отправлен на /search?name=" + query);
+            window.location.href = `search?name=${encodeURIComponent(query)}`
+        } catch(err) {
+            console.error(err);
+        }
+    }
+
+    searchBtn.addEventListener("click", sendSearch);
+    searchInput.addEventListener("keypress", function(e) {
+        if(e.key === "Enter") sendSearch();
+    });
+     
+</script>
