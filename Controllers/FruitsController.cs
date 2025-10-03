@@ -66,7 +66,6 @@ public class FruitsController : Controller
             Composition = fruit.Composition,
             Id = id,
             PhotoPath = fruit.PhotoPath,
-            Price = fruit.Price,
         });
         return Redirect("../Index");
     }

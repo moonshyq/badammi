@@ -30,14 +30,6 @@
             </div>
 
             <!-- Сортировка по цене -->
-            <div class="price-sort">
-                <span>BY PRICE</span>
-                <select class="form-select input-price" style="min-width: 150px;">
-                    <option>Low to High</option>
-                    <option>High to Low</option>
-                </select>
-            </div>
-
         </div>
     </div>
 
@@ -51,21 +43,25 @@
             </div>
             <div class="single-caption">
                 <h3 class="section-title">
-                    <a href="#"> <strong>@Model.Name</strong></a>
+                    <a href="#"> <strong>Name: @Model.Name</strong></a>
                 </h3>
                 <span class="divider-2"></span>
-                <p class="price">
-                    <strong class="clr-txt fsz-20">@Model.Price </strong> 
-                </p>
 
                 <div class="fsz-16">
-                    <p>@Model.Composition </p>
+                    <p>Composition: @Model.Composition </p>
                 </div>
-                @foreach(var item in Model.Benefits){
-                    <div class="fsz-16">
-                        <p>@item </p>
-                    </div>
-                }
+                <span class="divider-2"><strong>Benefits:</strong></span>
+                <ul class="benefits-list">
+                    @for (int i = 0, a = 1; i < Model.Benefits.Count; i++, a++)
+                    {
+                        <li>
+                            <div class="fsz-16">
+                                <p>@Model.Benefits[i] </p>
+                            </div>
+                        </li>
+                    }
+                </ul>
+                
         </div>
     </div>
     </div>

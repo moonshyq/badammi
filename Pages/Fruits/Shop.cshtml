@@ -29,15 +29,6 @@
                 <img alt="" src="~/Resource/IMG/logo.png" height="250px" width="250px">
             </div>
 
-            <!-- Сортировка по цене -->
-            <div class="price-sort">
-                <span>BY PRICE</span>
-                <select class="form-select input-price" style="min-width: 150px;">
-                    <option>Low to High</option>
-                    <option>High to Low</option>
-                </select>
-            </div>
-
         </div>
     </div>
         <div class="divider-full-1"></div>
@@ -74,9 +65,6 @@
                                         <h3 class="product-title">
                                             <a href="#"> <strong>@item.Name</strong></a>
                                         </h3>
-                                        <div class="price">
-                                            <strong class="clr-txt">@item.Price </strong>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -92,23 +80,12 @@
                             </div>
                         </div>
 
-                        <div class="pagination-wrap">
-                            <ul class="pagintn">
-                                <li><a href="#">01</a></li>
-                                <li><a href="#">02</a></li>
-                                <li><a href="#">03</a></li>
-                                <li><a href="#">04</a></li>
-                                <li><a href="#">05</a></li>
-                                <li><a href="#">...</a></li>
-                                <li><a href="#">15</a></li>
-                            </ul>
-                        </div>
                     </div>
 
                     <div id="list-view" class="tab-pane fade active in" role="tabpanel">
                     <div class="row" id="fruitList">
                             @foreach(var item in Model){
-                                <div class="col-sm-12">
+                             <div class="col-sm-12 ">
                                 <div class="deal-item list-view">
                                     <div class="deal-icons">
                                         <a asp-controller="Fruits" asp-action="ShopOne" asp-route-id="@item.Id" data-toggle="modal" class="fa fa-expand"></a>
@@ -118,9 +95,6 @@
                                             <h4 class="sub-title"> BADAMMI FRUITS </h4>
                                             <h2 class="fsz-30 pb-15"> <a href="#"> <strong>@item.Name </strong> </a> </h2>
                                             <p>@item.Composition</p>
-                                            <div class="price pt-15">
-                                                <strong class="clr-txt">@item.Price </strong>
-                                            </div>
                                         </div>
                                     <div class="img"> <img class="shopimg" alt="" src="/@item.PhotoPath"> </div>
                                     </div>

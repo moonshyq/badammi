@@ -2,9 +2,40 @@ html {
   font-size: 14px;
 }
 
-shopimg{
-    width:300px;
-    height:300px;
+.benefits-list {
+    list-style: none; /* убираем стандартные маркеры */
+    padding: 0;
+    margin: 20px 0;
+}
+
+    .benefits-list li {
+        position: relative;
+        padding-left: 25px;
+        margin-bottom: 12px;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+    }
+
+        /* кастомные точки */
+        .benefits-list li::before {
+            content: "\2022"; /* это обычная точка */
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: rgba(0, 0, 0, 0.25);
+            font-size: 20px;
+            line-height: 1.2;
+        }
+
+.row>*{
+    margin-top: 20px; /* расстояние сверху */
+}
+
+
+shopimg {
+    width: 300px;
+    height: 300px;
 }
 
 @media (min-width: 768px) {
@@ -2436,7 +2467,9 @@ header.main-header.header-02-main.is-sticky {
     }
 
     .pattern {
-        margin-top: -45px;
+        margin-top: -25px;
+        width:200vw;
+        max-width:200%;
     }
 }
 
