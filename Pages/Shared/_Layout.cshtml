@@ -28,33 +28,37 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid rel-div">
                 <div class="col-lg-4 col-sm-8">
                     <div class="main-logo">
-                        <a asp-controller="Home" asp-action="Index"> <img alt="" src="~/Resource/IMG/logo.png" />  </a>
+                        <a asp-controller="Home" asp-action="Index">
+                            <img alt="Logo" src="~/Resource/IMG/logo.png" />
+                        </a>
                         <span class="medium-font">ORGANIC STORE</span>
                     </div>
                 </div>
 
                 <div class="col-lg-6 responsive-menu">
-                    <div class="responsive-toggle fa fa-bars"> </div>
+                    <div class="responsive-toggle fa fa-bars"></div>
                     <nav class="fix-navbar" id="primary-navigation">
                         <ul class="primary-navbar">
                             <li class="dropdown active">
-                                <a class="nav-link" role="button" asp-controller="Home" asp-action="Index" aria-haspopup="true">Home</a>
-                            </li>
-                            <li><a class="nav-link">About Us</a></li>
-                            <li class="dropdown">
-                                <a class="nav-link" role="button" asp-controller="Fruits" asp-action="Shop" aria-haspopup="true">Shop</a>
+                                <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
                             </li>
                             <li>
-                                <a class="nav-link">Contact Us</a>
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="dropdown">
+                                <a class="nav-link" asp-controller="Fruits" asp-action="Shop">Shop</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#">Contact Us</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
-                </div>
+            </div>
         </nav>
     </header>
 
@@ -101,24 +105,10 @@
         </section>
         <section class="footer-bottom">
             <div class="pattern">
-                <img alt="" src="assets/img/icons/white-pattern.png">
+                <img alt="" src="~/Resource/IMG/white-pattern.png">
             </div>
             <div id="to-top" class="to-top"> <i class="fa fa-arrow-circle-o-up"></i> </div>
-            <div class="container ptb-50">
-                <div class="row">
-                    <div class="col-md-6 col-sm-5">
-                        <p>©2016 <a href="#"> <strong> naturix.com</strong> </a>, made with <i class="fa fa-heart red-clr"></i> by jThemes Studio, all right reserved</p>
-                    </div>
-                    <div class="col-md-6 col-sm-7">
-                        <ul class="primary-navbar footer-menu">
-                            <li> <a href="#">contact us </a> </li>
-                            <li> <a href="#">term of use  </a> </li>
-                            <li> <a href="#">site map  </a> </li>
-                            <li> <a href="#">privacy policy</a> </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+            
         </section>
     </footer>
 

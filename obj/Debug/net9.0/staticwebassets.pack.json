@@ -1,367 +1,411 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BadammiSite.bundle.scp.css",
+      "Id": "D:\\badammi\\badammi\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\BadammiSite.bundle.scp.css",
       "PackagePath": "staticwebassets\\BadammiSite.x5ibjdji28.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\background.jpg",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\IMG\\background.jpg",
       "PackagePath": "staticwebassets\\Resource\\IMG\\background.jpg"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature-1.png",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\IMG\\feature-1.png",
       "PackagePath": "staticwebassets\\Resource\\IMG\\feature-1.png"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature-2.png",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\IMG\\feature-2.png",
       "PackagePath": "staticwebassets\\Resource\\IMG\\feature-2.png"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature-3.png",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\IMG\\feature-3.png",
       "PackagePath": "staticwebassets\\Resource\\IMG\\feature-3.png"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature-4.png",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\IMG\\feature-4.png",
       "PackagePath": "staticwebassets\\Resource\\IMG\\feature-4.png"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\feature.png",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\IMG\\feature.png",
       "PackagePath": "staticwebassets\\Resource\\IMG\\feature.png"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\logo.png",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\IMG\\logo.png",
       "PackagePath": "staticwebassets\\Resource\\IMG\\logo.png"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\organic-1.png",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\IMG\\organic-1.png",
       "PackagePath": "staticwebassets\\Resource\\IMG\\organic-1.png"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\organic-2.png",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\IMG\\organic-2.png",
       "PackagePath": "staticwebassets\\Resource\\IMG\\organic-2.png"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\organic-3.png",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\IMG\\organic-3.png",
       "PackagePath": "staticwebassets\\Resource\\IMG\\organic-3.png"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\sec-img-1.png",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\IMG\\sec-img-1.png",
       "PackagePath": "staticwebassets\\Resource\\IMG\\sec-img-1.png"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\IMG\\sec-img-2.png",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\IMG\\sec-img-2.png",
       "PackagePath": "staticwebassets\\Resource\\IMG\\sec-img-2.png"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\Photo\\33326149.jpg",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\IMG\\white-pattern.png",
+      "PackagePath": "staticwebassets\\Resource\\IMG\\white-pattern.png"
+    },
+    {
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\Photo\\15876583.png",
+      "PackagePath": "staticwebassets\\Resource\\Photo\\15876583.png"
+    },
+    {
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\Photo\\27155808.png",
+      "PackagePath": "staticwebassets\\Resource\\Photo\\27155808.png"
+    },
+    {
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\Photo\\28247668.png",
+      "PackagePath": "staticwebassets\\Resource\\Photo\\28247668.png"
+    },
+    {
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\Photo\\33326149.jpg",
       "PackagePath": "staticwebassets\\Resource\\Photo\\33326149.jpg"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\Resource\\Photo\\63082797.jpg",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\Photo\\33563697.png",
+      "PackagePath": "staticwebassets\\Resource\\Photo\\33563697.png"
+    },
+    {
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\Photo\\35234672.png",
+      "PackagePath": "staticwebassets\\Resource\\Photo\\35234672.png"
+    },
+    {
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\Photo\\37354214.png",
+      "PackagePath": "staticwebassets\\Resource\\Photo\\37354214.png"
+    },
+    {
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\Photo\\52829986.png",
+      "PackagePath": "staticwebassets\\Resource\\Photo\\52829986.png"
+    },
+    {
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\Photo\\63082797.jpg",
       "PackagePath": "staticwebassets\\Resource\\Photo\\63082797.jpg"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\animate.css",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\Photo\\64400081.png",
+      "PackagePath": "staticwebassets\\Resource\\Photo\\64400081.png"
+    },
+    {
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\Photo\\68138810.png",
+      "PackagePath": "staticwebassets\\Resource\\Photo\\68138810.png"
+    },
+    {
+      "Id": "D:\\badammi\\badammi\\wwwroot\\Resource\\Photo\\71100053.png",
+      "PackagePath": "staticwebassets\\Resource\\Photo\\71100053.png"
+    },
+    {
+      "Id": "D:\\badammi\\badammi\\wwwroot\\css\\animate.css",
       "PackagePath": "staticwebassets\\css\\animate.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\bootstrap-select.min.css",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\css\\bootstrap-select.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap-select.min.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\bootstrap.min.css",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\font-awesome.min.css",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\css\\font-awesome.min.css",
       "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\owl.carousel.min.css",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\css\\owl.carousel.min.css",
       "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\site.css",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\css\\subscribe-better.css",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\css\\subscribe-better.css",
       "PackagePath": "staticwebassets\\css\\subscribe-better.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\favicon.ico",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\bootstrap-select.min.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\js\\plugin\\bootstrap-select.min.js",
       "PackagePath": "staticwebassets\\js\\plugin\\bootstrap-select.min.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\bootstrap.min.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\js\\plugin\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\plugin\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\jquery-2.2.4.min.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\js\\plugin\\jquery-2.2.4.min.js",
       "PackagePath": "staticwebassets\\js\\plugin\\jquery-2.2.4.min.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\jquery.countdown.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\js\\plugin\\jquery.countdown.js",
       "PackagePath": "staticwebassets\\js\\plugin\\jquery.countdown.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\jquery.plugin.min.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\js\\plugin\\jquery.plugin.min.js",
       "PackagePath": "staticwebassets\\js\\plugin\\jquery.plugin.min.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\plugin\\owl.carousel.min.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\js\\plugin\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\js\\plugin\\owl.carousel.min.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\site.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\js\\theme.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\js\\theme.js",
       "PackagePath": "staticwebassets\\js\\theme.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Id": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\BadammiSite\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "Id": "D:\\badammi\\badammi\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
