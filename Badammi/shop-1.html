@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="agency, ecommerce">
+        <meta name="author" content="Md. Siful Islam, Jtheme">
+
+        <title>Naturix</title>
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+        <!-- Font Icon -->
+        <link href="assets/css/plugin/font-awesome.min.css" rel="stylesheet" type="text/css">  
+
+        <!-- CSS Global -->
+        <link href="assets/css/plugin/bootstrap.min.css" rel="stylesheet" type="text/css">  
+        <link href="assets/css/plugin/bootstrap-select.min.css" rel="stylesheet" type="text/css"> 
+        <link href="assets/css/plugin/owl.carousel.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/plugin/animate.css" rel="stylesheet" type="text/css"> 
+        <link href="assets/css/plugin/jquery-ui.min.css" rel="stylesheet" type="text/css"> 
+
+        <!-- Custom CSS -->
+        <link href="assets/css/theme.css" rel="stylesheet" type="text/css">
+
+        <!-- Color CSS --> 
+
+        <!--[if lt IE 9]>
+        <script src="assets/js/plugin/html5shiv.js"></script>
+        <script src="assets/js/plugin/respond.js"></script>
+        <![endif]-->        
+    </head>
+
+    <body id="home" class="wide">
+
+        <!-- WRAPPER -->
+        <main class="wrapper"> 
+            <!-- CONTENT AREA -->
+
+            <!-- Main Header Start -->
+            <header class="main-header white-bg">                  
+                <div class="container-fluid rel-div">
+                    <div class="col-lg-4 col-sm-8">
+                        <div class="main-logo">
+                            <a href="index.html"> <img alt="" src="assets/img/logo/main-logo.png" />  </a>
+                            <span class="medium-font">ORGANIC STORE</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 responsive-menu">  
+                        <div class="responsive-toggle fa fa-bars"> </div>
+                        <nav class="fix-navbar" id="primary-navigation">            
+                            <ul class="primary-navbar">                                                
+                                <li class="dropdown active">
+                                    <a href="index.html">Home</a>                                            
+                                    
+                                </li> 
+                                <li><a href="about-us.html">About Us</a></li>
+                                <li class="dropdown">
+                                    <a href="shop-1.html">Fresh products</a>                                            
+                                </li>
+                                <li class="dropdown">
+                                    <a href="shop-2.html">Dried products</a>                                            
+                                </li>   
+                                <li><a href="contact.html">Contact Us</a></li>   
+                            </ul>                           
+                        </nav>
+                    </div>
+                        <div class="responsive-toggle fa fa-bars"> </div>
+                    </div>
+                </div>  
+            </header>
+            <!-- / Main Header Ends -->   
+
+            <!--Breadcrumb Section Start-->
+            <section class="breadcrumb-bg">                
+                <div class="theme-container container ">                       
+                    <div class="site-breadcumb white-clr">                        
+                        <h2 class="section-title"> <strong class="clr-txt">naturix </strong> <span class="light-font">Shop </span> </h2>
+                        <ol class="breadcrumb breadcrumb-menubar">
+                            <li> <a href="#"> Home </a> SHOP  </li>                             
+                        </ol>
+                    </div>  
+                </div>
+            </section>
+            <!--Breadcrumb Section End-->
+
+
+            <!-- Shop Starts-->
+            <section class="shop-wrap sec-space-bottom">
+                <div class="pattern"> 
+                    <img alt="" src="assets/img/icons/white-pattern.png">
+                </div>
+
+                <div class="container rel-div">
+                    <div class="row sort-bar">
+                        <div class="icon"> <img alt="" src="assets/img/logo/logo-2.png" /> </div>
+                        <div class="col-lg-6">
+                            <div class="sort-dropdown left">
+                                <span>CATEGORY</span>
+                                <div class="search-selectpicker selectpicker-wrapper">
+                                    <select class="selectpicker input-price"  data-width="100%"
+                                            data-toggle="tooltip">
+                                        <option>All product</option>
+                                        <option>A - Z</option>
+                                        <option>Z - A</option>
+                                        <option> Low - High </option>
+                                        <option> High - Low </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="sort-dropdown">
+                                <span>SORT BY</span>
+                                <div class="search-selectpicker selectpicker-wrapper">
+                                    <select class="selectpicker input-price"  data-width="100%"
+                                            data-toggle="tooltip">
+                                        <option>Popular item</option>
+                                        <option>A - Z</option>
+                                        <option>Z - A</option>
+                                        <option> Low - High </option>
+                                        <option> High - Low </option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div class="divider-full-1"></div>
+
+                    <div class="result-bar block-inline">
+                        <h4 class="result-txt">search result <b> 125 </b> </h4>
+                        <ul class="view-tabs">
+                            <li class="active">
+                                <a href="#grid-view" data-toggle="tab">                                                    
+                                    <i class="fa fa-th" onclick="hidenonlist()"></i>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="#list-view" data-toggle="tab">
+                                    <i class="fa fa-th-list" onclick="hidelist()"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-content shop-content"> <div id="grid-view" class="tab-pane fade active in" role="tabpanel">
+                            <div id="product" class="row"> 
+                                
+                            </div>
+                        <div id="list-view" class="tab-pane fade" role="tabpanel">
+                            <div id="listproduct" class="row"> 
+                                
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <!-- / Shop Ends -->      
+
+            <!-- / CONTENT AREA -->
+
+            <!-- FOOTER -->
+            <footer class="page-footer"> 
+                <section class="sec-space light-bg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-12 footer-widget">
+                                <div class="main-logo">
+                                    <a href="index.html"> <img alt="" src="assets/img/logo/main-logo.png" />  </a>
+                                    <span class="medium-font">ORGANIC STORE</span>
+                                </div>
+                                <span class="divider-2"></span>
+                                <div class="text-widget">
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
+                                    <ul>
+                                        <li> <i class="fa fa-map-marker"></i> <span> <strong>100 highland ave,</strong> california, united state </span> </li>
+                                        <li> <i class="fa fa-envelope-square"></i> <span><a href="#">contact@naturix.com</a> </span> </li>
+                                        <li> <i class="fa fa-phone-square"></i> <span><a href="#">www.naturix.com</a> </span> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-4 footer-widget">
+                                <h2 class="title-1">  <span class="light-font">naturix  </span> <strong>information </strong> </h2>
+                                <span class="divider-2"></span>
+                                <ul class="list">
+                                    <li> <a href="#"> about our shop </a> </li>
+                                    <li> <a href="#"> our blog </a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </footer>
+            <!-- /FOOTER -->
+
+            <div id="to-top-mb" class="to-top mb"> <i class="fa fa-arrow-circle-o-up"></i> </div>
+            
+        </main>
+        <!-- /WRAPPER -->
+
+        <!-- JS Global -->
+        <script src="assets/js/plugin/jquery-2.2.4.min.js"></script>   
+        <script src="assets/js/plugin/bootstrap.min.js"></script>
+        <script src="assets/js/plugin/bootstrap-select.min.js"></script>       
+        <script src="assets/js/plugin/owl.carousel.min.js"></script>
+        <script src="assets/js/plugin/jquery-ui.min.js"></script>
+
+        <!-- Custom JS -->   
+        <script src="assets/js/theme.js"></script>
+
+        <script>
+const apiUrl = "http://localhost:5279/Fruits/GetAllFruits";
+
+async function loadProducts() {
+    console.log("test");
+    const container = $("#product"); // div для карточек
+    const resultTxt = $(".result-bar .result-txt b"); // число результатов
+    const second = $("#listproduct"); // второй контейнер
+
+    try {
+        // Основной запрос к API с заголовком
+        const response = await fetch(apiUrl, {
+            headers: {
+                "ngrok-skip-browser-warning": "true"
+            }
+        });
+
+        if (!response.ok) throw new Error("Ошибка загрузки данных с API");
+
+        const fruits = await response.json();
+
+        // 🔥 Оставляем только те продукты, где НЕТ "dried" в названии
+        const filteredFruits = fruits.filter(fruit =>
+            !fruit.name.toLowerCase().includes("dried")
+        );
+
+        container.empty();
+        second.empty();
+        resultTxt.text(filteredFruits.length);
+
+        // Асинхронная загрузка изображений с заголовком
+        for (const fruit of filteredFruits) {
+            const photoResponse = await fetch(`http://localhost:5279/photos/${fruit.id}.png`, {
+                headers: {
+                    "ngrok-skip-browser-warning": "true"
+                }
+            });
+
+            let photoUrl;
+            if (photoResponse.ok) {
+                const blob = await photoResponse.blob();
+                photoUrl = URL.createObjectURL(blob);
+            } else {
+                photoUrl = "img/placeholder.png"; // запасное изображение
+            }
+
+            // Первая карточка (сеткой)
+            const card = `
+                <div class="col-lg-3 col-md-4 col-sm-6"> 
+                    <div class="product-box"> 
+                        <div class="product-media"> 
+                            <img class="prod-img" alt="${fruit.name}" src="${photoUrl}" />     
+                            <div class="prod-icons"> 
+                                <a href="shop-single.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>
+                            </div>
+                        </div>                                           
+                        <div class="product-caption"> 
+                            <h3 class="product-title">
+                                <a href="#"><strong>${fruit.name}</strong></a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            `;
+            container.append(card);
+
+            // Вторая карточка (списком)
+            const listCard = `
+                <div class="col-md-6 col-sm-12"> 
+                    <div class="deal-item list-view">
+                        <div class="deal-icons">                                         
+                            <a href="shop-single.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>                                      
+                        </div>
+                        <div class="deal-content">
+                            <div class="deal-text">
+                                <h4 class="sub-title"> ORGANIC FRUITS </h4>
+                                <h2 class="fsz-30 pb-15"> <a href="#"><strong>${fruit.name}</strong></a> </h2>
+                                <p>${fruit.composition}</p>
+                            </div>
+                            <div class="img images"> 
+                                <img alt="${fruit.name}" src="${photoUrl}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            second.append(listCard);
+            second.hide();
+        }
+
+    } catch (error) {
+        console.error("Ошибка при загрузке:", error);
+        container.html("<p>Не удалось загрузить данные о фруктах.</p>");
+        resultTxt.text(0);
+    }
+}
+
+$(document).ready(function() {
+    loadProducts();
+});
+
+async function hidenonlist() {
+    const container = $("#listproduct");
+    container.hide();
+    const toshow = $("#product");
+    toshow.show();
+}
+
+async function hidelist() {
+    const container = $("#product");
+    container.hide();
+    const toshow = $("#listproduct");
+    toshow.show();
+}
+
+</script>
+        
+
+    </body>
+</html>

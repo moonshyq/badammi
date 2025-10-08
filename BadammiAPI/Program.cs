@@ -37,6 +37,7 @@ if (app.Environment.IsDevelopment())
 }
 
 
+app.UseCors("AllowAll");
 app.UseStaticFiles(new StaticFileOptions
 {
     FileProvider = new PhysicalFileProvider(
@@ -50,5 +51,4 @@ app.MapControllerRoute(
             name: "default",
             pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.UseCors("AllowAll");
 app.Run();
