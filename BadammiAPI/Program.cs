@@ -18,6 +18,7 @@ else if (!File.Exists("Resourse/Json/Fruits.json"))
     File.Create("Resourse/Json/Fruits.json");
 }
 builder.Services.AddScoped<IJsonService, JsonService>();
+builder.Services.AddControllersWithViews();
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", policy =>
@@ -45,7 +46,6 @@ app.UseStaticFiles(new StaticFileOptions
     RequestPath = "/photos"
 });
 app.UseRouting();
-app.UseHttpsRedirection();
 app.MapControllers();
 app.MapControllerRoute(
             name: "default",

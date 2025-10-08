@@ -64,7 +64,7 @@ public class FruitsController : Controller
         return Ok();
     }
 
-    [HttpGet]
+    [HttpGet()]
     public IActionResult GetAllFruits()
     {
         Console.WriteLine(Path.Combine(Directory.GetCurrentDirectory(), "Resourse", "Photo"));

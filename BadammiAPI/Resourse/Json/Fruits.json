@@ -1,65 +1,130 @@
 [
-  {
-    "Id": 71100053,
-    "PhotoPath": "Resource\\Photo\\71100053.png",
-    "Name": "Dried Apricot ",
-    "Composition": "Vitamins A, C, E; potassium, iron, fiber",
-    "Benefits": [ "Prevents anemia", "Improves bowel function", "Supports cardiovascular health", "Increases skin elasticity" ]
-  },
-  {
-    "Id": 33563697,
-    "PhotoPath": "Resource\\Photo\\33563697.png",
-    "Name": "Dried Persimmon  ",
-    "Composition": " Natural sugars, potassium, magnesium, phosphorus, vitamins B and K",
-    "Benefits": [ "Quick source of energy", "Calms the nervous system", "Improves stomach and intestinal health", "Strengthens immunity" ]
-  },
-  {
-    "Id": 27155808,
-    "PhotoPath": "Resource\\Photo\\27155808.png",
-    "Name": "Dried Grape ",
-    "Composition": "Iron, magnesium, phosphorus, B vitamins, natural sugars",
-    "Benefits": [ "Purifies the blood and boosts hemoglobin", "Enhances brain function", "Reduces fatigue and provides energy", "Strengthens bones and teeth" ]
-  },
-  {
-    "Id": 52829986,
-    "PhotoPath": "Resource\\Photo\\52829986.png",
-    "Name": "Peach ",
-    "Composition": "Vitamins A, C, E; potassium, magnesium, iron, fiber",
-    "Benefits": [ "Improves digestion, prevents constipation", "Increases skin elasticity", "Calms the nervous system", "Strengthens immunity" ]
-  },
-  {
-    "Id": 15876583,
-    "PhotoPath": "Resource\\Photo\\15876583.png",
-    "Name": "Dried Fig ",
-    "Composition": "Calcium, potassium, iron, magnesium, fiber, vitamins A and B",
-    "Benefits": [ "Improves digestion", "Strengthens blood circulation", "Prevents constipation", "Strengthens bones" ]
-  },
-  {
-    "Id": 64400081,
-    "PhotoPath": "Resource\\Photo\\64400081.png",
-    "Name": "Nectarine ",
-    "Composition": "Vitamin C, vitamin A (beta-carotene), potassium, magnesium",
-    "Benefits": [ "Supports heart health", "Strengthens skin and eyes", "Regulates bowel function", "Maintains body\u2019s water-salt balance" ]
-  },
-  {
-    "Id": 28247668,
-    "PhotoPath": "Resource\\Photo\\28247668.png",
-    "Name": "Apple ",
-    "Composition": "Vitamin C, fiber (pectin), potassium, small amounts of vitamins A and B",
-    "Benefits": [ "Cleanses the body of toxins", "Reduces cholesterol, protects cardiovascular health", "Pectin strengthens intestines and improves digestion", "Boosts immunity" ]
-  },
-  {
-    "Id": 68138810,
-    "PhotoPath": "Resource\\Photo\\68138810.png",
-    "Name": "Tomato ",
-    "Composition": " Vitamin C, vitamin K, potassium, lycopene (powerful antioxidant)",
-    "Benefits": [ "Protects cardiovascular health", "Lycopene has anti-cancer effects", "Improves digestion", "Helps skin stay healthy and youthful" ]
-  },
-  {
-    "Id": 37354214,
-    "PhotoPath": "Resource\\Photo\\37354214.png",
-    "Name": "Cucumber ",
-    "Composition": "Water (95%), vitamin C, vitamin K, potassium, small amounts of magnesium",
-    "Benefits": [ "Refreshes the body and relieves thirst", "Improves kidney function, acts as a diuretic", "Positively affects skin and hair health", "Ideal for weight loss (very low in calories)" ]
-  }
+    {
+        "Id": 71100053,
+        "PhotoPath": "Resource\\Photo\\71100053.png",
+        "Name": "Dried Apricot ",
+        "Composition": "Vitamins A, C, E; potassium, iron, fiber",
+        "Benefits": [ "Prevents anemia", "Improves bowel function", "Supports cardiovascular health", "Increases skin elasticity" ]
+    },
+    {
+        "Id": 71100154,
+        "PhotoPath": "Resource\\Photo\\71100053.png",
+        "Name": "Dried Persimon ",
+        "Composition": "teset",
+        "Benefits": [ "test", "test", "test" ]
+    },
+    {
+        "Id": 71100902,
+        "PhotoPath": "Resource\\Photo\\71100053.png",
+        "Name": "Dried Grape ",
+        "Composition": "teset",
+        "Benefits": [ "test", "test", "test" ]
+    },
+    {
+        "Id": 71100752,
+        "PhotoPath": "Resource\\Photo\\71100053.png",
+        "Name": "Dried Fig ",
+        "Composition": "teset",
+        "Benefits": [ "test", "test", "test" ]
+    },
+    {
+        "Id": 71104657,
+        "PhotoPath": "Resource\\Photo\\71100053.png",
+        "Name": "Dried Pulm ",
+        "Composition": "teset",
+        "Benefits": [ "test", "test", "test" ]
+    },
+    {
+        "Id": 71104423,
+        "PhotoPath": "Resource\\Photo\\71100053.png",
+        "Name": "Dried Apple ",
+        "Composition": "teset",
+        "Benefits": [ "test", "test", "test" ]
+    },
+    {
+        "Id": 31104658,
+        "PhotoPath": "Resource\\Photo\\71100053.png",
+        "Name": "Persimmon ",
+        "Composition": "teset",
+        "Benefits": [ "test", "test", "test" ]
+    },
+    {
+        "Id": 31104360,
+        "PhotoPath": "Resource\\Photo\\71100053.png",
+        "Name": "Peach ",
+        "Composition": "teset",
+        "Benefits": [ "test", "test", "test" ]
+    },
+    {
+        "Id": 31104285,
+        "PhotoPath": "Resource\\Photo\\71100053.png",
+        "Name": "Apricot ",
+        "Composition": "teset",
+        "Benefits": [ "test", "test", "test" ]
+    },
+    {
+        "Id": 21104905,
+        "PhotoPath": "Resource\\Photo\\71100053.png",
+        "Name": "Hazelnut ",
+        "Composition": "teset",
+        "Benefits": [ "test", "test", "test" ]
+    },
+    {
+        "Id": 21104804,
+        "PhotoPath": "Resource\\Photo\\71100053.png",
+        "Name": "Walnut ",
+        "Composition": "teset",
+        "Benefits": [ "test", "test", "test" ]
+    },
+    {
+        "Id": 21104578,
+        "PhotoPath": "Resource\\Photo\\71100053.png",
+        "Name": "Pomegrante ",
+        "Composition": "teset",
+        "Benefits": [ "test", "test", "test" ]
+    },
+    {
+        "Id": 51104612,
+        "PhotoPath": "Resource\\Photo\\71100053.png",
+        "Name": "Chery ",
+        "Composition": "teset",
+        "Benefits": [ "test", "test", "test" ]
+    },
+    {
+        "Id": 51104816,
+        "PhotoPath": "Resource\\Photo\\71100053.png",
+        "Name": "Nectarine ",
+        "Composition": "teset",
+        "Benefits": [ "test", "test", "test" ]
+    },
+    {
+        "Id": 51104876,
+        "PhotoPath": "Resource\\Photo\\71100053.png",
+        "Name": "Apple ",
+        "Composition": "teset",
+        "Benefits": [ "test", "test", "test" ]
+    },
+    {
+        "Id": 51104390,
+        "PhotoPath": "Resource\\Photo\\71100053.png",
+        "Name": "Limon ",
+        "Composition": "teset",
+        "Benefits": [ "test", "test", "test" ]
+    },
+    {
+        "Id": 91104386,
+        "PhotoPath": "Resource\\Photo\\71100053.png",
+        "Name": "Tomato ",
+        "Composition": "teset",
+        "Benefits": [ "test", "test", "test" ]
+    }
+    {
+        "Id": 91104591,
+        "PhotoPath": "Resource\\Photo\\71100053.png",
+        "Name": "Cucumbers ",
+        "Composition": "teset",
+        "Benefits": [ "test", "test", "test" ]
+    }
+
+
 ]
