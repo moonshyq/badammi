@@ -60,12 +60,12 @@
                                     <a href="index.html">Home</a>                                            
                                 </li> 
                                 <li><a href="about-us.html">About Us</a></li>
-                               <li class="dropdown">
-                                    <a href="shop-1.html">Fresh products</a>                                            
+                               <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" >Fresh products</a> 
+                                    <ul id="fresh"class="dropdown-menu"> </ul> 
                                 </li>
-                                <li class="dropdown">
-                                    <a href="shop-2.html">Dried products</a>                                            
-                                </li>    
+                                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" >Dried products</a> 
+                                    <ul class="dropdown-menu"> </ul> 
+                                </li> 
                                 <li><a href="contact.html">Contact Us</a></li>   
                                         </li> 
                                     </ul>
@@ -321,6 +321,70 @@
         <!-- Custom JS -->   
         <script src="assets/js/theme.js"></script>
 
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+    const apiUrl = "http://localhost:5279/Fruits/GetAllFruits";
+
+    try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) throw new Error("Ошибка загрузки API");
+        const fruits = await response.json();
+
+        // === DRIED PRODUCTS ===
+        const dropdowns = document.querySelectorAll(".primary-navbar .dropdown");
+        let driedDropdown = null;
+
+        dropdowns.forEach(drop => {
+            const link = drop.querySelector("a");
+            if (link && link.textContent.trim().toLowerCase().includes("dried products")) {
+                driedDropdown = drop;
+            }
+        });
+
+        if (driedDropdown) {
+            let driedMenu = driedDropdown.querySelector(".dropdown-menu");
+            if (!driedMenu) {
+                driedMenu = document.createElement("ul");
+                driedMenu.classList.add("dropdown-menu");
+                driedDropdown.appendChild(driedMenu);
+            } else {
+                driedMenu.innerHTML = "";
+            }
+
+            const driedFruits = fruits.filter(f => f.name.toLowerCase().includes("dried"));
+            driedFruits.forEach(fruit => {
+                const li = document.createElement("li");
+                li.innerHTML = `<a href="shop-single.html?id=${fruit.id}">${fruit.name}</a>`;
+                driedMenu.appendChild(li);
+            });
+
+            const allLi = document.createElement("li");
+            allLi.innerHTML = `<a href="shop-2.html"><strong>All catalog</strong></a>`;
+            driedMenu.appendChild(allLi);
+        }
+
+        // === FRESH PRODUCTS ===
+        const freshMenu = document.getElementById("fresh");
+        if (freshMenu) {
+            freshMenu.innerHTML = "";
+
+            const freshFruits = fruits.filter(f => !f.name.toLowerCase().includes("dried"));
+            freshFruits.forEach(fruit => {
+                const li = document.createElement("li");
+                li.innerHTML = `<a href="shop-single.html?id=${fruit.id}">${fruit.name}</a>`;
+                freshMenu.appendChild(li);
+            });
+
+            const allFreshLi = document.createElement("li");
+            allFreshLi.innerHTML = `<a href="shop-1.html"><strong>All catalog</strong></a>`;
+            freshMenu.appendChild(allFreshLi);
+        }
+
+    } catch (err) {
+        console.error("Ошибка при загрузке фруктов:", err);
+    }
+});
+</script>
 
     </body>
 </html>
