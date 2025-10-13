@@ -255,6 +255,7 @@ img {
     display: block;
 }
 
+
 .mask-overlay {
     background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
 }
@@ -1908,6 +1909,11 @@ blockquote {
 
     .fix-navbar {
         padding: 80px 0;
+    }
+
+    .fix-a{
+        position: relative;
+        z-index: 9999;
     }
 
     .responsive-toggle {

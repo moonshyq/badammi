@@ -29,6 +29,7 @@ builder.Services.AddCors(options =>
             .AllowAnyHeader();
     });
 });
+builder.WebHost.UseUrls("http://0.0.0.0:8080");
 
 var app = builder.Build();
 

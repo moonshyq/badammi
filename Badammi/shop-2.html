@@ -10,7 +10,7 @@
         <meta name="description" content="agency, ecommerce">
         <meta name="author" content="Md. Siful Islam, Jtheme">
 
-        <title>Naturix</title>
+        <title>Badammi</title>
 
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
@@ -213,7 +213,7 @@
         <script src="assets/js/theme.js"></script>
 
         <script>
-const apiUrl = "http://localhost:5279/Fruits/GetAllFruits";
+const apiUrl = "https://cyano-talisha-uneduced.ngrok-free.dev/Fruits/GetAllFruits";
 
 async function loadProducts() {
     console.log("test");
@@ -244,7 +244,7 @@ async function loadProducts() {
 
         // Асинхронная загрузка изображений
         for (const fruit of filteredFruits) {
-            const photoResponse = await fetch(`http://localhost:5279/photos/${fruit.id}.png`, {
+            const photoResponse = await fetch(`https://cyano-talisha-uneduced.ngrok-free.dev/photos/71100053.png`, {
                 headers: {
                     "ngrok-skip-browser-warning": "true"
                 }
@@ -331,10 +331,14 @@ async function hidelist() {
         
 <script>
 document.addEventListener("DOMContentLoaded", async () => {
-    const apiUrl = "http://localhost:5279/Fruits/GetAllFruits";
+    const apiUrl = "http://0.0.0.0:8080/Fruits/GetAllFruits";
 
     try {
-        const response = await fetch(apiUrl);
+        const response = await fetch(apiUrl, {
+            headers: {
+                "ngrok-skip-browser-warning": "true"
+            }
+        });
         if (!response.ok) throw new Error("Ошибка загрузки API");
         const fruits = await response.json();
 
@@ -362,12 +366,12 @@ document.addEventListener("DOMContentLoaded", async () => {
             const driedFruits = fruits.filter(f => f.name.toLowerCase().includes("dried"));
             driedFruits.forEach(fruit => {
                 const li = document.createElement("li");
-                li.innerHTML = `<a href="shop-single.html?id=${fruit.id}">${fruit.name}</a>`;
+                li.innerHTML = `<a class="fix-a" href="shop-single.html?id=${fruit.id}">${fruit.name}</a>`;
                 driedMenu.appendChild(li);
             });
 
             const allLi = document.createElement("li");
-            allLi.innerHTML = `<a href="shop-2.html"><strong>All catalog</strong></a>`;
+            allLi.innerHTML = `<a class="fix-a" href="shop-2.html"><strong>All catalog</strong></a>`;
             driedMenu.appendChild(allLi);
         }
 
@@ -379,12 +383,12 @@ document.addEventListener("DOMContentLoaded", async () => {
             const freshFruits = fruits.filter(f => !f.name.toLowerCase().includes("dried"));
             freshFruits.forEach(fruit => {
                 const li = document.createElement("li");
-                li.innerHTML = `<a href="shop-single.html?id=${fruit.id}">${fruit.name}</a>`;
+                li.innerHTML = `<a class="fix-a" href="shop-single.html?id=${fruit.id}">${fruit.name}</a>`;
                 freshMenu.appendChild(li);
             });
 
             const allFreshLi = document.createElement("li");
-            allFreshLi.innerHTML = `<a href="shop-1.html"><strong>All catalog</strong></a>`;
+            allFreshLi.innerHTML = `<a class="fix-a" href="shop-1.html"><strong>All catalog</strong></a>`;
             freshMenu.appendChild(allFreshLi);
         }
 
