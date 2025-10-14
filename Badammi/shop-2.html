@@ -213,7 +213,7 @@
         <script src="assets/js/theme.js"></script>
 
         <script>
-const apiUrl = "https://cyano-talisha-uneduced.ngrok-free.dev/Fruits/GetAllFruits";
+const apiUrl = "http://40.83.191.148:5000/Fruits/GetAllFruits";
 
 async function loadProducts() {
     console.log("test");
@@ -244,7 +244,7 @@ async function loadProducts() {
 
         // Асинхронная загрузка изображений
         for (const fruit of filteredFruits) {
-            const photoResponse = await fetch(`https://cyano-talisha-uneduced.ngrok-free.dev/photos/71100053.png`, {
+            const photoResponse = await fetch(`http://40.83.191.148:5000/photos/71100053.png`, {
                 headers: {
                     "ngrok-skip-browser-warning": "true"
                 }
@@ -331,7 +331,7 @@ async function hidelist() {
         
 <script>
 document.addEventListener("DOMContentLoaded", async () => {
-    const apiUrl = "http://0.0.0.0:8080/Fruits/GetAllFruits";
+    const apiUrl = "http://40.83.191.148:5000/Fruits/GetAllFruits";
 
     try {
         const response = await fetch(apiUrl, {

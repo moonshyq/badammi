@@ -194,7 +194,7 @@ $(document).ready(function() {
             }
 
             // API для конкретного фрукта через ngrok
-            const apiUrl = `http://0.0.0.0:8080/Fruits/ShopOne?id=${fruitId}`;
+            const apiUrl = `http://40.83.191.148:5000/Fruits/ShopOne?id=${fruitId}`;
             const response = await fetch(apiUrl, {
                 headers: {
                     "ngrok-skip-browser-warning": "true"
@@ -211,7 +211,7 @@ $(document).ready(function() {
             $("#fruit-description").text(fruit.composition);
 
             // Загружаем изображение с заголовком
-            const photoResponse = await fetch(`http://0.0.0.0:8080/photos/71100053.png`, {
+            const photoResponse = await fetch(`http://40.83.191.148:5000/photos/71100053.png`, {
                 headers: {
                     "ngrok-skip-browser-warning": "true"
                 }
@@ -250,7 +250,7 @@ $(document).ready(function() {
 </script>
 <script>
 document.addEventListener("DOMContentLoaded", async () => {
-    const apiUrl = "http://0.0.0.0:8080/Fruits/GetAllFruits";
+    const apiUrl = "http://40.83.191.148:5000/Fruits/GetAllFruits";
 
     try {
         const response = await fetch(apiUrl, {
