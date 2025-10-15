@@ -97,14 +97,15 @@
             <section class="shop-wrap sec-space-bottom">
                 <div class="container rel-div pt-50">
                     <div class="row">
-                        <div class="col-md-9 pt-15">
+                        <div class="col-md-9 pt-15">                          
                             <div class="product-single sec-space-bottom  clearfix">
                                 <div class="col-lg-6 pb-50 col-sm-8 col-sm-offset-2 col-lg-offset-0">
                                     <div class="prod-slider sync1">
-                                        <div class="item"> 
-                                            <img id="fruit-img"src="" alt="">                                           
-                                        </div>
                                     </div>
+
+                                <div class="sync2-container">
+                                    <div class="sync2 owl-carousel"></div>
+                                </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="product-content block-inline">
@@ -183,132 +184,162 @@
 
 
 <script>
-$(document).ready(function() {
+$(document).ready(function () {
     async function loadFruit() {
         try {
-            // Получаем id из URL
             const fruitId = new URLSearchParams(window.location.search).get("id");
-            if (!fruitId) {
-                console.warn("Id не найден в URL");
-                return;
-            }
+            if (!fruitId) return console.warn("❌ Id не найден в URL");
 
-            // API для конкретного фрукта через ngrok
-            const apiUrl = `http://40.83.191.148:5000/Fruits/ShopOne?id=${fruitId}`;
-            const response = await fetch(apiUrl, {
-                headers: {
-                    "ngrok-skip-browser-warning": "true"
-                }
-            });
-
-            if (!response.ok) throw new Error("Ошибка загрузки данных с API");
-
+            const apiUrl = `http://localhost:8080/Fruits/ShopOne?id=${fruitId}`;
+            const response = await fetch(apiUrl, { headers: { "ngrok-skip-browser-warning": "true" } });
+            if (!response.ok) throw new Error("Ошибка загрузки данных: " + response.status);
             const fruit = await response.json();
-            console.log(fruit);
 
-            // Подставляем данные на страницу
             $("#fruit-name").text(fruit.name);
             $("#fruit-description").text(fruit.composition);
 
-            // Загружаем изображение с заголовком
-            const photoResponse = await fetch(`http://40.83.191.148:5000/photos/71100053.png`, {
-                headers: {
-                    "ngrok-skip-browser-warning": "true"
-                }
-            });
+            const mainSlider = $(".prod-slider.sync1");
+            const thumbSlider = $(".sync2");
+            mainSlider.empty();
+            thumbSlider.empty();
 
-            if (photoResponse.ok) {
-                const blob = await photoResponse.blob();
-                const imgUrl = URL.createObjectURL(blob);
-                $("#fruit-img").attr("src", imgUrl);
-            } else {
-                $("#fruit-img").attr("src", "assets/img/products/7.png");
-            }
+            const mainImgUrl = `http://localhost:8080/photos/${fruit.id}.png`;
+            const thumbnails = [mainImgUrl];
 
-            $("#fruit-img").attr("alt", fruit.name);
-
-            // Подставляем список benefits
-            if (fruit.benefits && fruit.benefits.length > 0) {
-                const benefitsList = $("#fruit-benefits");
-                benefitsList.empty();
-                fruit.benefits.forEach(benefit => {
-                    benefitsList.append(`<li>${benefit}</li>`);
+            if (fruit.childPhotoPath && fruit.childPhotoPath.length > 0) {
+                fruit.childPhotoPath.forEach((_, index) => {
+                    const imgUrl = `http://localhost:8080/photos/${fruit.id}_${index + 1}.png`;
+                    thumbnails.push(imgUrl);
                 });
             }
+
+            // --- Главная фотка ---
+            mainSlider.append(`
+                <div class="item active">
+                    <img id="main-photo" src="${mainImgUrl}" alt="${fruit.name}" style="width:350px;height:auto;object-fit:cover;border-radius:8px;cursor:grab;">
+                </div>
+            `);
+
+            // --- Миниатюры ---
+            thumbnails.forEach((url, i) => {
+                thumbSlider.append(`
+                    <div class="item thumb" data-index="${i}">
+                        <img src="${url}" alt="thumb ${i}" style="width:80px;height:80px;object-fit:cover;border:2px solid ${i===0?'#6ab04c':'transparent'};border-radius:6px;cursor:pointer;">
+                    </div>
+                `);
+            });
+
+            // --- Преимущества ---
+            const benefitsList = $("#fruit-benefits");
+            benefitsList.empty();
+            if (fruit.benefits && fruit.benefits.length > 0) {
+                fruit.benefits.forEach(benefit => benefitsList.append(`<li>${benefit}</li>`));
+            }
+
+            // --- Инициализация Owl Carousel ---
+            mainSlider.owlCarousel({ items: 1, loop: false, dots: false, nav: true, navText: ["<",">"], smartSpeed: 500 });
+           thumbSlider.owlCarousel({
+    items: 5,
+    margin: 10,
+    dots: false,
+    nav: true,          // включаем кнопки
+    navText: ["<",">"], // текст кнопок
+    smartSpeed: 500,
+    slideBy: 1,
+    loop: false         // если нужно бесконечное листание, ставим true
+});
+
+            // --- Функция обновления главного фото ---
+            function updateMainPhoto(index) {
+    const newSrc = thumbnails[index];
+    const mainPhoto = $("#main-photo");
+
+    // Сначала делаем fade out
+    mainPhoto.css("opacity", "0");
+
+    setTimeout(() => {
+        mainPhoto.attr("src", newSrc);
+        mainPhoto.css("opacity", "1"); // плавный fade in
+    }, 200); // половина времени перехода
+     
+    $(".sync2 .item img").css("border", "2px solid transparent");
+    $(".sync2 .item").eq(index).find("img").css("border", "2px solid #6ab04c");
+}
+
+            // --- Клик по миниатюрам ---
+            $(".sync2 .item img").on("click", function () {
+                const index = $(this).parent().data("index");
+                updateMainPhoto(index);
+            });
+
+            // --- Drag / swipe главной фотографии ---
+            let startX = 0;
+            let endX = 0;
+            const mainPhoto = document.getElementById("main-photo");
+            if (mainPhoto) {
+            mainPhoto.ondragstart = () => false;
+            }
+
+            function handleDrag() {
+                const diff = endX - startX;
+                let currentIndex = thumbnails.indexOf($("#main-photo").attr("src"));
+
+                if (diff > 30) currentIndex = Math.max(currentIndex - 1, 0);
+                else if (diff < -30) currentIndex = Math.min(currentIndex + 1, thumbnails.length - 1);
+
+                updateMainPhoto(currentIndex);
+            }
+
+            mainPhoto.addEventListener("mousedown", e => startX = e.clientX);
+            mainPhoto.addEventListener("mouseup", e => { endX = e.clientX; handleDrag(); });
+            mainPhoto.addEventListener("touchstart", e => startX = e.touches[0].clientX);
+            mainPhoto.addEventListener("touchend", e => { endX = e.changedTouches[0].clientX; handleDrag(); });
 
         } catch (error) {
             console.error("Ошибка при загрузке фрукта:", error);
             $("#fruit-name").text("Не удалось загрузить фрукт");
             $("#fruit-description").text("");
-            $("#fruit-img").attr("src", "assets/img/products/7.png");
-            $("#fruit-benefits").empty();
         }
     }
 
     loadFruit();
 });
-</script>
-<script>
+
+// === Загрузка всех фруктов для меню ===
 document.addEventListener("DOMContentLoaded", async () => {
-    const apiUrl = "http://40.83.191.148:5000/Fruits/GetAllFruits";
+    const apiUrl = "http://localhost:8080/Fruits/GetAllFruits";
 
     try {
-        const response = await fetch(apiUrl, {
-            headers: {
-                "ngrok-skip-browser-warning": "true"
-            }
-        });
+        const response = await fetch(apiUrl, { headers: { "ngrok-skip-browser-warning": "true" } });
         if (!response.ok) throw new Error("Ошибка загрузки API");
         const fruits = await response.json();
 
-        // === DRIED PRODUCTS ===
-        const dropdowns = document.querySelectorAll(".primary-navbar .dropdown");
-        let driedDropdown = null;
-
-        dropdowns.forEach(drop => {
-            const link = drop.querySelector("a");
-            if (link && link.textContent.trim().toLowerCase().includes("dried products")) {
-                driedDropdown = drop;
-            }
-        });
-
+        // --- Dried Products ---
+        const driedDropdown = Array.from(document.querySelectorAll(".primary-navbar .dropdown")).find(drop => 
+            drop.querySelector("a")?.textContent.toLowerCase().includes("dried products")
+        );
         if (driedDropdown) {
             let driedMenu = driedDropdown.querySelector(".dropdown-menu");
-            if (!driedMenu) {
-                driedMenu = document.createElement("ul");
-                driedMenu.classList.add("dropdown-menu");
-                driedDropdown.appendChild(driedMenu);
-            } else {
-                driedMenu.innerHTML = "";
-            }
-
-            const driedFruits = fruits.filter(f => f.name.toLowerCase().includes("dried"));
-            driedFruits.forEach(fruit => {
+            if (!driedMenu) { driedMenu = document.createElement("ul"); driedMenu.classList.add("dropdown-menu"); driedDropdown.appendChild(driedMenu); }
+            driedMenu.innerHTML = "";
+            fruits.filter(f => f.name.toLowerCase().includes("dried")).forEach(fruit => {
                 const li = document.createElement("li");
                 li.innerHTML = `<a class="fix-a" href="shop-single.html?id=${fruit.id}">${fruit.name}</a>`;
                 driedMenu.appendChild(li);
             });
-
-            const allLi = document.createElement("li");
-            allLi.innerHTML = `<a class="fix-a" href="shop-2.html"><strong>All catalog</strong></a>`;
-            driedMenu.appendChild(allLi);
+            driedMenu.innerHTML += `<li><a class="fix-a" href="shop-2.html"><strong>All catalog</strong></a></li>`;
         }
 
-        // === FRESH PRODUCTS ===
+        // --- Fresh Products ---
         const freshMenu = document.getElementById("fresh");
         if (freshMenu) {
             freshMenu.innerHTML = "";
-
-            const freshFruits = fruits.filter(f => !f.name.toLowerCase().includes("dried"));
-            freshFruits.forEach(fruit => {
+            fruits.filter(f => !f.name.toLowerCase().includes("dried")).forEach(fruit => {
                 const li = document.createElement("li");
                 li.innerHTML = `<a class="fix-a" href="shop-single.html?id=${fruit.id}">${fruit.name}</a>`;
                 freshMenu.appendChild(li);
             });
-
-            const allFreshLi = document.createElement("li");
-            allFreshLi.innerHTML = `<a class="fix-a" href="shop-1.html"><strong>All catalog</strong></a>`;
-            freshMenu.appendChild(allFreshLi);
+            freshMenu.innerHTML += `<li><a class="fix-a" href="shop-1.html"><strong>All catalog</strong></a></li>`;
         }
 
     } catch (err) {
@@ -316,6 +347,63 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 });
 </script>
+ 
+<style>
+  .sync2-container {
+    position: relative;
+}
 
+.sync2 .owl-nav {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    pointer-events: none; /* Чтобы кнопки не перекрывались миниатюрами */
+    z-index: 10;
+}
+
+.sync2 .owl-nav button {
+    pointer-events: all;
+    background: #6ab04c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.sync2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+     overflow: visible !important;
+}
+
+.sync2 .item {
+    margin-right: 10px;
+}
+
+.sync2 .owl-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sync2 .owl-nav button {
+    background: #6ab04c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#main-photo {
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+</style>
     </body>
 </html>

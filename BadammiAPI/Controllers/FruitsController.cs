@@ -60,6 +60,7 @@ public class FruitsController : Controller
             Composition = fruit.Composition,
             Id = id,
             PhotoPath = fruit.PhotoPath,
+            ChildPhotoPath = fruit.ChildPhotoPath,
         });
         return Ok();
     }

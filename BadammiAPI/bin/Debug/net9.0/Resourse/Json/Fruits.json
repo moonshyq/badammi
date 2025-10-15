@@ -1,130 +1,51 @@
 [
-    {
-        "Id": 71100053,
-        "PhotoPath": "Resource\\Photo\\71100053.png",
-        "Name": "Dried Apricot ",
-        "Composition": "Vitamins A, C, E; potassium, iron, fiber",
-        "Benefits": [ "Prevents anemia", "Improves bowel function", "Supports cardiovascular health", "Increases skin elasticity" ]
-    },
-    {
-        "Id": 71100154,
-        "PhotoPath": "Resource\\Photo\\71100053.png",
-        "Name": "Dried Persimon ",
-        "Composition": "teset",
-        "Benefits": [ "test", "test", "test" ]
-    },
-    {
-        "Id": 71100902,
-        "PhotoPath": "Resource\\Photo\\71100053.png",
-        "Name": "Dried Grape ",
-        "Composition": "teset",
-        "Benefits": [ "test", "test", "test" ]
-    },
-    {
-        "Id": 71100752,
-        "PhotoPath": "Resource\\Photo\\71100053.png",
-        "Name": "Dried Fig ",
-        "Composition": "teset",
-        "Benefits": [ "test", "test", "test" ]
-    },
-    {
-        "Id": 71104657,
-        "PhotoPath": "Resource\\Photo\\71100053.png",
-        "Name": "Dried Pulm ",
-        "Composition": "teset",
-        "Benefits": [ "test", "test", "test" ]
-    },
-    {
-        "Id": 71104423,
-        "PhotoPath": "Resource\\Photo\\71100053.png",
-        "Name": "Dried Apple ",
-        "Composition": "teset",
-        "Benefits": [ "test", "test", "test" ]
-    },
-    {
-        "Id": 31104658,
-        "PhotoPath": "Resource\\Photo\\71100053.png",
-        "Name": "Persimmon ",
-        "Composition": "teset",
-        "Benefits": [ "test", "test", "test" ]
-    },
-    {
-        "Id": 31104360,
-        "PhotoPath": "Resource\\Photo\\71100053.png",
-        "Name": "Peach ",
-        "Composition": "teset",
-        "Benefits": [ "test", "test", "test" ]
-    },
-    {
-        "Id": 31104285,
-        "PhotoPath": "Resource\\Photo\\71100053.png",
-        "Name": "Apricot ",
-        "Composition": "teset",
-        "Benefits": [ "test", "test", "test" ]
-    },
-    {
-        "Id": 21104905,
-        "PhotoPath": "Resource\\Photo\\71100053.png",
-        "Name": "Hazelnut ",
-        "Composition": "teset",
-        "Benefits": [ "test", "test", "test" ]
-    },
-    {
-        "Id": 21104804,
-        "PhotoPath": "Resource\\Photo\\71100053.png",
-        "Name": "Walnut ",
-        "Composition": "teset",
-        "Benefits": [ "test", "test", "test" ]
-    },
-    {
-        "Id": 21104578,
-        "PhotoPath": "Resource\\Photo\\71100053.png",
-        "Name": "Pomegrante ",
-        "Composition": "teset",
-        "Benefits": [ "test", "test", "test" ]
-    },
-    {
-        "Id": 51104612,
-        "PhotoPath": "Resource\\Photo\\71100053.png",
-        "Name": "Chery ",
-        "Composition": "teset",
-        "Benefits": [ "test", "test", "test" ]
-    },
-    {
-        "Id": 51104816,
-        "PhotoPath": "Resource\\Photo\\71100053.png",
-        "Name": "Nectarine ",
-        "Composition": "teset",
-        "Benefits": [ "test", "test", "test" ]
-    },
-    {
-        "Id": 51104876,
-        "PhotoPath": "Resource\\Photo\\71100053.png",
-        "Name": "Apple ",
-        "Composition": "teset",
-        "Benefits": [ "test", "test", "test" ]
-    },
-    {
-        "Id": 51104390,
-        "PhotoPath": "Resource\\Photo\\71100053.png",
-        "Name": "Limon ",
-        "Composition": "teset",
-        "Benefits": [ "test", "test", "test" ]
-    },
-    {
-        "Id": 91104386,
-        "PhotoPath": "Resource\\Photo\\71100053.png",
-        "Name": "Tomato ",
-        "Composition": "teset",
-        "Benefits": [ "test", "test", "test" ]
-    },
-    {
-        "Id": 91104591,
-        "PhotoPath": "Resource\\Photo\\71100053.png",
-        "Name": "Cucumbers ",
-        "Composition": "teset",
-        "Benefits": [ "test", "test", "test" ]
-    }
-
+  {
+    "Id": 10000001,
+    "PhotoPath": "Resource\\Photo\\10000001.png",
+    "ChildPhotoPath": ["Resource\\Photo\\10000001_1.png" ],
+    "Name": "Dried Apricot",
+    "Composition": "Vitamins A, C, E; potassium, iron, fiber",
+    "Benefits": [ "Prevents anemia", "Improves bowel function", "Supports cardiovascular health", "Increases skin elasticity" ]
+  },
+  {
+    "Id": 10000002,
+    "PhotoPath": "Resource\\Photo\\10000002.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000002_1.png" ],
+    "Name": "Dried Persimmon",
+    "Composition": "Natural sugars, potassium, magnesium,phosphorus, vitamins B and K",
+    "Benefits": [ "Quick source of energy", "Calms the nervous system", "Improves stomach and intestinal health", "Strengthens immunity" ]
+  },
+  {
+    "Id": 10000003,
+    "PhotoPath": "Resource\\Photo\\10000003.png",
+    "ChildPhotoPath": ["Resource\\Photo\\10000003_1.png" ],
+    "Name": "Dried Grape",
+    "Composition": "Iron, magnesium, phosphorus, B vitamins, natural, sugars",
+    "Benefits": [ "Purifies the blood and boosts hemoglobin", "Enhances brain function", "Reduces fatigue and provides energy", "Strengthens bones and teeth" ]
+  },
+  {
+    "Id": 10000004,
+    "PhotoPath": "Resource\\Photo\\10000004.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000004_1.png" ],
+    "Name": "Dried Fig",
+    "Composition": "Calcium, potassium, iron, magnesium, fiber,vitamins A and B",
+    "Benefits": [ "Improves digestion", "Strengthens blood circulation", "Prevents constipation", "Strengthens bones" ]
+  },
+  {
+    "Id": 10000005,
+    "PhotoPath": "Resource\\Photo\\10000005.png",
+    "ChildPhotoPath": ["Resource\\Photo\\10000005_1.png" ],
+    "Name": "Dried Plum",
+    "Composition": "Fiber, potassium, antioxidants, vitamins A and K",
+    "Benefits": [ "Natural remedy for constipation", "Lowers cholesterol", "Protects heart health", "Has anti-aging effects" ]
+  },
+  {
+    "Id": 10000006,
+    "PhotoPath": "Resource\\Photo\\10000006.png",
+    "ChildPhotoPath": ["Resource\\Photo\\10000006_1.png" ],
+    "Name": "Dried Apple",
+    "Composition": "Pectin, vitamin C, fiber, potassium",
+    "Benefits": [ "Cleanses the body of toxins", "Helps with weight control", "Strengthens gut microflora", "Supports cardiovascular system" ]
+  }
 
 ]
