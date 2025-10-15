@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\badammi\\BadammiAPI\\BadammiAPI.csproj": {}
+    "D:\\badammi\\badammi\\BadammiAPI\\BadammiAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\badammi\\BadammiAPI\\BadammiAPI.csproj": {
+    "D:\\badammi\\badammi\\BadammiAPI\\BadammiAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\badammi\\BadammiAPI\\BadammiAPI.csproj",
+        "projectUniqueName": "D:\\badammi\\badammi\\BadammiAPI\\BadammiAPI.csproj",
         "projectName": "BadammiAPI",
-        "projectPath": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\badammi\\BadammiAPI\\BadammiAPI.csproj",
-        "packagesPath": "C:\\Users\\lyoha)\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lyoha)\\source\\repos\\BadammiSite\\badammi\\BadammiAPI\\obj\\",
+        "projectPath": "D:\\badammi\\badammi\\BadammiAPI\\BadammiAPI.csproj",
+        "packagesPath": "C:\\Users\\leoka\\.nuget\\packages\\",
+        "outputPath": "D:\\badammi\\badammi\\BadammiAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lyoha)\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\leoka\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,9 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -75,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

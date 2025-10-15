@@ -94,38 +94,45 @@
 
 
             <!-- Shop Starts-->
-            <section class="shop-wrap sec-space-bottom">
-                <div class="container rel-div pt-50">
-                    <div class="row">
-                        <div class="col-md-9 pt-15">                          
-                            <div class="product-single sec-space-bottom  clearfix">
-                                <div class="col-lg-6 pb-50 col-sm-8 col-sm-offset-2 col-lg-offset-0">
-                                    <div class="prod-slider sync1">
-                                    </div>
+<section class="shop-wrap sec-space-bottom">
+<div class="container rel-div pt-50">
+         <div class="row align-items-start product-layout">
+    <!-- Блок с текстом -->
+        <div class="col-lg-6 order-2 product-info">
+            <h3 class="section-title">
+                <a href="#">
+                    <strong id="fruit-name">Название</strong>
+                </a>
+        </h3>
+        <span class="divider-2"></span>
+        <div class="fsz-16">
+            <p><strong><h3>Composition:</h3></strong></p>
+            <p id="fruit-description"><h2></h2></p>
+        </div>
+    </div>
 
-                                <div class="sync2-container">
-                                    <div class="sync2 owl-carousel"></div>
-                                </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="product-content block-inline">
-                                        <div class="single-caption"> 
-                                            <h3 class="section-title">
-                                                <a href="#"> <span class="light-font"> organic </span>  <strong id="fruit-name">Название</strong></a>
-                                            </h3>
-                                            <span class="divider-2"></span>
-                                            <div class="fsz-16">
-                                                <p><strong>Composition:</strong> </p>
-                                                <p id="fruit-description"></p>
-                                            </div>
-                                            <div class="fsz-16">
-                                                <p><strong>Benefits:</strong></p>
-                                                <ul id="fruit-benefits"></ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> 
-                            </div>  
+    <!-- Фото -->
+    <div class="col-lg-6 order-1 product-photo">
+        <div class="prod-slider sync1"></div>
+
+        <div class="sync2-container">
+            <div class="sync2 owl-carousel"></div>
+        </div>
+
+        <div class="fsz-16">
+            <p><strong><h3>Benefits:</h3></strong></p>
+            <ul id="fruit-benefits"><h2></h2></ul>
+        </div>
+    </div>
+</div>
+ <div class="tab-content shop-content"> 
+        <div id="grid-view" class="tab-pane fade active in check" role="tabpanel">
+            <div id="product" class="row">  
+
+            </div>
+        </div>
+</div>
+
 
             </section>
             <!-- / Shop Ends -->      
@@ -186,6 +193,7 @@
 <script>
 $(document).ready(function () {
     async function loadFruit() {
+    const container = $("#product");
         try {
             const fruitId = new URLSearchParams(window.location.search).get("id");
             if (!fruitId) return console.warn("❌ Id не найден в URL");
@@ -196,7 +204,7 @@ $(document).ready(function () {
             const fruit = await response.json();
 
             $("#fruit-name").text(fruit.name);
-            $("#fruit-description").text(fruit.composition);
+            $("#fruit-description").text(`${fruit.composition}`);
 
             const mainSlider = $(".prod-slider.sync1");
             const thumbSlider = $(".sync2");
@@ -206,10 +214,68 @@ $(document).ready(function () {
             const mainImgUrl = `http://localhost:8080/photos/${fruit.id}.png`;
             const thumbnails = [mainImgUrl];
 
+function addLineBreaks(text, wordsPerLine = 3) {
+    const words = text.split(' ');
+    let result = '';
+    for (let i = 0; i < words.length; i++) {
+        result += words[i] + ' ';
+        if ((i + 1) % wordsPerLine === 0) result += '\n';
+    }
+    return result.trim();
+}
+
+
             if (fruit.childPhotoPath && fruit.childPhotoPath.length > 0) {
+                const processedComposition = addLineBreaks(fruit.composition, 3);
+                
                 fruit.childPhotoPath.forEach((_, index) => {
                     const imgUrl = `http://localhost:8080/photos/${fruit.id}_${index + 1}.png`;
                     thumbnails.push(imgUrl);
+                    const card = `
+                <div class="col-lg-3 col-md-4 col-sm-6"> 
+                    <div class="product-box"> 
+                        <div class="product-media"> 
+                            <img class="prod-img" alt="${fruit.name}" src="${imgUrl}" />     
+                        </div>                                           
+                        <div class="product-caption"> 
+                            <h3 class="product-title">
+                                <a href="#"><strong>${processedComposition}</strong></a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            `;
+            const card1 = `
+                <div class="col-lg-3 col-md-4 col-sm-6"> 
+                    <div class="product-box"> 
+                        <div class="product-media"> 
+                            <img class="prod-img" alt="${fruit.name}" src="${imgUrl}" />     
+                        </div>                                           
+                        <div class="product-caption"> 
+                            <h3 class="product-title">
+                                <a href="#"><strong>${processedComposition}</strong></a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            `;
+            const card2 = `
+                <div class="col-lg-3 col-md-4 col-sm-6"> 
+                    <div class="product-box"> 
+                        <div class="product-media"> 
+                            <img class="prod-img" alt="${fruit.name}" src="${imgUrl}" />     
+                        </div>                                           
+                        <div class="product-caption"> 
+                            <h3 class="product-title">
+                                <a href="#"><strong>${processedComposition}</strong></a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            `;
+            container.append(card);
+            container.append(card2);
+            container.append(card1);
                 });
             }
 
@@ -349,6 +415,20 @@ document.addEventListener("DOMContentLoaded", async () => {
 </script>
  
 <style>
+    #fruit-name {
+    font-size: 50px; /* было 22px */
+    font-weight: 700; /* чтобы выделялось */
+}
+
+/* Заголовок Composition */
+#fruit-description {
+    font-size: 20px; /* увеличиваем основной текст композиции */
+}
+
+.fsz-16 {
+    font-size: 24px; /* заголовок Composition */
+    margin-bottom: 5px; /* чуть меньше отступ снизу */
+}
   .sync2-container {
     position: relative;
 }
@@ -374,6 +454,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     border-radius: 4px;
     cursor: pointer;
     opacity: 1;
+}
+
+.product-title strong {
+    white-space: pre-line; /* учитывает символы \n */
 }
 
 .sync2 {
@@ -404,6 +488,57 @@ document.addEventListener("DOMContentLoaded", async () => {
 #main-photo {
     transition: transform 0.4s ease, opacity 0.4s ease;
 }
+
+.product-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+
+/* Чтобы на ПК текст был справа */
+@media (min-width: 992px) {
+    .product-info {
+        order: 2;
+        padding-right: 300px; /* текст будет первым — справа */
+    }
+    .product-photo {
+        order: 1; /* фото второе — слева */
+    }
+
+    .product-layout {
+        flex-wrap: nowrap; /* чтобы колонки не переносились */
+    }
+
+    .product-info, .product-photo {
+        flex: 1;
+    }
+}
+/* На телефоне текст переходит наверх */
+@media (max-width: 991px) {
+    .product-info {
+        order: 1;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .product-photo {
+        order: 2;
+        width: 100%;
+        text-align: center;
+    }
+
+    #fruit-name {
+        font-size: 22px;
+    }
+
+    #fruit-description {
+        font-size: 16px;
+    }
+}
+
 </style>
     </body>
 </html>

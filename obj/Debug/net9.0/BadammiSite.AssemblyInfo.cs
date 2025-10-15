@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BadammiSite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4304f0edf0134afe847f60913f4affece78622ab")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+68e43a0f69313a7a5fe03d98aa400d77ffb6c305")]
 [assembly: System.Reflection.AssemblyProductAttribute("BadammiSite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BadammiSite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

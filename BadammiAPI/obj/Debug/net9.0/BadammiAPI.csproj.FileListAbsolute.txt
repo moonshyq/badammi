@@ -41,8 +41,6 @@ D:\badammi\badammi\BadammiAPI\obj\Debug\net9.0\BadammiAPI.AssemblyInfo.cs
 D:\badammi\badammi\BadammiAPI\obj\Debug\net9.0\BadammiAPI.csproj.CoreCompileInputs.cache
 D:\badammi\badammi\BadammiAPI\obj\Debug\net9.0\BadammiAPI.MvcApplicationPartsAssemblyInfo.cs
 D:\badammi\badammi\BadammiAPI\obj\Debug\net9.0\BadammiAPI.MvcApplicationPartsAssemblyInfo.cache
-D:\badammi\badammi\BadammiAPI\obj\Debug\net9.0\BadammiAPI.RazorAssemblyInfo.cache
-D:\badammi\badammi\BadammiAPI\obj\Debug\net9.0\BadammiAPI.RazorAssemblyInfo.cs
 D:\badammi\badammi\BadammiAPI\obj\Debug\net9.0\BadammiAPI.sourcelink.json
 D:\badammi\badammi\BadammiAPI\obj\Debug\net9.0\BadammiAPI.dll
 D:\badammi\badammi\BadammiAPI\obj\Debug\net9.0\refint\BadammiAPI.dll
