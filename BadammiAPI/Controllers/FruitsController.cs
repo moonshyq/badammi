@@ -61,6 +61,8 @@ public class FruitsController : Controller
             Id = id,
             PhotoPath = fruit.PhotoPath,
             ChildPhotoPath = fruit.ChildPhotoPath,
+            ChildPhotoText = fruit.ChildPhotoText,
+            Color = fruit.Color,
         });
         return Ok();
     }

@@ -80,16 +80,6 @@
             <!-- / Main Header Ends -->   
 
             <!--Breadcrumb Section Start-->
-            <section class="breadcrumb-bg">                
-                <div class="theme-container container ">                       
-                    <div class="site-breadcumb white-clr">                        
-                        <h2 class="section-title"> <strong class="clr-txt">naturix </strong> <span class="light-font">Shop </span> </h2>
-                        <ol class="breadcrumb breadcrumb-menubar">
-                            <li> <a href="index.html"> Home </a> SHOP  </li>                             
-                        </ol>
-                    </div>  
-                </div>
-            </section>
             <!--Breadcrumb Section End-->
 
 
@@ -97,6 +87,7 @@
 <section class="shop-wrap sec-space-bottom">
 <div class="container rel-div pt-50">
          <div class="row align-items-start product-layout">
+            
     <!-- Блок с текстом -->
         <div class="col-lg-6 order-2 product-info">
             <h3 class="section-title">
@@ -106,9 +97,10 @@
         </h3>
         <span class="divider-2"></span>
         <div class="fsz-16">
-            <p><strong><h3>Composition:</h3></strong></p>
+            <p><strong><h3 id="composition-title">Composition:</h3></strong></p>
             <p id="fruit-description"><h2></h2></p>
         </div>
+        
     </div>
 
     <!-- Фото -->
@@ -118,13 +110,19 @@
         <div class="sync2-container">
             <div class="sync2 owl-carousel"></div>
         </div>
+        
+    </div>
+    
+</div>
 
-        <div class="fsz-16">
-            <p><strong><h3>Benefits:</h3></strong></p>
+<div>
+    <div class="fsz-16">
+            <p><strong><h3 id="benefits-title">Benefits:</h3></strong></p>
             <ul id="fruit-benefits"><h2></h2></ul>
         </div>
-    </div>
 </div>
+
+
  <div class="tab-content shop-content"> 
         <div id="grid-view" class="tab-pane fade active in check" role="tabpanel">
             <div id="product" class="row">  
@@ -206,6 +204,14 @@ $(document).ready(function () {
             $("#fruit-name").text(fruit.name);
             $("#fruit-description").text(`${fruit.composition}`);
 
+            if (fruit.color) {
+                $("#fruit-name").css("color", fruit.color);
+                $("#fruit-description").css("color", fruit.color);
+                $("#fruit-benefits").css("color", fruit.color);
+                $("#composition-title").css("color", fruit.color);
+                $("#benefits-title").css("color", fruit.color);
+            }
+
             const mainSlider = $(".prod-slider.sync1");
             const thumbSlider = $(".sync2");
             mainSlider.empty();
@@ -224,11 +230,12 @@ function addLineBreaks(text, wordsPerLine = 3) {
     return result.trim();
 }
 
-
+            console.log(fruit.childPhotoText[0])
             if (fruit.childPhotoPath && fruit.childPhotoPath.length > 0) {
-                const processedComposition = addLineBreaks(fruit.composition, 3);
+                
                 
                 fruit.childPhotoPath.forEach((_, index) => {
+                    const processedComposition = addLineBreaks(fruit.childPhotoText[index], 3);
                     const imgUrl = `http://localhost:8080/photos/${fruit.id}_${index + 1}.png`;
                     thumbnails.push(imgUrl);
                     const card = `
@@ -245,37 +252,7 @@ function addLineBreaks(text, wordsPerLine = 3) {
                     </div>
                 </div>
             `;
-            const card1 = `
-                <div class="col-lg-3 col-md-4 col-sm-6"> 
-                    <div class="product-box"> 
-                        <div class="product-media"> 
-                            <img class="prod-img" alt="${fruit.name}" src="${imgUrl}" />     
-                        </div>                                           
-                        <div class="product-caption"> 
-                            <h3 class="product-title">
-                                <a href="#"><strong>${processedComposition}</strong></a>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-            `;
-            const card2 = `
-                <div class="col-lg-3 col-md-4 col-sm-6"> 
-                    <div class="product-box"> 
-                        <div class="product-media"> 
-                            <img class="prod-img" alt="${fruit.name}" src="${imgUrl}" />     
-                        </div>                                           
-                        <div class="product-caption"> 
-                            <h3 class="product-title">
-                                <a href="#"><strong>${processedComposition}</strong></a>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-            `;
             container.append(card);
-            container.append(card2);
-            container.append(card1);
                 });
             }
 
@@ -415,21 +392,165 @@ document.addEventListener("DOMContentLoaded", async () => {
 </script>
  
 <style>
+#product img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+#product .product-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#product img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+
+    
+#fruit-benefits {
+    column-count: 2;              /* количество столбцов — можно 3, если пунктов много */
+    column-gap: 40px;             /* расстояние между столбцами */
+    list-style-type: disc;        /* маркеры кружочками */
+    padding-left: 40px;           /* отступ для маркеров */
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+/* Адаптация — на телефонах только один столбец */
+@media (max-width: 768px) {
+    #fruit-benefits {
+        column-count: 1;
+    }
+}
+
+/* === 2. Отступы между карточками снизу === */
+#product {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* расстояние между карточками */
+}
+
+#product .col-lg-3,
+#product .col-md-4,
+#product .col-sm-6 {
+    padding: 0; /* убираем лишние отступы Bootstrap */
+    flex: 1 1 calc(25% - 20px); /* чтобы карточки красиво распределялись */
+    box-sizing: border-box;
+}
+
+@media (max-width: 991px) {
+    #product .col-lg-3,
+    #product .col-md-4,
+    #product .col-sm-6 {
+        flex: 1 1 calc(50% - 20px); /* 2 карточки в ряд на планшете */
+    }
+}
+
+@media (max-width: 600px) {
+    #product .col-lg-3,
+    #product .col-md-4,
+    #product .col-sm-6 {
+        flex: 1 1 100%; /* по одной карточке на телефоне */
+    }
+}
+
+.product-box {
+    height: 450px; /* общая высота карточки */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.product-media {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* квадрат */
+    background-color: #f8f8f8; /* фон, если фото не заполняет всё */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 16px 16px 0 0;
+}
+
+.product-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* сохраняет целое изображение */
+    background-color: #fff;
+    border-radius: 16px 16px 0 0;
+}
+
+.product-media img:hover {
+    transform: scale(1.05);
+}
+
+.product-caption {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 0 0 16px 16px;
+}
+
+.product-title strong {
+    font-size: 16px;
+    white-space: pre-line;
+    line-height: 1.3em;
+}
+
+.product-box {
+    border-radius: 100px;            /* степень закругления */
+    overflow: hidden;               /* чтобы изображение не выходило за границы */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* лёгкая тень для объёма */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+}
+
+.product-media img {
+    border-radius: 16px 16px 0 0; /* скругляем только верхнюю часть картинки */
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.product-caption {
+    background-color: #fff;
+    border-radius: 0 0 16px 16px;  /* нижние углы */
+    padding: 15px;
+    text-align: center;
+}
+
     #fruit-name {
-    font-size: 50px; /* было 22px */
+    font-size: 100px; /* было 22px */
     font-weight: 700; /* чтобы выделялось */
+    text-transform: uppercase;
 }
 
 /* Заголовок Composition */
 #fruit-description {
-    font-size: 20px; /* увеличиваем основной текст композиции */
+    font-size: 16px; 
+    
 }
 
 .fsz-16 {
     font-size: 24px; /* заголовок Composition */
     margin-bottom: 5px; /* чуть меньше отступ снизу */
 }
-  .sync2-container {
+.sync2-container {
     position: relative;
 }
 
@@ -486,7 +607,21 @@ document.addEventListener("DOMContentLoaded", async () => {
     cursor: pointer;
 }
 #main-photo {
+    width: 500px;       /* фиксированная ширина */
+    height: 500px;      /* фиксированная высота */
+    object-fit: cover;  /* чтобы фото не искажалось, а обрезалось по рамке */
+    border-radius: 12px;
+    cursor: grab;
     transition: transform 0.4s ease, opacity 0.4s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 991px) {
+    #main-photo {
+        width: 100%;
+        height: auto; /* или height: 350px; если хочешь фиксированную высоту */
+        max-width: 350px;
+    }
 }
 
 .product-layout {
@@ -531,11 +666,11 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     #fruit-name {
-        font-size: 22px;
+        font-size: 70px;
     }
 
     #fruit-description {
-        font-size: 16px;
+        font-size: 22px;
     }
 }
 
