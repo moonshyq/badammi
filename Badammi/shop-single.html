@@ -675,5 +675,132 @@ document.addEventListener("DOMContentLoaded", async () => {
 }
 
 </style>
+<div id="fullscreen-view" style="
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw; height: 100vh;
+    background: rgba(0,0,0,0.9);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+">
+    <button id="fullscreen-prev" style="
+        position: absolute; left: 30px; top: 50%;
+        transform: translateY(-50%);
+        background: none; border: none; color: white;
+        font-size: 60px; cursor: pointer;
+        user-select: none;
+    ">‹</button>
+
+    <img id="fullscreen-img" src="" style="
+        max-width: 90vw;
+        max-height: 90vh;
+        object-fit: contain;
+        border-radius: 12px;
+        transition: opacity 0.25s ease;
+        cursor: zoom-out;
+        display: block;
+    " />
+
+    <button id="fullscreen-next" style="
+        position: absolute; right: 30px; top: 50%;
+        transform: translateY(-50%);
+        background: none; border: none; color: white;
+        font-size: 60px; cursor: pointer;
+        user-select: none;
+    ">›</button>
+</div>
+
+<script>
+$(document).ready(function () {
+    let thumbnails = [];
+    let isDragging = false;
+    let currentIndex = 0;
+    let startX = 0;
+
+    // Собираем все миниатюры
+    function collectThumbnails() {
+        thumbnails = $(".sync2 .item img").map(function () {
+            return $(this).attr("src");
+        }).get();
+    }
+
+    // Обновить fullscreen-фото
+    function changeFullscreenPhoto() {
+        $("#fullscreen-img").css("opacity", "0");
+        setTimeout(() => {
+            $("#fullscreen-img").attr("src", thumbnails[currentIndex]);
+            $("#fullscreen-img").css("opacity", "1");
+        }, 150);
+    }
+
+    // Открытие fullscreen
+    $(document).on("mousedown touchstart", "#main-photo", function (e) {
+        isDragging = false;
+        startX = e.clientX || e.touches[0].clientX;
+    });
+
+    $(document).on("mousemove touchmove", "#main-photo", function (e) {
+        const moveX = e.clientX || (e.touches ? e.touches[0].clientX : 0);
+        if (Math.abs(moveX - startX) > 10) isDragging = true;
+    });
+
+    $(document).on("click", "#main-photo", function () {
+        if (isDragging) return;
+        collectThumbnails();
+        const src = $(this).attr("src");
+        currentIndex = thumbnails.indexOf(src);
+        if (currentIndex < 0) currentIndex = 0;
+        $("#fullscreen-img").attr("src", src);
+        $("#fullscreen-view").fadeIn(200).css("display", "flex");
+        $("body").css("overflow", "hidden");
+    });
+
+    // Закрытие при клике вне фото
+    $("#fullscreen-view").on("click", function (e) {
+        if ($(e.target).is("#fullscreen-view")) {
+            $(this).fadeOut(200);
+            $("body").css("overflow", "auto");
+        }
+    });
+
+    // Навигация кнопками
+    $("#fullscreen-prev").on("click", function (e) {
+        e.stopPropagation();
+        currentIndex = (currentIndex - 1 + thumbnails.length) % thumbnails.length;
+        changeFullscreenPhoto();
+    });
+
+    $("#fullscreen-next").on("click", function (e) {
+        e.stopPropagation();
+        currentIndex = (currentIndex + 1) % thumbnails.length;
+        changeFullscreenPhoto();
+    });
+
+    // Swipe в fullscreen
+    let fsStartX = 0;
+    $("#fullscreen-view").on("touchstart", e => fsStartX = e.touches[0].clientX);
+    $("#fullscreen-view").on("touchend", e => {
+        const fsEndX = e.changedTouches[0].clientX;
+        const diff = fsEndX - fsStartX;
+        if (Math.abs(diff) > 40) {
+            if (diff > 0) $("#fullscreen-prev").click();
+            else $("#fullscreen-next").click();
+        }
+    });
+
+    // === Навигация стрелками на клавиатуре ===
+    $(document).on("keydown", function (e) {
+        if (!$("#fullscreen-view").is(":visible")) return;
+        if (e.key === "ArrowLeft") $("#fullscreen-prev").click();
+        if (e.key === "ArrowRight") $("#fullscreen-next").click();
+        if (e.key === "Escape") {
+            $("#fullscreen-view").fadeOut(200);
+            $("body").css("overflow", "auto");
+        }
+    });
+});
+</script>
     </body>
 </html>
