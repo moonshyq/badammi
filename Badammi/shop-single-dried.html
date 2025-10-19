@@ -96,10 +96,17 @@
             <!-- Shop Starts-->
 <section class="shop-wrap sec-space-bottom">
 <div class="container rel-div pt-50">
-         <div class="row align-items-start product-layout">
-            
+        <div class="row align-items-start product-layout">
+             <div class="col-lg-6 order-2 product-photo">
+        <div class="prod-slider sync1"></div>
+
+        <div class="sync2-container">
+            <div class="sync2 owl-carousel"></div>
+        </div>
+        
+    </div>
     <!-- Блок с текстом -->
-        <div class="col-lg-6 order-2 product-info">
+        <div class="col-lg-6 order-1 product-info">
             <h3 class="section-title">
                 <a href="#">
                     <strong id="fruit-name">Название</strong>
@@ -109,37 +116,24 @@
         <div class="fsz-16">
             <p><strong><h3 id="composition-title">Composition:</h3></strong></p>
             <p id="fruit-description"><h2></h2></p>
+            <span class="divider-2"></span>
         </div>
-        
+            <div class="fsz-16">
+            <p><strong><h3 id="benefits-title">Benefits:</h3></strong></p>
+            <ul id="fruit-benefits"><h2></h2></ul>
+        </div>
+        </div>
+             
     </div>
+    
 
     <!-- Фото -->
-    <div class="col-lg-6 order-1 product-photo">
-        <div class="prod-slider sync1"></div>
-
-        <div class="sync2-container">
-            <div class="sync2 owl-carousel"></div>
-        </div>
-        
-    </div>
+   
     
 </div>
 
 <div>
-    <div class="fsz-16">
-            <p><strong><h3 id="benefits-title">Benefits:</h3></strong></p>
-            <ul id="fruit-benefits"><h2></h2></ul>
-        </div>
-</div>
 
-
- <div class="tab-content shop-content"> 
-        <div id="grid-view" class="tab-pane fade active in check" role="tabpanel">
-            <div id="product" class="row">  
-
-            </div>
-        </div>
-</div>
 
 
             </section>
@@ -221,64 +215,15 @@ $(document).ready(function () {
             }
 
             const mainSlider = $(".prod-slider.sync1");
-            const thumbSlider = $(".sync2");
-            mainSlider.empty();
-            thumbSlider.empty();
 
             const mainImgUrl = `http://40.83.191.148:5000/photos/${fruit.id}.png`;
             const thumbnails = [mainImgUrl];
 
-function addLineBreaks(text, wordsPerLine = 3) {
-    const words = text.split(' ');
-    let result = '';
-    for (let i = 0; i < words.length; i++) {
-        result += words[i] + ' ';
-        if ((i + 1) % wordsPerLine === 0) result += '\n';
-    }
-    return result.trim();
-}
-
-            console.log(fruit.childPhotoText[0])
-            if (fruit.childPhotoPath && fruit.childPhotoPath.length > 0) {
-                
-                
-                fruit.childPhotoPath.forEach((_, index) => {
-                    const processedComposition = addLineBreaks(fruit.childPhotoText[index], 3);
-                    const imgUrl = `http://40.83.191.148:5000/photos/${fruit.id}_${index + 1}.png`;
-                    thumbnails.push(imgUrl);
-                    const card = `
-                <div class="col-lg-3 col-md-4 col-sm-6"> 
-                    <div class="product-box"> 
-                        <div class="product-media"> 
-                            <img class="prod-img" alt="${fruit.name}" src="${imgUrl}" />     
-                        </div>                                           
-                        <div class="product-caption"> 
-                            <h3 class="product-title">
-                                <a href="#"><strong>${processedComposition}</strong></a>
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-            `;
-            container.append(card);
-                });
-            }
-
-            // --- Главная фотка ---
             mainSlider.append(`
                 <div class="item active">
                     <img id="main-photo" src="${mainImgUrl}" alt="${fruit.name}" style="width:350px;height:auto;object-fit:cover;border-radius:8px;cursor:grab;">
                 </div>
             `);
-
-            // --- Миниатюры ---
-            thumbnails.forEach((url, i) => {
-                thumbSlider.append(`
-                    <div class="item thumb" data-index="${i}">
-                        <img src="${url}" alt="thumb ${i}" style="width:80px;height:80px;object-fit:cover;border:2px solid ${i===0?'#6ab04c':'transparent'};border-radius:6px;cursor:pointer;">
-                    </div>
-                `);
-            });
 
             // --- Преимущества ---
             const benefitsList = $("#fruit-benefits");
@@ -289,16 +234,6 @@ function addLineBreaks(text, wordsPerLine = 3) {
 
             // --- Инициализация Owl Carousel ---
             mainSlider.owlCarousel({ items: 1, loop: false, dots: false, nav: true, navText: ["<",">"], smartSpeed: 500 });
-           thumbSlider.owlCarousel({
-    items: 5,
-    margin: 10,
-    dots: false,
-    nav: true,          // включаем кнопки
-    navText: ["<",">"], // текст кнопок
-    smartSpeed: 500,
-    slideBy: 1,
-    loop: false         // если нужно бесконечное листание, ставим true
-});
 
             // --- Функция обновления главного фото ---
             function updateMainPhoto(index) {
@@ -313,39 +248,7 @@ function addLineBreaks(text, wordsPerLine = 3) {
         mainPhoto.css("opacity", "1"); // плавный fade in
     }, 200); // половина времени перехода
      
-    $(".sync2 .item img").css("border", "2px solid transparent");
-    $(".sync2 .item").eq(index).find("img").css("border", "2px solid #6ab04c");
 }
-
-            // --- Клик по миниатюрам ---
-            $(".sync2 .item img").on("click", function () {
-                const index = $(this).parent().data("index");
-                updateMainPhoto(index);
-            });
-
-            // --- Drag / swipe главной фотографии ---
-            let startX = 0;
-            let endX = 0;
-            const mainPhoto = document.getElementById("main-photo");
-            if (mainPhoto) {
-            mainPhoto.ondragstart = () => false;
-            }
-
-            function handleDrag() {
-                const diff = endX - startX;
-                let currentIndex = thumbnails.indexOf($("#main-photo").attr("src"));
-
-                if (diff > 30) currentIndex = Math.max(currentIndex - 1, 0);
-                else if (diff < -30) currentIndex = Math.min(currentIndex + 1, thumbnails.length - 1);
-
-                updateMainPhoto(currentIndex);
-            }
-
-            mainPhoto.addEventListener("mousedown", e => startX = e.clientX);
-            mainPhoto.addEventListener("mouseup", e => { endX = e.clientX; handleDrag(); });
-            mainPhoto.addEventListener("touchstart", e => startX = e.touches[0].clientX);
-            mainPhoto.addEventListener("touchend", e => { endX = e.changedTouches[0].clientX; handleDrag(); });
-
         } catch (error) {
             console.error("Ошибка при загрузке фрукта:", error);
             $("#fruit-name").text("Не удалось загрузить фрукт");
@@ -375,13 +278,12 @@ document.addEventListener("DOMContentLoaded", async () => {
             driedMenu.innerHTML = "";
             fruits.filter(f => f.name.toLowerCase().includes("dried")).forEach(fruit => {
                 const li = document.createElement("li");
-                li.innerHTML = `<a class="fix-a" href="shop-single.html?id=${fruit.id}">${fruit.name}</a>`;
+                li.innerHTML = `<a class="fix-a" href="shop-single-dried.html?id=${fruit.id}">${fruit.name}</a>`;
                 driedMenu.appendChild(li);
             });
             driedMenu.innerHTML += `<li><a class="fix-a" href="shop-2.html"><strong>All catalog</strong></a></li>`;
         }
 
-        // --- Fresh Products ---
         const freshMenu = document.getElementById("fresh");
         if (freshMenu) {
             freshMenu.innerHTML = "";
@@ -398,7 +300,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 });
 </script>
- 
 <style>
 #product img {
     width: 100%;
@@ -421,8 +322,6 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     
 #fruit-benefits {
-    column-count: 2;              /* количество столбцов — можно 3, если пунктов много */
-    column-gap: 40px;             /* расстояние между столбцами */
     list-style-type: disc;        /* маркеры кружочками */
     padding-left: 40px;           /* отступ для маркеров */
     font-size: 18px;
@@ -560,62 +459,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     font-size: 24px; /* заголовок Composition */
     margin-bottom: 5px; /* чуть меньше отступ снизу */
 }
-.sync2-container {
-    position: relative;
-}
-
-.sync2 .owl-nav {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
-    pointer-events: none; /* Чтобы кнопки не перекрывались миниатюрами */
-    z-index: 10;
-}
-
-.sync2 .owl-nav button {
-    pointer-events: all;
-    background: #6ab04c;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 4px;
-    cursor: pointer;
-    opacity: 1;
-}
-
-.product-title strong {
-    white-space: pre-line; /* учитывает символы \n */
-}
-
-.sync2 {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-     overflow: visible !important;
-}
-
-.sync2 .item {
-    margin-right: 10px;
-}
-
-.sync2 .owl-nav {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.sync2 .owl-nav button {
-    background: #6ab04c;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 4px;
-    cursor: pointer;
-}
 #main-photo {
     width: 500px;       /* фиксированная ширина */
     height: 500px;      /* фиксированная высота */
@@ -683,139 +526,76 @@ document.addEventListener("DOMContentLoaded", async () => {
         font-size: 22px;
     }
 }
-
-</style>
-<div id="fullscreen-view" style="
-    display: none;
+.photo-modal {
+    display: none; /* изначально скрыто */
     position: fixed;
-    top: 0; left: 0;
-    width: 100vw; height: 100vh;
-    background: rgba(0,0,0,0.9);
+    z-index: 10000;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
     justify-content: center;
     align-items: center;
-    z-index: 9999;
-">
-    <button id="fullscreen-prev" style="
-        position: absolute; left: 30px; top: 50%;
-        transform: translateY(-50%);
-        background: none; border: none; color: white;
-        font-size: 60px; cursor: pointer;
-        user-select: none;
-    ">‹</button>
+}
 
-    <img id="fullscreen-img" src="" style="
-        max-width: 90vw;
-        max-height: 90vh;
-        object-fit: contain;
-        border-radius: 12px;
-        transition: opacity 0.25s ease;
-        cursor: zoom-out;
-        display: block;
-    " />
+.photo-modal-content {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 85vh;
+    border-radius: 10px;
+    box-shadow: 0 4px 25px rgba(255,255,255,0.3);
+    animation: zoomIn 0.3s ease;
+}
 
-    <button id="fullscreen-next" style="
-        position: absolute; right: 30px; top: 50%;
-        transform: translateY(-50%);
-        background: none; border: none; color: white;
-        font-size: 60px; cursor: pointer;
-        user-select: none;
-    ">›</button>
+/* крестик закрытия */
+.photo-close {
+    position: absolute;
+    top: 25px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.photo-close:hover {
+    color: #f00;
+}
+
+/* эффект появления */
+@keyframes zoomIn {
+    from { transform: scale(0.8); opacity: 0; }
+    to   { transform: scale(1); opacity: 1; }
+}
+
+</style>
+<div id="photo-modal" class="photo-modal">
+    <span class="photo-close">&times;</span>
+    <img class="photo-modal-content" id="photo-full">
 </div>
-
 <script>
-$(document).ready(function () {
-    let thumbnails = [];
-    let isDragging = false;
-    let currentIndex = 0;
-    let startX = 0;
-
-    // Собираем все миниатюры
-    function collectThumbnails() {
-        thumbnails = $(".sync2 .item img").map(function () {
-            return $(this).attr("src");
-        }).get();
+document.addEventListener("click", (e) => {
+    if (e.target.id === "main-photo") {
+        const modal = document.getElementById("photo-modal");
+        const modalImg = document.getElementById("photo-full");
+        modal.style.display = "flex";
+        modalImg.src = e.target.src;
     }
+});
 
-    // Обновить fullscreen-фото
-    function changeFullscreenPhoto() {
-        $("#fullscreen-img").css("opacity", "0");
-        setTimeout(() => {
-            $("#fullscreen-img").attr("src", thumbnails[currentIndex]);
-            $("#fullscreen-img").css("opacity", "1");
-        }, 150);
+// Закрытие по клику на крестик или вне картинки
+document.querySelector(".photo-close").addEventListener("click", () => {
+    document.getElementById("photo-modal").style.display = "none";
+});
+document.getElementById("photo-modal").addEventListener("click", (e) => {
+    if (e.target.id === "photo-modal") {
+        e.currentTarget.style.display = "none";
     }
-
-    // Открытие fullscreen
-    $(document).on("mousedown touchstart", "#main-photo", function (e) {
-        isDragging = false;
-        startX = e.clientX || e.touches[0].clientX;
-    });
-
-    $(document).on("mousemove touchmove", "#main-photo", function (e) {
-        const moveX = e.clientX || (e.touches ? e.touches[0].clientX : 0);
-        if (Math.abs(moveX - startX) > 10) isDragging = true;
-    });
-
-    $(document).on("click", "#main-photo", function () {
-        if (isDragging) return;
-        collectThumbnails();
-        const src = $(this).attr("src");
-        currentIndex = thumbnails.indexOf(src);
-        if (currentIndex < 0) currentIndex = 0;
-        $("#fullscreen-img").attr("src", src);
-        $("#fullscreen-view").fadeIn(200).css("display", "flex");
-        $("body").css("overflow", "hidden");
-    });
-
-    // Закрытие при клике вне фото
-    $("#fullscreen-view").on("click", function (e) {
-        if ($(e.target).is("#fullscreen-view")) {
-            $(this).fadeOut(200);
-            $("body").css("overflow", "auto");
-        }
-    });
-
-    // Навигация кнопками
-    $("#fullscreen-prev").on("click", function (e) {
-        e.stopPropagation();
-        currentIndex = (currentIndex - 1 + thumbnails.length) % thumbnails.length;
-        changeFullscreenPhoto();
-    });
-
-    $("#fullscreen-next").on("click", function (e) {
-        e.stopPropagation();
-        currentIndex = (currentIndex + 1) % thumbnails.length;
-        changeFullscreenPhoto();
-    });
-
-    // Swipe в fullscreen
-    let fsStartX = 0;
-    $("#fullscreen-view").on("touchstart", e => fsStartX = e.touches[0].clientX);
-    $("#fullscreen-view").on("touchend", e => {
-        const fsEndX = e.changedTouches[0].clientX;
-        const diff = fsEndX - fsStartX;
-        if (Math.abs(diff) > 40) {
-            if (diff > 0) $("#fullscreen-prev").click();
-            else $("#fullscreen-next").click();
-        }
-    });
-
-    // === Навигация стрелками на клавиатуре ===
-    $(document).on("keydown", function (e) {
-        if (!$("#fullscreen-view").is(":visible")) return;
-        if (e.key === "ArrowLeft") $("#fullscreen-prev").click();
-        if (e.key === "ArrowRight") $("#fullscreen-next").click();
-        if (e.key === "Escape") {
-            $("#fullscreen-view").fadeOut(200);
-            $("body").css("overflow", "auto");
-        }
-    });
 });
 </script>
-<style>
-    .product-media {
-    background-color: #fff;
-}
-</style>
     </body>
 </html>

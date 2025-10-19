@@ -1,52 +1,58 @@
 [
-    {
-        "Id": 10000001,
-        "PhotoPath": "Resource\\Photo\\10000001.png",
-        "ChildPhotoPath": [ "Resource\\Photo\\10000001_1.png" ],
-        "Name": "Dried Apricot",
-        "Composition": "Vitamins A, C, E; potassium, iron, fiber",
-        "Benefits": [ "Prevents anemia", "Improves bowel function", "Supports cardiovascular health", "Increases skin elasticity" ]
-    },
-    {
-        "Id": 10000002,
-        "PhotoPath": "Resource\\Photo\\10000002.png",
-        "ChildPhotoPath": [ "Resource\\Photo\\10000002_1.png" ],
-        "Name": "Dried Persimmon",
-        "Composition": "Natural sugars, potassium, magnesium,phosphorus, vitamins B and K",
-        "Benefits": [ "Quick source of energy", "Calms the nervous system", "Improves stomach and intestinal health", "Strengthens immunity" ]
-    },
-    {
-        "Id": 10000003,
-        "PhotoPath": "Resource\\Photo\\10000003.png",
-        "ChildPhotoPath": [ "Resource\\Photo\\10000003_1.png" ],
-        "Name": "Dried Grape",
-        "Composition": "Iron, magnesium, phosphorus, B vitamins, natural, sugars",
-        "Benefits": [ "Purifies the blood and boosts hemoglobin", "Enhances brain function", "Reduces fatigue and provides energy", "Strengthens bones and teeth" ]
-    },
-    {
-        "Id": 10000004,
-        "PhotoPath": "Resource\\Photo\\10000004.png",
-        "ChildPhotoPath": [ "Resource\\Photo\\10000004_1.png" ],
-        "Name": "Dried Fig",
-        "Composition": "Calcium, potassium, iron, magnesium, fiber,vitamins A and B",
-        "Benefits": [ "Improves digestion", "Strengthens blood circulation", "Prevents constipation", "Strengthens bones" ]
-    },
-    {
-        "Id": 10000005,
-        "PhotoPath": "Resource\\Photo\\10000005.png",
-        "ChildPhotoPath": [ "Resource\\Photo\\10000005_1.png" ],
-        "Name": "Dried Plum",
-        "Composition": "Fiber, potassium, antioxidants, vitamins A and K",
-        "Benefits": [ "Natural remedy for constipation", "Lowers cholesterol", "Protects heart health", "Has anti-aging effects" ]
-    },
-    {
-        "Id": 10000006,
-        "PhotoPath": "Resource\\Photo\\10000006.png",
-        "ChildPhotoPath": [ "Resource\\Photo\\10000006_1.png" ],
-        "Name": "Dried Apple",
-        "Composition": "Pectin, vitamin C, fiber, potassium",
-        "Benefits": [ "Cleanses the body of toxins", "Helps with weight control", "Strengthens gut microflora", "Supports cardiovascular system" ]
-    },
+  {
+    "Id": 10000001,
+    "PhotoPath": "Resource\\Photo\\10000001.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000001_1.png" ],
+    "Name": "Dried Apricot",
+    "Color": "#d39037",
+    "Composition": "Vitamins A, C, E; potassium, iron, fiber",
+    "Benefits": [ "Prevents anemia", "Improves bowel function", "Supports cardiovascular health", "Increases skin elasticity" ]
+  },
+  {
+    "Id": 10000002,
+    "PhotoPath": "Resource\\Photo\\10000002.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000002_1.png" ],
+    "Name": "Dried Persimmon",
+    "Color": "#a45625",
+    "Composition": "Natural sugars, potassium, magnesium,phosphorus, vitamins B and K",
+    "Benefits": [ "Quick source of energy", "Calms the nervous system", "Improves stomach and intestinal health", "Strengthens immunity" ]
+  },
+  {
+    "Id": 10000003,
+    "PhotoPath": "Resource\\Photo\\10000003.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000003_1.png" ],
+    "Name": "Dried Grape",
+    "Color": "#d9a92b",
+    "Composition": "Iron, magnesium, phosphorus, B vitamins, natural, sugars",
+    "Benefits": [ "Purifies the blood and boosts hemoglobin", "Enhances brain function", "Reduces fatigue and provides energy", "Strengthens bones and teeth" ]
+  },
+  {
+    "Id": 10000004,
+    "PhotoPath": "Resource\\Photo\\10000004.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000004_1.png" ],
+    "Name": "Dried Fig",
+    "Color": "#75401e",
+    "Composition": "Calcium, potassium, iron, magnesium, fiber,vitamins A and B",
+    "Benefits": [ "Improves digestion", "Strengthens blood circulation", "Prevents constipation", "Strengthens bones" ]
+  },
+  {
+    "Id": 10000005,
+    "PhotoPath": "Resource\\Photo\\10000005.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000005_1.png" ],
+    "Name": "Dried Plum",
+    "Color": "#413e3c",
+    "Composition": "Fiber, potassium, antioxidants, vitamins A and K",
+    "Benefits": [ "Natural remedy for constipation", "Lowers cholesterol", "Protects heart health", "Has anti-aging effects" ]
+  },
+  {
+    "Id": 10000006,
+    "PhotoPath": "Resource\\Photo\\10000006.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000006_1.png" ],
+    "Name": "Dried Apple",
+    "Color": "#c87628",
+    "Composition": "Pectin, vitamin C, fiber, potassium",
+    "Benefits": [ "Cleanses the body of toxins", "Helps with weight control", "Strengthens gut microflora", "Supports cardiovascular system" ]
+  },
     {
         "Id": 10000007,
         "PhotoPath": "Resource\\Photo\\10000007.png",
