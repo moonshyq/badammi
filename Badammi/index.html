@@ -361,7 +361,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             const driedFruits = fruits.filter(f => f.name.toLowerCase().includes("dried"));
             driedFruits.forEach(fruit => {
                 const li = document.createElement("li");
-                li.innerHTML = `<a class="fix-a" href="shop-single.html?id=${fruit.id}">${fruit.name}</a>`;
+                li.innerHTML = `<a class="fix-a" href="shop-single-dried.html?id=${fruit.id}">${fruit.name}</a>`;;
                 driedMenu.appendChild(li);
             });
 
