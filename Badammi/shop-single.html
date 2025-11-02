@@ -7,8 +7,8 @@
         <meta charset="utf-8">
         <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="agency, ecommerce">
-        <meta name="author" content="Md. Siful Islam, Jtheme">
+        <meta name="description" content="Fruits,Nuts,Vegetables">
+        <meta name="author" content="Badammi">
 
         <title>Badammi</title>
 
@@ -25,6 +25,7 @@
         <link href="assets/css/plugin/owl.carousel.css" rel="stylesheet" type="text/css">
         <link href="assets/css/plugin/animate.css" rel="stylesheet" type="text/css"> 
         <link href="assets/css/plugin/jquery-ui.min.css" rel="stylesheet" type="text/css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
         <!-- Custom CSS -->
         <link href="assets/css/theme.css" rel="stylesheet" type="text/css">
@@ -170,8 +171,21 @@
                                 <h2 class="title-1">  <span class="light-font">badammi  </span> <strong>information </strong> </h2>
                                 <span class="divider-2"></span>
                                 <ul class="list">
-                                    <li> <a href="about-us.html"> about our shop </a> </li>
-                                    <li> <a href="index.html"> our blog </a> </li>
+                                    <li> <a href="about-us.html"> About us </a> </li>
+                                    <li> <a href="index.html"> All Producs </a> </li>
+                                    <li>
+                                        <div class="social-icons" style="margin-top: 15px;">
+                                            <a href="https://www.youtube.com/" target="_blank" style="margin-right: 10px; color: #ff0000;">
+                                                <i class="fab fa-youtube fa-lg"></i>
+                                            </a>
+                                            <a href="https://www.facebook.com/" target="_blank" style="margin-right: 10px; color: #1877f2;">
+                                                <i class="fab fa-facebook fa-lg"></i>
+                                            </a>
+                                            <a href="https://www.instagram.com/" target="_blank" style="color: #e4405f;">
+                                                <i class="fab fa-instagram fa-lg"></i>
+                                            </a>
+                                        </div>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -225,7 +239,7 @@ $(document).ready(function () {
             mainSlider.empty();
             thumbSlider.empty();
 
-            const mainImgUrl = `http://40.83.191.148:5000/photos/${fruit.id}.png`;
+            const mainImgUrl = `http://98.67.191.173:5000/photos/${fruit.id}.png`;
             const thumbnails = [mainImgUrl];
 
 function addLineBreaks(text, wordsPerLine = 3) {
@@ -244,7 +258,7 @@ function addLineBreaks(text, wordsPerLine = 3) {
                 
                 fruit.childPhotoPath.forEach((_, index) => {
                     const processedComposition = addLineBreaks(fruit.childPhotoText[index], 3);
-                    const imgUrl = `http://40.83.191.148:5000/photos/${fruit.id}_${index + 1}.png`;
+                    const imgUrl = `http://98.67.191.173:5000/photos/${fruit.id}_${index + 1}.png`;
                     thumbnails.push(imgUrl);
                     const card = `
                 <div class="col-lg-3 col-md-4 col-sm-6"> 
@@ -358,7 +372,7 @@ function addLineBreaks(text, wordsPerLine = 3) {
 
 // === Загрузка всех фруктов для меню ===
 document.addEventListener("DOMContentLoaded", async () => {
-    const apiUrl = "http://40.83.191.148:5000/Fruits/GetAllFruits";
+    const apiUrl = "http://98.67.191.173:5000/Fruits/GetAllFruits";
 
     try {
         const response = await fetch(apiUrl, { headers: { "ngrok-skip-browser-warning": "true" } });

@@ -7,8 +7,8 @@
         <meta charset="utf-8">
         <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="agency, ecommerce">
-        <meta name="author" content="Md. Siful Islam, Jtheme">
+        <meta name="description" content="Fruits,Nuts,Vegetables">
+        <meta name="author" content="Badammi">
 
         <title>Badammi</title>
 
@@ -24,6 +24,7 @@
         <link href="assets/css/plugin/bootstrap-select.min.css" rel="stylesheet" type="text/css"> 
         <link href="assets/css/plugin/owl.carousel.css" rel="stylesheet" type="text/css">
         <link href="assets/css/plugin/animate.css" rel="stylesheet" type="text/css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
         <link href="assets/css/plugin/jquery-ui.min.css" rel="stylesheet" type="text/css"> 
 
         <!-- Custom CSS -->
@@ -90,14 +91,18 @@
 
                     <div class="row">
                         <div class="col-md-8">
-                            <div class="contact-map">  <div id="map"></div> </div>
+                            <div class="contact-map">  
+                                <div>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5705.267939458835!2d49.868274746881966!3d40.40503150927581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d51fe38f44b%3A0xe7aee542f2d77ec4!2sAgha%20Neymatullah%2C%20Baku!5e0!3m2!1sen!2saz!4v1761936803987!5m2!1sen!2saz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div> 
+                            </div>
                         </div>
                         <div class="col-md-4">
                             <div class="contact-details">
                                 <h3 class="fsz-25"><span class="light-font">Badammi  </span> <strong>Address </strong>  </h3> 
                                 <h6 class="sub-title-1 pb-15">ORGANIC STORE</h6>
 
-                                <h5 class="clr-txt fsz-12 pt-15">BADAMMI STORE</h5>
+                                <h5 class="clr-txt fsz-12 pt-15">BADAMMI OFFICE</h5>
                                 <p>Nerimaov Aga Neymatullas</p>
 
                                 <ul>
@@ -165,8 +170,21 @@
                                 <h2 class="title-1">  <span class="light-font">badammi  </span> <strong>information </strong> </h2>
                                 <span class="divider-2"></span>
                                 <ul class="list">
-                                    <li> <a href="about-us.html"> about our shop </a> </li>
-                                    <li> <a href="index.html"> our blog </a> </li>
+                                    <li> <a href="about-us.html"> About us </a> </li>
+                                    <li> <a href="index.html"> All Producs </a> </li>
+                                    <li>
+                                        <div class="social-icons" style="margin-top: 15px;">
+                                            <a href="https://www.youtube.com/" target="_blank" style="margin-right: 10px; color: #ff0000;">
+                                                <i class="fab fa-youtube fa-lg"></i>
+                                            </a>
+                                            <a href="https://www.facebook.com/" target="_blank" style="margin-right: 10px; color: #1877f2;">
+                                                <i class="fab fa-facebook fa-lg"></i>
+                                            </a>
+                                            <a href="https://www.instagram.com/" target="_blank" style="color: #e4405f;">
+                                                <i class="fab fa-instagram fa-lg"></i>
+                                            </a>
+                                        </div>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -193,7 +211,7 @@
 
         <script>
 document.addEventListener("DOMContentLoaded", async () => {
-    const apiUrl = "http://40.83.191.148:5000/Fruits/GetAllFruits";
+    const apiUrl = "http://98.67.191.173:5000/Fruits/GetAllFruits";
 
     try {
         const response = await fetch(apiUrl, {
