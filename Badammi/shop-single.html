@@ -110,30 +110,36 @@
         <div class="fsz-16">
             <p><strong><h3 id="composition-title">Composition:</h3></strong></p>
             <p id="fruit-description"><h2></h2></p>
+            <div>
+    <div class="fsz-16">
+            <p><strong><h3 id="benefits-title">Benefits:</h3></strong></p>
+            <ul id="fruit-benefits"><h2></h2></ul>
+        </div>
+</div>
         </div>
         
     </div>
 
     <!-- Фото -->
     <div class="col-lg-6 order-1 product-photo">
-        <div class="prod-slider sync1"></div>
+         <button class="arrow left" onclick="prevPhoto()">
+        <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <div class="prod-slider sync1"></div>
+        <button class="arrow right" onclick="nextPhoto()">
+        <i class="fa-solid fa-chevron-right"></i>
+    </button>
 
-        <div class="sync2-container">
+     <div class="sync2-container">
             <div class="sync2 owl-carousel"></div>
         </div>
-        
     </div>
     
 </div>
 
-<div>
-    <div class="fsz-16">
-            <p><strong><h3 id="benefits-title">Benefits:</h3></strong></p>
-            <ul id="fruit-benefits"><h2></h2></ul>
-        </div>
-</div>
 
 
+ <p><strong><h3 style="color: black;">Packaging type</h3></strong></p>
  <div class="tab-content shop-content"> 
         <div id="grid-view" class="tab-pane fade active in check" role="tabpanel">
             <div id="product" class="row">  
@@ -142,7 +148,17 @@
         </div>
 </div>
 
-
+ <p><strong><h3 style="color: black;">More fresh product</h3></strong></p>
+<div class="container rel-div">
+                    <div class="divider-full-1"></div>
+                    <div class="tab-content shop-content"> 
+                    <div id="list-view" class="tab-pane fade active in" role="tabpanel">
+                            <div id="listproduct" class="row"> 
+                                
+                            </div>
+                        </div>
+                    </div>
+</div> 
             </section>
             <!-- / Shop Ends -->      
 
@@ -211,6 +227,7 @@
 
 
 <script>
+    let photo;
 $(document).ready(function () {
     async function loadFruit() {
     const container = $("#product");
@@ -218,7 +235,7 @@ $(document).ready(function () {
             const fruitId = new URLSearchParams(window.location.search).get("id");
             if (!fruitId) return console.warn("❌ Id не найден в URL");
 
-            const apiUrl = `http://40.83.191.148:5000/Fruits/ShopOne?id=${fruitId}`;
+            const apiUrl = `http://98.67.191.173:5000/Fruits/ShopOne?id=${fruitId}`;
             const response = await fetch(apiUrl, { headers: { "ngrok-skip-browser-warning": "true" } });
             if (!response.ok) throw new Error("Ошибка загрузки данных: " + response.status);
             const fruit = await response.json();
@@ -228,10 +245,6 @@ $(document).ready(function () {
 
             if (fruit.color) {
                 $("#fruit-name").css("color", fruit.color);
-                $("#fruit-description").css("color", fruit.color);
-                $("#fruit-benefits").css("color", fruit.color);
-                $("#composition-title").css("color", fruit.color);
-                $("#benefits-title").css("color", fruit.color);
             }
 
             const mainSlider = $(".prod-slider.sync1");
@@ -277,6 +290,7 @@ function addLineBreaks(text, wordsPerLine = 3) {
             container.append(card);
                 });
             }
+            photo = thumbnails;
 
             // --- Главная фотка ---
             mainSlider.append(`
@@ -315,8 +329,9 @@ function addLineBreaks(text, wordsPerLine = 3) {
 });
 
             // --- Функция обновления главного фото ---
-            function updateMainPhoto(index) {
+    function updateMainPhoto(index) {
     const newSrc = thumbnails[index];
+     if(index < thumbnails.length && index >= 0){
     const mainPhoto = $("#main-photo");
 
     // Сначала делаем fade out
@@ -329,6 +344,7 @@ function addLineBreaks(text, wordsPerLine = 3) {
      
     $(".sync2 .item img").css("border", "2px solid transparent");
     $(".sync2 .item").eq(index).find("img").css("border", "2px solid #6ab04c");
+    }
 }
 
             // --- Клик по миниатюрам ---
@@ -343,9 +359,8 @@ function addLineBreaks(text, wordsPerLine = 3) {
             const mainPhoto = document.getElementById("main-photo");
             if (mainPhoto) {
             mainPhoto.ondragstart = () => false;
-            }
-
-            function handleDrag() {
+            }     
+    function handleDrag() {
                 const diff = endX - startX;
                 let currentIndex = thumbnails.indexOf($("#main-photo").attr("src"));
 
@@ -354,7 +369,6 @@ function addLineBreaks(text, wordsPerLine = 3) {
 
                 updateMainPhoto(currentIndex);
             }
-
             mainPhoto.addEventListener("mousedown", e => startX = e.clientX);
             mainPhoto.addEventListener("mouseup", e => { endX = e.clientX; handleDrag(); });
             mainPhoto.addEventListener("touchstart", e => startX = e.touches[0].clientX);
@@ -365,10 +379,45 @@ function addLineBreaks(text, wordsPerLine = 3) {
             $("#fruit-name").text("Не удалось загрузить фрукт");
             $("#fruit-description").text("");
         }
+        
     }
 
     loadFruit();
 });
+
+function updateMainPhoto(index) {
+    const newSrc = photo[index];
+    const mainPhoto = $("#main-photo");
+
+    // Сначала делаем fade out
+    if(index < photo.length && index >= 0){
+        mainPhoto.css("opacity", "0");
+
+        setTimeout(() => {
+            mainPhoto.attr("src", newSrc);
+            mainPhoto.css("opacity", "1"); // плавный fade in
+        }, 200); // половина времени перехода
+     
+    
+        $(".sync2 .item img").css("border", "2px solid transparent");
+        $(".sync2 .item").eq(index).find("img").css("border", "2px solid #6ab04c");
+    }
+}
+
+function nextPhoto() {
+    let currentIndex = photo.indexOf($("#main-photo").attr("src"));
+    updateMainPhoto(currentIndex + 1,photo.length - 1);
+}
+
+function prevPhoto() {
+    let currentIndex = photo.indexOf($("#main-photo").attr("src"));
+    updateMainPhoto(currentIndex - 1,0);
+}   
+
+
+
+
+
 
 // === Загрузка всех фруктов для меню ===
 document.addEventListener("DOMContentLoaded", async () => {
@@ -411,9 +460,112 @@ document.addEventListener("DOMContentLoaded", async () => {
         console.error("Ошибка при загрузке фруктов:", err);
     }
 });
+
+</script>
+
+<script>
+    async function loadProducts() {
+    const apiUrl = "http://98.67.191.173:5000/Fruits/GetAllFruits";
+    const second = $("#listproduct"); // второй контейнер
+
+    try {
+        // Основной запрос к API с заголовком
+        const response = await fetch(apiUrl, {
+            headers: {
+                "ngrok-skip-browser-warning": "true"
+            }
+        });
+
+        if (!response.ok) throw new Error("Ошибка загрузки данных с API");
+
+        const fruits = await response.json();
+        console.log(fruits)
+        
+        // 🔥 Оставляем только те продукты, где НЕТ "dried" в названии
+        const filteredFruits = fruits.filter(fruit =>
+        !fruit.name.toLowerCase().includes("dried")
+    );
+    
+        second.empty();
+        second.show();
+        let i = 1
+        let allreadyadded = [];
+        
+        // Асинхронная загрузка изображений с заголовком
+        while (i <= 4) {
+            if(i <= 4){               
+            let rand = Math.floor(Math.random() * filteredFruits.length);
+            if(allreadyadded.some(x => x === rand)){
+                continue;
+            }
+            const photoResponse = await fetch(`http://98.67.191.173:5000/photos/${filteredFruits[rand].id}.png`, {
+                headers: {
+                    "ngrok-skip-browser-warning": "true"
+                }
+            });
+            allreadyadded.push(rand);
+
+            let photoUrl;
+            if (photoResponse.ok) {
+                const blob = await photoResponse.blob();
+                photoUrl = URL.createObjectURL(blob);
+            } else {
+                photoUrl = "img/placeholder.png"; // запасное изображение
+            }
+
+
+            // Вторая карточка (списком)
+            const listCard = `
+                <div class="col-md-6 col-sm-12"> 
+                    <div class="deal-item list-view">
+                        <div class="deal-icons">                                         
+                            <a href="shop-single.html?id=${filteredFruits[rand].id}" data-toggle="modal" class="fa fa-expand"></a>                                      
+                        </div>
+                        <div class="deal-content">
+                            <div class="deal-text">
+                                <h4 class="sub-title"> ORGANIC FRUITS </h4>
+                                <h2 class="fsz-30 pb-15"> <a href="#"><strong>${filteredFruits[rand].name}</strong></a> </h2>
+                                <p>${filteredFruits[rand].composition}</p>
+                            </div>
+                            <div class="img images"> 
+                                <img alt="${filteredFruits[rand].name}" src="${photoUrl}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            second.append(listCard);
+            }
+            i++
+            console.log(i);
+        }
+        console.log(second.length)
+
+    } catch (error) {
+        console.error("Ошибка при загрузке:", error);
+    }
+}
+
+$(document).ready(function() {
+    loadProducts();
+});
 </script>
  
 <style>
+#listproduct .deal-text p {
+    height: 60px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;       /* ← исправлено! раньше было -webkit-line-break */
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    line-height: 1.4em;
+    font-size: 14px;
+    color: #555;
+}
+
+
 #product img {
     width: 100%;
     height: auto;
@@ -435,11 +587,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     
 #fruit-benefits {
-    column-count: 2;              /* количество столбцов — можно 3, если пунктов много */
-    column-gap: 40px;             /* расстояние между столбцами */
     list-style-type: disc;        /* маркеры кружочками */
-    padding-left: 40px;           /* отступ для маркеров */
-    font-size: 18px;
+    font-size: 14px;
     line-height: 1.5em;
 }
 
@@ -558,8 +707,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     text-align: center;
 }
 
-    #fruit-name {
-    font-size: 100px; /* было 22px */
+#fruit-name {
+    font-size: 50px; /* было 22px */
     font-weight: 700; /* чтобы выделялось */
     text-transform: uppercase;
 }
@@ -690,7 +839,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 
     #fruit-name {
-        font-size: 70px;
+        font-size: 50px;
     }
 
     #fruit-description {
@@ -829,6 +978,44 @@ $(document).ready(function () {
 <style>
     .product-media {
     background-color: #fff;
+}
+
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 8px 16px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+    transition: background-color 0.3s ease;
+}
+
+.arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.arrow.left {
+    left: -40px;
+}
+
+.arrow.right {
+    right: -40px;
+}
+
+@media (max-width: 991px) {
+    .arrow.left {
+        left: 0px;
+    }
+
+    .arrow.right {
+        right: 0px;
+    }
 }
 </style>
     </body>

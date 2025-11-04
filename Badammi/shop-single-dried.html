@@ -130,8 +130,19 @@
 
     <!-- Фото -->
    
-    
+    <p><strong><h3 style="color: black;">More dried product</h3></strong></p>
 </div>
+
+<div class="container rel-div">
+                    <div class="divider-full-1"></div>
+                    <div class="tab-content shop-content"> 
+                    <div id="list-view" class="tab-pane fade active in" role="tabpanel">
+                            <div id="listproduct" class="row"> 
+                                
+                            </div>
+                        </div>
+                    </div>
+</div> 
 
 <div>
 
@@ -222,10 +233,6 @@ $(document).ready(function () {
 
             if (fruit.color) {
                 $("#fruit-name").css("color", fruit.color);
-                $("#fruit-description").css("color", fruit.color);
-                $("#fruit-benefits").css("color", fruit.color);
-                $("#composition-title").css("color", fruit.color);
-                $("#benefits-title").css("color", fruit.color);
             }
 
             const mainSlider = $(".prod-slider.sync1");
@@ -314,6 +321,107 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 });
 </script>
+<script>
+    async function loadProducts() {
+    const apiUrl = "http://98.67.191.173:5000/Fruits/GetAllFruits";
+    const second = $("#listproduct"); // второй контейнер
+
+    try {
+        // Основной запрос к API с заголовком
+        const response = await fetch(apiUrl, {
+            headers: {
+                "ngrok-skip-browser-warning": "true"
+            }
+        });
+
+        if (!response.ok) throw new Error("Ошибка загрузки данных с API");
+
+        const fruits = await response.json();
+        console.log(fruits)
+        
+        // 🔥 Оставляем только те продукты, где НЕТ "dried" в названии
+        const filteredFruits = fruits.filter(fruit =>
+        fruit.name.toLowerCase().includes("dried")
+    );
+    
+        second.empty();
+        second.show();
+        let i = 1
+        let allreadyadded = [];
+        
+        // Асинхронная загрузка изображений с заголовком
+        while (i <= 4) {
+            if(i <= 4){               
+            let rand = Math.floor(Math.random() * filteredFruits.length);
+            if(allreadyadded.some(x => x === rand)){
+                continue;
+            }
+            const photoResponse = await fetch(`http://98.67.191.173:5000/photos/${filteredFruits[rand].id}.png`, {
+                headers: {
+                    "ngrok-skip-browser-warning": "true"
+                }
+            });
+            allreadyadded.push(rand);
+
+            let photoUrl;
+            if (photoResponse.ok) {
+                const blob = await photoResponse.blob();
+                photoUrl = URL.createObjectURL(blob);
+            } else {
+                photoUrl = "img/placeholder.png"; // запасное изображение
+            }
+
+
+            // Вторая карточка (списком)
+            const listCard = `
+                <div class="col-md-6 col-sm-12"> 
+                    <div class="deal-item list-view">
+                        <div class="deal-icons">                                         
+                            <a href="shop-single.html?id=${filteredFruits[rand].id}" data-toggle="modal" class="fa fa-expand"></a>                                      
+                        </div>
+                        <div class="deal-content">
+                            <div class="deal-text">
+                                <h4 class="sub-title"> ORGANIC FRUITS </h4>
+                                <h2 class="fsz-30 pb-15"> <a href="#"><strong>${filteredFruits[rand].name}</strong></a> </h2>
+                                <p>${filteredFruits[rand].composition}</p>
+                            </div>
+                            <div class="img images"> 
+                                <img alt="${filteredFruits[rand].name}" src="${photoUrl}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            second.append(listCard);
+            }
+            i++
+            console.log(i);
+        }
+        console.log(second.length)
+
+    } catch (error) {
+        console.error("Ошибка при загрузке:", error);
+    }
+}
+
+$(document).ready(function() {
+    loadProducts();
+});
+</script>
+<style>
+.prod-img {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+}
+.images img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+</style>
+
 <style>
 .product-layout {
     display: flex;
