@@ -22,18 +22,18 @@ public class FruitsController : Controller
         _env = env;
     }
 
+    [AllowAnonymous]
     [HttpPost]
     public async Task<IActionResult> SendEmail([FromBody]ContactModel model)
     {
         try
         {
-            var smtpClient = new SmtpClient("smtp.yourmail.com")
+            var smtpClient = new SmtpClient("smtp.gmail.com")
             {
                 Port = 587,
-                Credentials = new NetworkCredential("azurebadammi@gmail.com", "1Qaz2Wsx@"),
+                Credentials = new NetworkCredential("azurebadammi@gmail.com", "vsdgligikfgdjdxj"),
                 EnableSsl = true,
             };
-
             var mailMessage = new MailMessage
             {
                 From = new MailAddress("azurebadammi@gmail.com"),
