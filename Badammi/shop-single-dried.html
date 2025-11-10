@@ -223,7 +223,7 @@ $(document).ready(function () {
             const fruitId = new URLSearchParams(window.location.search).get("id");
             if (!fruitId) return console.warn("❌ Id не найден в URL");
 
-            const apiUrl = `http://98.67.191.173:5000/Fruits/ShopOne?id=${fruitId}`;
+            const apiUrl = `https://badammi.com:5000/Fruits/ShopOne?id=${fruitId}`;
             const response = await fetch(apiUrl);
             if (!response.ok) throw new Error("Ошибка загрузки данных: " + response.status);
             const fruit = await response.json();
@@ -237,7 +237,7 @@ $(document).ready(function () {
 
             const mainSlider = $(".prod-slider.sync1");
 
-            const mainImgUrl = `http://98.67.191.173:5000/photos/${fruit.id}.png`;
+            const mainImgUrl = `https://badammi.com:5000/photos/${fruit.id}.png`;
             const thumbnails = [mainImgUrl];
 
             mainSlider.append(`
@@ -282,7 +282,7 @@ $(document).ready(function () {
 
 // === Загрузка всех фруктов для меню ===
 document.addEventListener("DOMContentLoaded", async () => {
-    const apiUrl = "http://98.67.191.173:5000/Fruits/GetAllFruits";
+    const apiUrl = "https://badammi.com:5000/Fruits/GetAllFruits";
 
     try {
         const response = await fetch(apiUrl, { headers: { "ngrok-skip-browser-warning": "true" } });
@@ -323,7 +323,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 </script>
 <script>
     async function loadProducts() {
-    const apiUrl = "http://98.67.191.173:5000/Fruits/GetAllFruits";
+    const apiUrl = "https://badammi.com:5000/Fruits/GetAllFruits";
     const second = $("#listproduct"); // второй контейнер
 
     try {
@@ -352,7 +352,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             if(allreadyadded.some(x => x === rand)){
                 continue;
             }
-            const photoResponse = await fetch(`http://98.67.191.173:5000/photos/${filteredFruits[rand].id}.png`);
+            const photoResponse = await fetch(`https://badammi.com:5000/photos/${filteredFruits[rand].id}.png`);
             allreadyadded.push(rand);
 
             let photoUrl;

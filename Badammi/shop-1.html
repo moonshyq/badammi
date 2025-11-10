@@ -228,7 +228,7 @@
         <script src="assets/js/theme.js"></script>
 
         <script>
-const apiUrl = "http://98.67.191.173:5000/Fruits/GetAllFruits";
+const apiUrl = "https://badammi.com:5000/Fruits/GetAllFruits";
 
 async function loadProducts() {
     console.log("test");
@@ -259,7 +259,7 @@ async function loadProducts() {
 
         // Асинхронная загрузка изображений с заголовком
         for (const fruit of filteredFruits) {
-            const photoResponse = await fetch(`http://98.67.191.173:5000/photos/${fruit.id}.png`, {
+            const photoResponse = await fetch(`https://badammi.com:5000/photos/${fruit.id}.png`, {
                 headers: {
                     "ngrok-skip-browser-warning": "true"
                 }
@@ -346,7 +346,7 @@ async function hidelist() {
         
 <script>
 document.addEventListener("DOMContentLoaded", async () => {
-    const apiUrl = "http://98.67.191.173:5000/Fruits/GetAllFruits";
+    const apiUrl = "https://badammi.com:5000/Fruits/GetAllFruits";
 
     try {
         const response = await fetch(apiUrl, {

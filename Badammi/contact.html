@@ -210,8 +210,33 @@
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwarlVfqlWKfonKl9T0wr9VGC0ynvbdiU&callback=initMap" async defer></script>
 
         <script>
+document.getElementById('contact-form').addEventListener('submit', async function(e){
+    e.preventDefault();
+    const formData = {
+        Name: this.Name.value,
+        Email: this.Email.value,
+        Phone: this.Phone.value,
+        Message: this.Message.value
+    };
+
+    const response = await fetch('https://badammi.com:5000/Fruits/SendEmail', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(formData)
+    });
+
+    if(response.ok){
+        alert('Message sent successfully!');
+        this.reset();
+    } else {
+        alert('Failed to send message.');
+    }
+});
+</script>
+
+        <script>
 document.addEventListener("DOMContentLoaded", async () => {
-    const apiUrl = "http://98.67.191.173:5000/Fruits/GetAllFruits";
+    const apiUrl = "https://badammi.com:5000/Fruits/GetAllFruits";
 
     try {
         const response = await fetch(apiUrl, {

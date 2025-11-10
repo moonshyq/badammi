@@ -3,6 +3,8 @@ using BadammiAPI.Models;
 using BadammiAPI.Services.Base;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Net.Mail;
+using System.Net;
 using System.Reflection;
 
 namespace BadammiAPI.Controllers;
@@ -18,6 +20,36 @@ public class FruitsController : Controller
     {
         _jsonService = jsonService;
         _env = env;
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> SendEmail([FromBody]ContactModel model)
+    {
+        try
+        {
+            var smtpClient = new SmtpClient("smtp.yourmail.com")
+            {
+                Port = 587,
+                Credentials = new NetworkCredential("azurebadammi@gmail.com", "1Qaz2Wsx@"),
+                EnableSsl = true,
+            };
+
+            var mailMessage = new MailMessage
+            {
+                From = new MailAddress("azurebadammi@gmail.com"),
+                Subject = "New Contact Message",
+                Body = $"Name: {model.Name}\nEmail: {model.Email}\nPhone: {model.Phone}\nMessage: {model.Message}",
+                IsBodyHtml = false,
+            };
+            mailMessage.To.Add("info@badammi.com");
+
+            smtpClient.Send(mailMessage);
+            return Ok();
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, ex.Message);
+        }
     }
 
     [HttpPost]

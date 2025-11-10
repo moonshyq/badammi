@@ -57,70 +57,77 @@
         "Id": 10000007,
         "PhotoPath": "Resource\\Photo\\10000007.png",
         "ChildPhotoPath": [ "Resource\\Photo\\10000007_1.png", "Resource\\Photo\\10000007_2.png", "Resource\\Photo\\10000007_3.png" ],
+        "AddedPhotoPath": [ "Resource\\Photo\\10000007_1_1.png", "Resource\\Photo\\10000007_1_2.png", "Resource\\Photo\\10000007_1_3.png" ],
         "ChildPhotoText": [ "Fresh apricot in a hygienic 300g pack, easy to carry and enjoy.", "Premium Premium persimmons in an elegant carton box – a perfect gift choice.", "Fresh and delicious persimmons in a black net bag – convenient for family use." ],
         "Color": "#ed8e21",
         "Name": "Apricot",
         "Composition": "Vitamins: A (beta-carotene), C, E, K,  B-group vitamins (B1, B2, B6,folic acid). Minerals: Potassium, calcium, magnesium, iron, phosphorus. Others: Fiber, natural sugars (glucose, fructose, sucrose), antioxidants (flavonoids, carotenoids). Calories: Fresh apricot – 100 g ≈  45–50 kcal; Dried apricot – 100 g ≈ 200–250 kcal.",
         "Benefits": [ "Eye health: Beta-carotene (vitamin A) st Cardiovascular system: Potassium regulates heart rhythm and balances blood pressure.", "Blood circulation: Iron prevents anemia  and supports hemoglobin.", "Digestive system: Fiber cleanses intestines and relieves constipation.", "Skin and hair: Antioxidants protect skin from aging and strengthen hair roots.", "Immunity: Vitamin C boosts the body’s resistance.", "Bone health: Calcium and magnesium strengthen bones" ]
     },
-    {
-        "Id": 10000008,
-        "PhotoPath": "Resource\\Photo\\10000008.png",
-        "ChildPhotoPath": [ "Resource\\Photo\\10000008_1.png", "Resource\\Photo\\10000008_2.png", "Resource\\Photo\\10000008_3.png" ],
-        "ChildPhotoText": [ "Fresh persimmons in a hygienic 300g pack, easy to carry and enjoy.", "Premium Premium persimmons in an elegant carton box – a perfect gift choice.", "Fresh and delicious persimmons in a black net bag – convenient for family use." ],
-        "Color": "#e86025",
-        "Name": "Persimmon",
-        "Composition": "Natural sugars (glucose, fruc -tose, sucrose) Vitamins: A, B1, B2, B6, K Minerals: Potassium, magne -sium, phosphorus, iron Antioxidants (ﬂavonoids, carot enoids)",
-        "Benefits": [ "Energy source: Provides quick strength and energy due to natural sugars. Ideal food for athletes.", "Cardiovascular health: Potassium strengthens heart function and regulates blood pressure.", "Nervous system: B-group vitamins    calm nerves and improve sleep quality.", "Digestive system: Fiber prevents constipation and cleanses the intestines.", "Immunity: Antioxidants protect the body from free radicals and increase resistance to diseases.", "Blood circulation: Iron prevents anemia." ]
-    },
-    {
-        "Id": 10000009,
-        "PhotoPath": "Resource\\Photo\\10000009.png",
-        "ChildPhotoPath": [ "Resource\\Photo\\10000009_1.png", "Resource\\Photo\\10000009_2.png", "Resource\\Photo\\10000009_3.png" ],
-        "ChildPhotoText": [ "Fresh peach in a hygienic 300g pack, easy to carry and enjoy.", "Premium peach in an elegant carton box – a perfect gift choice.", "Fresh and delicious persimmons in a black net bag – convenient for family use." ],
-        "Color": "#c42b27",
-        "Name": "Peach",
-        "Composition": "Vitamins: A, C, E; Minerals: Potassium, magnesium, iron, zinc; High fiber; Antioxidants (especially beta-carotene)",
-        "Benefits": [ "Digestive system: Fiber prevents constipation and cleanses the intestines.", "Cardiovascular health: Potassium regulates heart rhythm and protects blood vessels.", "Skin and hair: Antioxidants brighten the skin and slow aging.", "Immunity: Vitamin C increases resistance to diseases.", "Energy: Natural sugars quickly strengthen the body and reduce fatigue." ]
-    },
-    {
-        "Id": 10000010,
-        "PhotoPath": "Resource\\Photo\\10000010.png",
-        "ChildPhotoPath": [ "Resource\\Photo\\10000010_1.png", "Resource\\Photo\\10000010_2.png" ],
-        "ChildPhotoText": [ "Premium pomegranate in an elegant carton box – a perfect gift choice.", "Premium pomegranate in an elegant carton box – a perfect gift choice." ],
-        "Color": "#e73c42",
-        "Name": "Pomegranate",
-        "Composition": "Vitamins: C, K, B-group; Minerals: Potassium, iron, magnesium, phosphorus; Antioxidants: Punicalagin, anthocyanins, polyphenols; Natural sugars and fiber",
-        "Benefits": [ "Blood circulation: Improves fluidity, protects cardiovascular health.", "Anemia: Iron boosts hemoglobin.", "Immunity: Vitamin C strengthens defenses.", "Anti-cancer effect: Strong antioxidants neutralize free radicals.", "Digestion: Fiber strengthens stomach and intestines." ]
-    },
-    {
-        "Id": 10000011,
-        "PhotoPath": "Resource\\Photo\\10000011.png",
-        "ChildPhotoPath": [ "Resource\\Photo\\10000011_1.png", "Resource\\Photo\\10000011_2.png" ],
-        "ChildPhotoText": [ "Premium Cherry in an elegant carton box – a perfect gift choice.", "Premium Cherry in an elegant carton box – a perfect gift choice." ],
-        "Color": "#7f1418",
-        "Name": "Cherry",
-        "Composition": "Vitamins: A, C, K, B-group; Minerals: Potassium, magnesium, calcium, iron; Antioxidants: Anthocyanins, flavonoids, melatonin; Water and fiber",
-        "Benefits": [ "Heart health: Potassium regulates pressure and protects vessels.", "Sleep quality: Natural melatonin improves sleep.", "Anti-inflammatory: Anthocyanins reduce joint pain and inflammation.", "Blood circulation: Iron prevents anemia.", "Skin health: Vitamin C boosts collagen production." ]
-    },
-    {
-        "Id": 10000012,
-        "PhotoPath": "Resource\\Photo\\10000012.png",
-        "ChildPhotoPath": [ "Resource\\Photo\\10000012_1.png", "Resource\\Photo\\10000012_2.png", "Resource\\Photo\\10000012_3.png" ],
-        "ChildPhotoText": [ "Fresh persimmons in a hygienic 300g pack, easy to carry and enjoy.", "Premium Cherry in an elegant carton box – a perfect gift choice.", "Premium Cherry in an elegant carton box – a perfect gift choice." ],
-        "Color": "#6f402a",
-        "Name": "Hazelnut",
-        "Composition": "Vitamins: E, B1, B2, B6, folic acid; Minerals: Magnesium, potassium, calcium, iron, zinc, phosphorus; Fats: Omega-3 and omega-6 fatty acids; Others: Protein, fiber, antioxidants",
-        "Benefits": [ "Heart health: Omega-3 and vitamin E improve vessel elasticity and reduce cholesterol.", "Brain and memory: B vitamins and magnesium boost brain activity.", "Energy: High protein and fat provide long-lasting energy.", "Skin and hair: Vitamin E slows aging and strengthens hair.", "Bones and muscles: Calcium and magnesium strengthen structure.", "Stress and fatigue: Magnesium calms nerves and improves sleep." ]
-    },
-    {
-        "Id": 10000013,
-        "PhotoPath": "Resource\\Photo\\10000013.png",
-        "ChildPhotoPath": [ "Resource\\Photo\\10000013_1.png", "Resource\\Photo\\10000013_2.png", "Resource\\Photo\\10000013_3.png" ],
-        "ChildPhotoText": [ "Fresh persimmons in a hygienic 300g pack, easy to carry and enjoy.", "Premium Cherry in an elegant carton box – a perfect gift choice.", "Premium Cherry in an elegant carton box – a perfect gift choice." ],
-        "Color": "#996929",
-        "Name": "Walnuts",
-        "Composition": "Vitamins: E, B1, B2, B6, folic acid; Minerals: Magnesium, potassium, calcium, iron, zinc, phosphorus, selenium; Fats: Omega-3 (ALA – alpha-linolenic acid), omega-6; Others: Protein (~15%), fiber, strong antioxidants (polyphenols)",
-        "Benefits": [ "Heart health: Omega-3 and vitamin E improve vessel elasticity, reduce cholesterol.", "Brain and memory: B vitamins and magnesium boost brain activity.", "Energy: High protein and fat provide long-lasting energy.", "Skin and hair: Vitamin E slows aging and strengthens hair.", "Bones and muscles: Calcium and magnesium strengthen structure.", "Stress and fatigue: Magnesium calms nerves and improves sleep." ]
-    }
+  {
+    "Id": 10000008,
+    "PhotoPath": "Resource\\Photo\\10000008.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000008_1.png", "Resource\\Photo\\10000008_2.png", "Resource\\Photo\\10000008_3.png" ],
+    "AddedPhotoPath": [ "Resource\\Photo\\10000008_1_1.png", "Resource\\Photo\\10000008_1_2.png", "Resource\\Photo\\10000008_1_3.png", "Resource\\Photo\\10000008_1_4.png" ],
+    "ChildPhotoText": [ "Fresh persimmons in a hygienic 300g pack, easy to carry and enjoy.", "Premium Premium persimmons in an elegant carton box – a perfect gift choice.", "Fresh and delicious persimmons in a black net bag – convenient for family use." ],
+    "Color": "#e86025",
+    "Name": "Persimmon",
+    "Composition": "Natural sugars (glucose, fruc -tose, sucrose) Vitamins: A, B1, B2, B6, K Minerals: Potassium, magne -sium, phosphorus, iron Antioxidants (ﬂavonoids, carot enoids)",
+    "Benefits": [ "Energy source: Provides quick strength and energy due to natural sugars. Ideal food for athletes.", "Cardiovascular health: Potassium strengthens heart function and regulates blood pressure.", "Nervous system: B-group vitamins    calm nerves and improve sleep quality.", "Digestive system: Fiber prevents constipation and cleanses the intestines.", "Immunity: Antioxidants protect the body from free radicals and increase resistance to diseases.", "Blood circulation: Iron prevents anemia." ]
+  },
+  {
+    "Id": 10000009,
+    "PhotoPath": "Resource\\Photo\\10000009.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000009_1.png", "Resource\\Photo\\10000009_2.png", "Resource\\Photo\\10000009_3.png" ],
+    "AddedPhotoPath": [ "Resource\\Photo\\10000009_1_1.png", "Resource\\Photo\\10000009_1_2.png", "Resource\\Photo\\10000009_1_3.png", "Resource\\Photo\\10000009_1_4.png", "Resource\\Photo\\10000009_1_5.png" ],
+    "ChildPhotoText": [ "Fresh peach in a hygienic 300g pack, easy to carry and enjoy.", "Premium peach in an elegant carton box – a perfect gift choice.", "Fresh and delicious persimmons in a black net bag – convenient for family use." ],
+    "Color": "#c42b27",
+    "Name": "Peach",
+    "Composition": "Vitamins: A, C, E; Minerals: Potassium, magnesium, iron, zinc; High fiber; Antioxidants (especially beta-carotene)",
+    "Benefits": [ "Digestive system: Fiber prevents constipation and cleanses the intestines.", "Cardiovascular health: Potassium regulates heart rhythm and protects blood vessels.", "Skin and hair: Antioxidants brighten the skin and slow aging.", "Immunity: Vitamin C increases resistance to diseases.", "Energy: Natural sugars quickly strengthen the body and reduce fatigue." ]
+  },
+  {
+    "Id": 10000010,
+    "PhotoPath": "Resource\\Photo\\10000010.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000010_1.png", "Resource\\Photo\\10000010_2.png" ],
+    "AddedPhotoPath": [ "Resource\\Photo\\10000010_1_1.png", "Resource\\Photo\\10000010_1_2.png", "Resource\\Photo\\10000010_1_3.png", "Resource\\Photo\\10000010_1_4.png" ],
+    "ChildPhotoText": [ "Premium pomegranate in an elegant carton box – a perfect gift choice.", "Premium pomegranate in an elegant carton box – a perfect gift choice." ],
+    "Color": "#e73c42",
+    "Name": "Pomegranate",
+    "Composition": "Vitamins: C, K, B-group; Minerals: Potassium, iron, magnesium, phosphorus; Antioxidants: Punicalagin, anthocyanins, polyphenols; Natural sugars and fiber",
+    "Benefits": [ "Blood circulation: Improves fluidity, protects cardiovascular health.", "Anemia: Iron boosts hemoglobin.", "Immunity: Vitamin C strengthens defenses.", "Anti-cancer effect: Strong antioxidants neutralize free radicals.", "Digestion: Fiber strengthens stomach and intestines." ]
+  },
+  {
+    "Id": 10000011,
+    "PhotoPath": "Resource\\Photo\\10000011.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000011_1.png", "Resource\\Photo\\10000011_2.png" ],
+    "AddedPhotoPath": [ "Resource\\Photo\\10000011_1_1.png", "Resource\\Photo\\10000011_1_2.png", "Resource\\Photo\\10000011_1_3.png", "Resource\\Photo\\10000011_1_4.png" ],
+    "ChildPhotoText": [ "Premium Cherry in an elegant carton box – a perfect gift choice.", "Premium Cherry in an elegant carton box – a perfect gift choice." ],
+    "Color": "#7f1418",
+    "Name": "Cherry",
+    "Composition": "Vitamins: A, C, K, B-group; Minerals: Potassium, magnesium, calcium, iron; Antioxidants: Anthocyanins, flavonoids, melatonin; Water and fiber",
+    "Benefits": [ "Heart health: Potassium regulates pressure and protects vessels.", "Sleep quality: Natural melatonin improves sleep.", "Anti-inflammatory: Anthocyanins reduce joint pain and inflammation.", "Blood circulation: Iron prevents anemia.", "Skin health: Vitamin C boosts collagen production." ]
+  },
+  {
+    "Id": 10000012,
+    "PhotoPath": "Resource\\Photo\\10000012.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000012_1.png", "Resource\\Photo\\10000012_2.png", "Resource\\Photo\\10000012_3.png" ],
+    "AddedPhotoPath": [ "Resource\\Photo\\10000012_1_1.png", "Resource\\Photo\\10000012_1_2.png", "Resource\\Photo\\10000012_1_3.png", "Resource\\Photo\\10000012_1_4.png" ],
+    "ChildPhotoText": [ "Fresh persimmons in a hygienic 300g pack, easy to carry and enjoy.", "Premium Cherry in an elegant carton box – a perfect gift choice.", "Premium Cherry in an elegant carton box – a perfect gift choice." ],
+    "Color": "#6f402a",
+    "Name": "Hazelnut",
+    "Composition": "Vitamins: E, B1, B2, B6, folic acid; Minerals: Magnesium, potassium, calcium, iron, zinc, phosphorus; Fats: Omega-3 and omega-6 fatty acids; Others: Protein, fiber, antioxidants",
+    "Benefits": [ "Heart health: Omega-3 and vitamin E improve vessel elasticity and reduce cholesterol.", "Brain and memory: B vitamins and magnesium boost brain activity.", "Energy: High protein and fat provide long-lasting energy.", "Skin and hair: Vitamin E slows aging and strengthens hair.", "Bones and muscles: Calcium and magnesium strengthen structure.", "Stress and fatigue: Magnesium calms nerves and improves sleep." ]
+  },
+  {
+    "Id": 10000013,
+    "PhotoPath": "Resource\\Photo\\10000013.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000013_1.png", "Resource\\Photo\\10000013_2.png", "Resource\\Photo\\10000013_3.png" ],
+    "AddedPhotoPath": [ "Resource\\Photo\\10000013_1_1.png", "Resource\\Photo\\10000013_1_2.png", "Resource\\Photo\\10000013_1_3.png", "Resource\\Photo\\10000013_1_4.png", "Resource\\Photo\\10000013_1_4.png", "Resource\\Photo\\10000013_1_5.png" ],
+    "ChildPhotoText": [ "Fresh persimmons in a hygienic 300g pack, easy to carry and enjoy.", "Premium Cherry in an elegant carton box – a perfect gift choice.", "Premium Cherry in an elegant carton box – a perfect gift choice." ],
+    "Color": "#996929",
+    "Name": "Walnuts",
+    "Composition": "Vitamins: E, B1, B2, B6, folic acid; Minerals: Magnesium, potassium, calcium, iron, zinc, phosphorus, selenium; Fats: Omega-3 (ALA – alpha-linolenic acid), omega-6; Others: Protein (~15%), fiber, strong antioxidants (polyphenols)",
+    "Benefits": [ "Heart health: Omega-3 and vitamin E improve vessel elasticity, reduce cholesterol.", "Brain and memory: B vitamins and magnesium boost brain activity.", "Energy: High protein and fat provide long-lasting energy.", "Skin and hair: Vitamin E slows aging and strengthens hair.", "Bones and muscles: Calcium and magnesium strengthen structure.", "Stress and fatigue: Magnesium calms nerves and improves sleep." ]
+  }
 ]
