@@ -165,7 +165,7 @@
             <!-- / CONTENT AREA -->
 
             <!-- FOOTER -->
-            <footer class="page-footer"> 
+            <footer class="page-footer" > 
                 <section class="sec-space light-bg">
                     <div class="container">
                         <div class="row">
@@ -183,7 +183,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-4 footer-widget">
+                            <div class="col-md-3 col-sm-4 footer-widget" >
                                 <h2 class="title-1">  <span class="light-font">badammi  </span> <strong>information </strong> </h2>
                                 <span class="divider-2"></span>
                                 <ul class="list">
@@ -267,8 +267,6 @@ function addLineBreaks(text, wordsPerLine = 3) {
 
             console.log(fruit.childPhotoText[0])
             if (fruit.childPhotoPath && fruit.childPhotoPath.length > 0) {
-                
-                
                 fruit.childPhotoPath.forEach((_, index) => {
                     const processedComposition = addLineBreaks(fruit.childPhotoText[index], 3);
                     const imgUrl = `http://98.67.191.173:5000/photos/${fruit.id}_${index + 1}.png`;
@@ -290,6 +288,10 @@ function addLineBreaks(text, wordsPerLine = 3) {
             container.append(card);
                 });
             }
+            fruit.AddedPhotoPath.forEach((_, index) => {
+                    const imgUrl = `http://98.67.191.173:5000/photos/${fruit.id}_1_${index + 1}.png`;
+                    thumbnails.push(imgUrl);
+                });
             photo = thumbnails;
 
             // --- Главная фотка ---
@@ -514,17 +516,15 @@ document.addEventListener("DOMContentLoaded", async () => {
             }
 
 
+            console.log(filteredFruits[rand].id);
             // Вторая карточка (списком)
             const listCard = `
-                <div class="col-md-6 col-sm-12"> 
+                <div class="col-md-6 col-sm-12" onclick="change(${filteredFruits[rand].id})"> 
                     <div class="deal-item list-view">
-                        <div class="deal-icons">                                         
-                            <a href="shop-single.html?id=${filteredFruits[rand].id}" data-toggle="modal" class="fa fa-expand"></a>                                      
-                        </div>
                         <div class="deal-content">
                             <div class="deal-text">
                                 <h4 class="sub-title"> ORGANIC FRUITS </h4>
-                                <h2 class="fsz-30 pb-15"> <a href="#"><strong>${filteredFruits[rand].name}</strong></a> </h2>
+                                <h2 class="fsz-30 pb-15"> <a><strong>${filteredFruits[rand].name}</strong></a> </h2>
                                 <p>${filteredFruits[rand].composition}</p>
                             </div>
                             <div class="img images"> 
@@ -545,6 +545,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     } catch (error) {
         console.error("Ошибка при загрузке:", error);
     }
+}
+
+function change(id){
+    let toid = id
+    window.location.href = `shop-single.html?id=${toid}`
+    
 }
 
 $(document).ready(function() {

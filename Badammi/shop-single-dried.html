@@ -224,7 +224,7 @@ $(document).ready(function () {
             if (!fruitId) return console.warn("❌ Id не найден в URL");
 
             const apiUrl = `http://98.67.191.173:5000/Fruits/ShopOne?id=${fruitId}`;
-            const response = await fetch(apiUrl, { headers: { "ngrok-skip-browser-warning": "true" } });
+            const response = await fetch(apiUrl);
             if (!response.ok) throw new Error("Ошибка загрузки данных: " + response.status);
             const fruit = await response.json();
 
@@ -328,11 +328,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     try {
         // Основной запрос к API с заголовком
-        const response = await fetch(apiUrl, {
-            headers: {
-                "ngrok-skip-browser-warning": "true"
-            }
-        });
+        const response = await fetch(apiUrl);
 
         if (!response.ok) throw new Error("Ошибка загрузки данных с API");
 
@@ -356,11 +352,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             if(allreadyadded.some(x => x === rand)){
                 continue;
             }
-            const photoResponse = await fetch(`http://98.67.191.173:5000/photos/${filteredFruits[rand].id}.png`, {
-                headers: {
-                    "ngrok-skip-browser-warning": "true"
-                }
-            });
+            const photoResponse = await fetch(`http://98.67.191.173:5000/photos/${filteredFruits[rand].id}.png`);
             allreadyadded.push(rand);
 
             let photoUrl;
@@ -374,15 +366,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 
             // Вторая карточка (списком)
             const listCard = `
-                <div class="col-md-6 col-sm-12"> 
+                <div class="col-md-6 col-sm-12" onclick="change(${filteredFruits[rand].id})"> 
                     <div class="deal-item list-view">
-                        <div class="deal-icons">                                         
-                            <a href="shop-single.html?id=${filteredFruits[rand].id}" data-toggle="modal" class="fa fa-expand"></a>                                      
-                        </div>
                         <div class="deal-content">
                             <div class="deal-text">
                                 <h4 class="sub-title"> ORGANIC FRUITS </h4>
-                                <h2 class="fsz-30 pb-15"> <a href="#"><strong>${filteredFruits[rand].name}</strong></a> </h2>
+                                <h2 class="fsz-30 pb-15"> <a><strong>${filteredFruits[rand].name}</strong></a> </h2>
                                 <p>${filteredFruits[rand].composition}</p>
                             </div>
                             <div class="img images"> 
@@ -403,6 +392,12 @@ document.addEventListener("DOMContentLoaded", async () => {
     } catch (error) {
         console.error("Ошибка при загрузке:", error);
     }
+}
+
+function change(id){
+    let toid = id
+    window.location.href = `shop-single-dried.html?id=${toid}`
+    
 }
 
 $(document).ready(function() {
