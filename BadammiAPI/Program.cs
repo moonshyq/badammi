@@ -45,7 +45,7 @@ app.UseStaticFiles(new StaticFileOptions
 {
     FileProvider = new PhysicalFileProvider(
         Path.Combine(Directory.GetCurrentDirectory(), "Resourse", "Photo")),
-    RequestPath = "/photos"
+    RequestPath = "/api/photos"
 });
 app.UseRouting();
 app.MapControllers();
