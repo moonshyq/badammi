@@ -235,7 +235,7 @@ $(document).ready(function () {
             const fruitId = new URLSearchParams(window.location.search).get("id");
             if (!fruitId) return console.warn("❌ Id не найден в URL");
 
-            const apiUrl = `https://badammi.com:5000/Fruits/ShopOne?id=${fruitId}`;
+            const apiUrl = `/api/Fruits/ShopOne?id=${fruitId}`;
             const response = await fetch(apiUrl, { headers: { "ngrok-skip-browser-warning": "true" } });
             if (!response.ok) throw new Error("Ошибка загрузки данных: " + response.status);
             const fruit = await response.json();
@@ -252,7 +252,7 @@ $(document).ready(function () {
             mainSlider.empty();
             thumbSlider.empty();
 
-            const mainImgUrl = `https://badammi.com:5000/photos/${fruit.id}.png`;
+            const mainImgUrl = `/api/photos/${fruit.id}.png`;
             const thumbnails = [mainImgUrl];
 
 function addLineBreaks(text, wordsPerLine = 3) {
@@ -269,7 +269,7 @@ function addLineBreaks(text, wordsPerLine = 3) {
             if (fruit.childPhotoPath && fruit.childPhotoPath.length > 0) {
                 fruit.childPhotoPath.forEach((_, index) => {
                     const processedComposition = addLineBreaks(fruit.childPhotoText[index], 3);
-                    const imgUrl = `https://badammi.com:5000/photos/${fruit.id}_${index + 1}.png`;
+                    const imgUrl = `/api/photos/${fruit.id}_${index + 1}.png`;
                     const card = `
                 <div class="col-lg-3 col-md-4 col-sm-6"> 
                     <div class="product-box"> 
@@ -288,7 +288,7 @@ function addLineBreaks(text, wordsPerLine = 3) {
                 });
             }
             fruit.addedPhotoPath.forEach((_, index) => {
-                    const imgUrl = `https://badammi.com:5000/photos/${fruit.id}_1_${index + 1}.png`;
+                    const imgUrl = `/api/photos/${fruit.id}_1_${index + 1}.png`;
                     thumbnails.push(imgUrl);
                 });
             photo = thumbnails;
