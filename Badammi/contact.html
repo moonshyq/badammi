@@ -219,7 +219,7 @@ document.getElementById('contact-form').addEventListener('submit', async functio
         Message: this.Message.value
     };
 
-    const response = await fetch('https://badammi.com:5000/Fruits/SendEmail', {
+    const response = await fetch('/api/Fruits/SendEmail', {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify(formData)
@@ -236,7 +236,7 @@ document.getElementById('contact-form').addEventListener('submit', async functio
 
         <script>
 document.addEventListener("DOMContentLoaded", async () => {
-    const apiUrl = "https://badammi.com:5000/Fruits/GetAllFruits";
+    const apiUrl = "/api/Fruits/GetAllFruits";
 
     try {
         const response = await fetch(apiUrl, {

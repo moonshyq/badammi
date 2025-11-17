@@ -422,7 +422,7 @@ function prevPhoto() {
 
 // === Загрузка всех фруктов для меню ===
 document.addEventListener("DOMContentLoaded", async () => {
-    const apiUrl = "https://badammi.com:5000/Fruits/GetAllFruits";
+    const apiUrl = "/api/Fruits/GetAllFruits";
 
     try {
         const response = await fetch(apiUrl, { headers: { "ngrok-skip-browser-warning": "true" } });
@@ -466,7 +466,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 <script>
     async function loadProducts() {
-    const apiUrl = "https://badammi.com:5000/Fruits/GetAllFruits";
+    const apiUrl = "/api/Fruits/GetAllFruits";
     const second = $("#listproduct"); // второй контейнер
 
     try {
@@ -499,7 +499,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             if(allreadyadded.some(x => x === rand)){
                 continue;
             }
-            const photoResponse = await fetch(`https://badammi.com:5000/photos/${filteredFruits[rand].id}.png`, {
+            const photoResponse = await fetch(`/api/photos/${filteredFruits[rand].id}.png`, {
                 headers: {
                     "ngrok-skip-browser-warning": "true"
                 }
