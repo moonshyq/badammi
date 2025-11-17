@@ -1,12 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "MWNrlvxL2GsHGcUhvfxv87O0plTwsxyKfjBDAiKuWwk=",
-  "Source": "BadammiAPI",
-  "BasePath": "_content/BadammiAPI",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
-}
+{"Version":1,"Hash":"iVMKWTv4OwXM40hxVy7RsDfZNRGzagMDlr6f0yWpr+s=","Source":"BadammiAPI","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

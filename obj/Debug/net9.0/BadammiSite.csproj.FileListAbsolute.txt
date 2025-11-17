@@ -224,3 +224,15 @@ D:\badammi\badammi\obj\Debug\net9.0\BadammiSite.genruntimeconfig.cache
 D:\badammi\badammi\obj\Debug\net9.0\ref\BadammiSite.dll
 D:\badammi\badammi\obj\Debug\net9.0\compressed\8ik4mgo2ep-p4jl3i6sh1.gz
 D:\badammi\badammi\obj\Debug\net9.0\compressed\ff7ib8k3zh-c10qtci6mr.gz
+C:\Users\lyoha)\Desktop\badammi\badammi\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\lyoha)\Desktop\badammi\badammi\obj\Debug\net9.0\BadammiSite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lyoha)\Desktop\badammi\badammi\obj\Debug\net9.0\BadammiSite.AssemblyInfoInputs.cache
+C:\Users\lyoha)\Desktop\badammi\badammi\obj\Debug\net9.0\BadammiSite.AssemblyInfo.cs
+C:\Users\lyoha)\Desktop\badammi\badammi\obj\Debug\net9.0\BadammiSite.csproj.CoreCompileInputs.cache
+C:\Users\lyoha)\Desktop\badammi\badammi\obj\Debug\net9.0\BadammiSite.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lyoha)\Desktop\badammi\badammi\obj\Debug\net9.0\BadammiSite.RazorAssemblyInfo.cache
+C:\Users\lyoha)\Desktop\badammi\badammi\obj\Debug\net9.0\BadammiSite.RazorAssemblyInfo.cs
+C:\Users\lyoha)\Desktop\badammi\badammi\obj\Debug\net9.0\BadammiSite.sourcelink.json
+C:\Users\lyoha)\Desktop\badammi\badammi\obj\Debug\net9.0\BadammiSite.dll
+C:\Users\lyoha)\Desktop\badammi\badammi\obj\Debug\net9.0\refint\BadammiSite.dll
+C:\Users\lyoha)\Desktop\badammi\badammi\obj\Debug\net9.0\BadammiSite.pdb
