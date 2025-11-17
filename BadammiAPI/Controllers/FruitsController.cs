@@ -10,6 +10,7 @@ using System.Reflection;
 namespace BadammiAPI.Controllers;
 
 
+[Route("/api/[controller]/[action]")]
 [AllowAnonymous]
 public class FruitsController : Controller
 {
