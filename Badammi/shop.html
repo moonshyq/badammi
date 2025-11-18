@@ -24,8 +24,8 @@
         <link href="assets/css/plugin/bootstrap-select.min.css" rel="stylesheet" type="text/css"> 
         <link href="assets/css/plugin/owl.carousel.css" rel="stylesheet" type="text/css">
         <link href="assets/css/plugin/animate.css" rel="stylesheet" type="text/css"> 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
         <link href="assets/css/plugin/jquery-ui.min.css" rel="stylesheet" type="text/css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
         <!-- Custom CSS -->
         <link href="assets/css/theme.css" rel="stylesheet" type="text/css">
@@ -73,11 +73,11 @@
                                     
                                 </li> 
                                 <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="shop.html">All Catalog</a></li>
+                                <li class="active"><a href="shop.html">All Catalog</a></li>
                                 <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" >Fresh products</a> 
                                     <ul id="fresh"class="dropdown-menu"> </ul> 
                                 </li>
-                                <li class="dropdown active"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" >Dried products</a> 
+                                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" >Dried products</a> 
                                     <ul class="dropdown-menu"> </ul> 
                                 </li>
                                 <li><a href="contact.html">Contact Us</a></li>   
@@ -151,7 +151,8 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="tab-content shop-content"> <div id="grid-view" class="tab-pane fade active in" role="tabpanel">
+                    <div class="tab-content shop-content"> 
+                        <div id="grid-view" class="tab-pane fade active in" role="tabpanel">
                             <div id="product" class="row"> 
                                 
                             </div>
@@ -237,7 +238,7 @@ async function loadProducts() {
     const second = $("#listproduct"); // второй контейнер
 
     try {
-        // Основной запрос к API
+        // Основной запрос к API с заголовком
         const response = await fetch(apiUrl, {
             headers: {
                 "ngrok-skip-browser-warning": "true"
@@ -248,16 +249,15 @@ async function loadProducts() {
 
         const fruits = await response.json();
 
-        // Фильтрация — только те, где в названии есть "dried"
         const filteredFruits = fruits.filter(fruit =>
-            fruit.name.toLowerCase().includes("dried")
+            !fruit.name.toLowerCase()
         );
 
         container.empty();
         second.empty();
         resultTxt.text(filteredFruits.length);
 
-        // Асинхронная загрузка изображений
+        // Асинхронная загрузка изображений с заголовком
         for (const fruit of filteredFruits) {
             const photoResponse = await fetch(`/api/photos/${fruit.id}.png`, {
                 headers: {
@@ -270,7 +270,7 @@ async function loadProducts() {
                 const blob = await photoResponse.blob();
                 photoUrl = URL.createObjectURL(blob);
             } else {
-                photoUrl = "img/placeholder.png";
+                photoUrl = "img/placeholder.png"; // запасное изображение
             }
 
             // Первая карточка (сеткой)
@@ -280,7 +280,7 @@ async function loadProducts() {
                         <div class="product-media"> 
                             <img class="prod-img" alt="${fruit.name}" src="${photoUrl}" />     
                             <div class="prod-icons"> 
-                                <a href="shop-single-dried.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>
+                                <a href="shop-single.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>
                             </div>
                         </div>                                           
                         <div class="product-caption"> 
@@ -298,7 +298,7 @@ async function loadProducts() {
                 <div class="col-md-6 col-sm-12"> 
                     <div class="deal-item list-view">
                         <div class="deal-icons">                                         
-                            <a href="shop-single-dried.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>                                      
+                            <a href="shop-single.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>                                      
                         </div>
                         <div class="deal-content">
                             <div class="deal-text">
@@ -381,7 +381,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             const driedFruits = fruits.filter(f => f.name.toLowerCase().includes("dried"));
             driedFruits.forEach(fruit => {
                 const li = document.createElement("li");
-                li.innerHTML = `<a class="fix-a" href="shop-single-dried.html?id=${fruit.id}">${fruit.name}</a>`;
+                li.innerHTML = `<a class="fix-a" href="shop-single-dried.html?id=${fruit.id}">${fruit.name}</a>`;;
                 driedMenu.appendChild(li);
             });
 
@@ -413,17 +413,22 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 </script>
 <style>
-.prod-img {
-    width: 350px;
-    height: 300px;
-    object-fit: cover;
+    .product-media {
+    background-color: #fff;
 }
-.images img {
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
+
+/* === Общие визуальные правки === */
+#listproduct .deal-text p {
+    height: 60px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;       /* ← исправлено! раньше было -webkit-line-break */
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    line-height: 1.4em;
+    font-size: 14px;
+    color: #555;
 }
 </style>
-
     </body>
 </html>
