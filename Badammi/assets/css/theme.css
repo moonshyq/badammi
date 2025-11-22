@@ -1183,7 +1183,7 @@ blockquote {
 }
 
 .product-media {
-    background-color: #f7f6f2;
+    background-color: white;
     height: 330px;
     position: relative;
 }
@@ -1529,7 +1529,8 @@ blockquote {
 /* Top Header */
 
 .main-header {
-    padding: 40px 10px;
+    background-color: white;
+    padding: 20px 10px;
 
     transition: all 0.4s ease-in-out 0s;
     -webkit-transition: all 0.4s ease-in-out 0s;

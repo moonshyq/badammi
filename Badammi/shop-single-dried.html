@@ -42,11 +42,7 @@
 
         <div id="loading">
             <div class="loader">
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
+                <img alt="" style="width: 600px;" src="assets/img/logo/main-logo-loader.png"/>
             </div>
         </div>
 
@@ -183,12 +179,6 @@
                                         <div class="social-icons" style="margin-top: 15px;">
                                             <a href="https://www.youtube.com/" target="_blank" style="margin-right: 10px; color: #ff0000;">
                                                 <i class="fab fa-youtube fa-lg"></i>
-                                            </a>
-                                            <a href="https://www.facebook.com/" target="_blank" style="margin-right: 10px; color: #1877f2;">
-                                                <i class="fab fa-facebook fa-lg"></i>
-                                            </a>
-                                            <a href="https://www.instagram.com/" target="_blank" style="color: #e4405f;">
-                                                <i class="fab fa-instagram fa-lg"></i>
                                             </a>
                                         </div>
                                     </li>
@@ -777,5 +767,50 @@ document.getElementById("photo-modal").addEventListener("click", (e) => {
     }
 });
 </script>
+<style>
+    #loading {
+    position: fixed; /* Закрепляем на экране */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff; /* Цвет фона, пока идет загрузка */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Убедитесь, что он поверх всего */
+}
+
+/* Контейнер для логотипа, чтобы его центрировать */
+.loader {
+    /* Дополнительные стили, если нужны, но для анимации они не критичны */
+}
+
+/* Стили для самого изображения, где будет анимация */
+.loader img {
+    width: 100px; /* Установите желаемый размер */
+    height: auto;
+    /* --- КЛЮЧЕВАЯ ЧАСТЬ: АНИМАЦИЯ --- */
+    animation: bounce 1.2s infinite alternate; /* Применяем анимацию */
+    transform-origin: center; /* Центр, вокруг которого происходит трансформация */
+}
+
+/* Определение анимации */
+@keyframes bounce {
+    /* Кадры анимации */
+    0% {
+        transform: scale(0.9); /* Начальное состояние: немного отдалено */
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(1.15); /* Середина: немного приближено ("прыгнуло") */
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.0); /* Конец: возвращается к нормальному размеру */
+        opacity: 0.9;
+    }
+}
+</style>
     </body>
 </html>

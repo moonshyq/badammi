@@ -42,11 +42,7 @@
 
         <div id="loading">
             <div class="loader">
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
+                <img alt="" style="width: 600px;" src="assets/img/logo/main-logo-loader.png"/>
             </div>
         </div>
 
@@ -104,34 +100,6 @@
                 <div class="container rel-div">
                     <div class="row sort-bar">
                         <div class="icon"> <img alt="" src="assets/img/logo/logo-2.png" /> </div>
-                        <div class="col-lg-6">
-                            <div class="sort-dropdown left">
-                                <span>CATEGORY</span>
-                                <div class="search-selectpicker selectpicker-wrapper">
-                                    <select class="selectpicker input-price"  data-width="100%"
-                                            data-toggle="tooltip">
-                                        <option>All product</option>
-                                        <option>A - Z</option>
-                                        <option>Z - A</option>
-                                        <option> Low - High </option>
-                                        <option> High - Low </option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="sort-dropdown">
-                                <span>SORT BY</span>
-                                <div class="search-selectpicker selectpicker-wrapper">
-                                    <select class="selectpicker input-price"  data-width="100%"
-                                            data-toggle="tooltip">
-                                        <option>Popular item</option>
-                                        <option>A - Z</option>
-                                        <option>Z - A</option>
-                                        <option> Low - High </option>
-                                        <option> High - Low </option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
                     </div> 
 
                     <div class="divider-full-1"></div>
@@ -196,12 +164,6 @@
                                         <div class="social-icons" style="margin-top: 15px;">
                                             <a href="https://www.youtube.com/" target="_blank" style="margin-right: 10px; color: #ff0000;">
                                                 <i class="fab fa-youtube fa-lg"></i>
-                                            </a>
-                                            <a href="https://www.facebook.com/" target="_blank" style="margin-right: 10px; color: #1877f2;">
-                                                <i class="fab fa-facebook fa-lg"></i>
-                                            </a>
-                                            <a href="https://www.instagram.com/" target="_blank" style="color: #e4405f;">
-                                                <i class="fab fa-instagram fa-lg"></i>
                                             </a>
                                         </div>
                                     </li>
@@ -275,7 +237,7 @@ async function loadProducts() {
 
             // Первая карточка (сеткой)
             const card = `
-                <div class="col-lg-3 col-md-4 col-sm-6"> 
+                <div class="col-lg-3 col-md-4 col-sm-6" onclick="change(${fruit.name},${fruit.id})"> 
                     <div class="product-box"> 
                         <div class="product-media"> 
                             <img class="prod-img" alt="${fruit.name}" src="${photoUrl}" />     
@@ -295,7 +257,7 @@ async function loadProducts() {
 
             // Вторая карточка (списком)
             const listCard = `
-                <div class="col-md-6 col-sm-12"> 
+                <div class="col-md-6 col-sm-12" onclick="change(${fruit.name},${fruit.id})"> 
                     <div class="deal-item list-view">
                         <div class="deal-icons">                                         
                             <a href="shop-single.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>                                      
@@ -322,6 +284,17 @@ async function loadProducts() {
         container.html("<p>Не удалось загрузить данные о фруктах.</p>");
         resultTxt.text(0);
     }
+}
+
+function change(name,id) {
+    let toid = id
+    let name = name
+    if(name.includes("dried")){
+        window.location.href = `shop-single-dried.html?id=${toid}`
+    }else{
+        window.location.href = `shop-single.html?id=${toid}`
+    }
+    
 }
 
 $(document).ready(function() {
@@ -428,6 +401,51 @@ document.addEventListener("DOMContentLoaded", async () => {
     line-height: 1.4em;
     font-size: 14px;
     color: #555;
+}
+</style>
+<style>
+    #loading {
+    position: fixed; /* Закрепляем на экране */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff; /* Цвет фона, пока идет загрузка */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Убедитесь, что он поверх всего */
+}
+
+/* Контейнер для логотипа, чтобы его центрировать */
+.loader {
+    /* Дополнительные стили, если нужны, но для анимации они не критичны */
+}
+
+/* Стили для самого изображения, где будет анимация */
+.loader img {
+    width: 100px; /* Установите желаемый размер */
+    height: auto;
+    /* --- КЛЮЧЕВАЯ ЧАСТЬ: АНИМАЦИЯ --- */
+    animation: bounce 1.2s infinite alternate; /* Применяем анимацию */
+    transform-origin: center; /* Центр, вокруг которого происходит трансформация */
+}
+
+/* Определение анимации */
+@keyframes bounce {
+    /* Кадры анимации */
+    0% {
+        transform: scale(0.9); /* Начальное состояние: немного отдалено */
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(1.15); /* Середина: немного приближено ("прыгнуло") */
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.0); /* Конец: возвращается к нормальному размеру */
+        opacity: 0.9;
+    }
 }
 </style>
     </body>
