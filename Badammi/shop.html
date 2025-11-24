@@ -214,13 +214,13 @@ async function loadProducts() {
         const filteredFruits = fruits.filter(fruit =>
             !fruit.name.toLowerCase()
         );
-
+        console.log(fruits.length);
         container.empty();
         second.empty();
         resultTxt.text(filteredFruits.length);
 
         // Асинхронная загрузка изображений с заголовком
-        for (const fruit of filteredFruits) {
+        for (const fruit of fruits) {
             const photoResponse = await fetch(`/api/photos/${fruit.id}.png`, {
                 headers: {
                     "ngrok-skip-browser-warning": "true"
@@ -237,7 +237,7 @@ async function loadProducts() {
 
             // Первая карточка (сеткой)
             const card = `
-                <div class="col-lg-3 col-md-4 col-sm-6" onclick="change(${fruit.name},${fruit.id})"> 
+                <div class="col-lg-3 col-md-4 col-sm-6" onclick="change('${fruit.name}',${fruit.id})"> 
                     <div class="product-box"> 
                         <div class="product-media"> 
                             <img class="prod-img" alt="${fruit.name}" src="${photoUrl}" />     
@@ -257,7 +257,7 @@ async function loadProducts() {
 
             // Вторая карточка (списком)
             const listCard = `
-                <div class="col-md-6 col-sm-12" onclick="change(${fruit.name},${fruit.id})"> 
+                <div class="col-md-6 col-sm-12" onclick="change('${fruit.name}',${fruit.id})"> 
                     <div class="deal-item list-view">
                         <div class="deal-icons">                                         
                             <a href="shop-single.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>                                      
@@ -289,9 +289,11 @@ async function loadProducts() {
 function change(name,id) {
     let toid = id
     let toname = name
+    toname = toname.toLowerCase();
     if(toname.includes("dried")){
         window.location.href = `shop-single-dried.html?id=${toid}`
     }else{
+        console.log(2);
         window.location.href = `shop-single.html?id=${toid}`
     }
     
