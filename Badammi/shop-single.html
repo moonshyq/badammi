@@ -509,7 +509,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             console.log(filteredFruits[rand].id);
             // Вторая карточка (списком)
             const listCard = `
-                <div class="col-md-6 col-sm-12" onclick="change(${filteredFruits[rand].id})"> 
+                <div class="col-md-6 col-sm-12 goto" onclick="change(${filteredFruits[rand].id})"> 
                     <div class="deal-item list-view">
                         <div class="deal-content">
                             <div class="deal-text">
@@ -976,6 +976,10 @@ $(document).ready(function () {
     background-color: #fff;
 }
 
+.goto:hover{
+    transform: rotateX(10deg);
+    transform: rotateY(10deg);
+}
 
 .arrow {
     position: absolute;
