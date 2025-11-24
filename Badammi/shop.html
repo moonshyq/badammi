@@ -288,8 +288,8 @@ async function loadProducts() {
 
 function change(name,id) {
     let toid = id
-    let name = name
-    if(name.includes("dried")){
+    let toname = name
+    if(toname.includes("dried")){
         window.location.href = `shop-single-dried.html?id=${toid}`
     }else{
         window.location.href = `shop-single.html?id=${toid}`
