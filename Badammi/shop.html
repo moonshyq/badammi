@@ -257,7 +257,7 @@ async function loadProducts() {
 
             // Вторая карточка (списком)
             const listCard = `
-                <div class="col-md-6 col-sm-12" onclick="change('${fruit.name}',${fruit.id})"> 
+                <div class="col-md-6 col-sm-12 goto" onclick="change('${fruit.name}',${fruit.id})"> 
                     <div class="deal-item list-view">
                         <div class="deal-icons">                                         
                             <a href="shop-single.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>                                      
@@ -388,6 +388,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 </script>
 <style>
+.goto:hover{
+    transform: rotateX(10deg);
+    transform: rotateY(10deg);
+}
+
     .product-media {
     background-color: #fff;
 }

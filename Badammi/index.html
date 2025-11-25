@@ -251,7 +251,7 @@
                     </div>
 
                     <div class="rel-div feature-img">
-                        <img src="assets/img/extra/feature.png" style="height: 400px;" alt="" />
+                        <img src="assets/img/extra/feature.png" id="xurma" alt="" />
                     </div>
                 </div>
             </section>
@@ -470,6 +470,17 @@ document.addEventListener("DOMContentLoaded", async () => {
     /* --- КЛЮЧЕВАЯ ЧАСТЬ: АНИМАЦИЯ --- */
     animation: bounce 1.2s infinite alternate; /* Применяем анимацию */
     transform-origin: center; /* Центр, вокруг которого происходит трансформация */
+}
+
+#xurma{
+        height: 400px;
+}
+
+@media (max-width: 991px) {
+    #xurma{
+        width: 369.98px;
+        height: 223.11px;
+    }
 }
 
 /* Определение анимации */

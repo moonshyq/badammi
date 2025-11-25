@@ -62,6 +62,7 @@
                                     <a href="index.html">Home</a>                                            
                                 </li> 
                                 <li><a href="about-us.html">About Us</a></li>
+                                <li><a href="shop.html">All Catalog</a></li>
                                 <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" >Fresh products</a> 
                                     <ul id="fresh"class="dropdown-menu"> </ul> 
                                 </li>
@@ -93,7 +94,7 @@
                         <div class="col-md-8">
                             <div class="contact-map">  
                                 <div>
-                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5705.267939458835!2d49.868274746881966!3d40.40503150927581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d51fe38f44b%3A0xe7aee542f2d77ec4!2sAgha%20Neymatullah%2C%20Baku!5e0!3m2!1sen!2saz!4v1761936803987!5m2!1sen!2saz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5705.267939458835!2d49.868274746881966!3d40.40503150927581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d51fe38f44b%3A0xe7aee542f2d77ec4!2sAgha%20Neymatullah%2C%20Baku!5e0!3m2!1sen!2saz!4v1761936803987!5m2!1sen!2saz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div> 
                             </div>
                         </div>
@@ -203,6 +204,16 @@
         <script src="assets/js/theme.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwarlVfqlWKfonKl9T0wr9VGC0ynvbdiU&callback=initMap" async defer></script>
 
+
+        <style>
+            @media (max-width: 991px) {
+            #map{
+                width: 100%;
+                height: 400px;
+            }
+    }
+
+        </style>
         <script>
 document.getElementById('contact-form').addEventListener('submit', async function(e){
     e.preventDefault();
