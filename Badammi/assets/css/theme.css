@@ -2509,25 +2509,6 @@ header.main-header.header-02-main.is-sticky{margin: 0;}
     position: relative;
 }
 
-.organic-prod:before {
-    border: 2px solid transparent;
-    border-radius: 10px;
-    bottom: -1px;
-    content: "";
-    z-index: -2;
-    left: -1px;
-    position: absolute;
-    right: -1px;
-    top: -1px;
-    transition: all 0.4s ease-in-out 0s;
-    -webkit-transition: all 0.4s ease-in-out 0s;
-}
-
-.organic-prod:hover {
-    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.25);
-    border-color: transparent;
-}
-
 .organic-prod .divider {
     background-color: #eee;
     display: block;

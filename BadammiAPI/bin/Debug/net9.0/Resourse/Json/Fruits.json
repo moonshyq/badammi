@@ -53,17 +53,17 @@
     "Composition": "Pectin, vitamin C, fiber, potassium",
     "Benefits": [ "Cleanses the body of toxins", "Helps with weight control", "Strengthens gut microflora", "Supports cardiovascular system" ]
   },
-    {
-        "Id": 10000007,
-        "PhotoPath": "Resource\\Photo\\10000007.png",
-        "ChildPhotoPath": [ "Resource\\Photo\\10000007_1.png", "Resource\\Photo\\10000007_2.png", "Resource\\Photo\\10000007_3.png" ],
-        "AddedPhotoPath": [ "Resource\\Photo\\10000007_1_1.png"],
-        "ChildPhotoText": [ "Fresh apricot in a hygienic 300g pack, easy to carry and enjoy.", "Premium Premium persimmons in an elegant carton box – a perfect gift choice.", "Fresh and delicious persimmons in a black net bag – convenient for family use." ],
-        "Color": "#ed8e21",
-        "Name": "Apricot",
-        "Composition": "Vitamins: A (beta-carotene), C, E, K,  B-group vitamins (B1, B2, B6,folic acid). Minerals: Potassium, calcium, magnesium, iron, phosphorus. Others: Fiber, natural sugars (glucose, fructose, sucrose), antioxidants (flavonoids, carotenoids). Calories: Fresh apricot – 100 g ≈  45–50 kcal; Dried apricot – 100 g ≈ 200–250 kcal.",
-        "Benefits": [ "Eye health: Beta-carotene (vitamin A) st Cardiovascular system: Potassium regulates heart rhythm and balances blood pressure.", "Blood circulation: Iron prevents anemia  and supports hemoglobin.", "Digestive system: Fiber cleanses intestines and relieves constipation.", "Skin and hair: Antioxidants protect skin from aging and strengthen hair roots.", "Immunity: Vitamin C boosts the body’s resistance.", "Bone health: Calcium and magnesium strengthen bones" ]
-    },
+  {
+    "Id": 10000007,
+    "PhotoPath": "Resource\\Photo\\10000007.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000007_1.png", "Resource\\Photo\\10000007_2.png", "Resource\\Photo\\10000007_3.png" ],
+    "AddedPhotoPath": [ "Resource\\Photo\\10000007_1_1.png" ],
+    "ChildPhotoText": [ "Fresh apricot in a hygienic 300g pack, easy to carry and enjoy.", "Premium Apricot in an elegant carton box – a perfect gift choice.", "Fresh and delicious Apricot in a black net bag – convenient for family use." ],
+    "Color": "#ed8e21",
+    "Name": "Apricot",
+    "Composition": "Vitamins: A (beta-carotene), C, E, K,  B-group vitamins (B1, B2, B6,folic acid). Minerals: Potassium, calcium, magnesium, iron, phosphorus. Others: Fiber, natural sugars (glucose, fructose, sucrose), antioxidants (flavonoids, carotenoids). Calories: Fresh apricot – 100 g ≈  45–50 kcal; Dried apricot – 100 g ≈ 200–250 kcal.",
+    "Benefits": [ "Eye health: Beta-carotene (vitamin A) st Cardiovascular system: Potassium regulates heart rhythm and balances blood pressure.", "Blood circulation: Iron prevents anemia  and supports hemoglobin.", "Digestive system: Fiber cleanses intestines and relieves constipation.", "Skin and hair: Antioxidants protect skin from aging and strengthen hair roots.", "Immunity: Vitamin C boosts the body’s resistance.", "Bone health: Calcium and magnesium strengthen bones" ]
+  },
   {
     "Id": 10000008,
     "PhotoPath": "Resource\\Photo\\10000008.png",
@@ -80,7 +80,7 @@
     "PhotoPath": "Resource\\Photo\\10000009.png",
     "ChildPhotoPath": [ "Resource\\Photo\\10000009_1.png", "Resource\\Photo\\10000009_2.png", "Resource\\Photo\\10000009_3.png" ],
     "AddedPhotoPath": [ "Resource\\Photo\\10000009_1_1.png", "Resource\\Photo\\10000009_1_2.png", "Resource\\Photo\\10000009_1_3.png", "Resource\\Photo\\10000009_1_4.png", "Resource\\Photo\\10000009_1_5.png" ],
-    "ChildPhotoText": [ "Fresh peach in a hygienic 300g pack, easy to carry and enjoy.", "Premium peach in an elegant carton box – a perfect gift choice.", "Fresh and delicious persimmons in a black net bag – convenient for family use." ],
+    "ChildPhotoText": [ "Fresh peach in a hygienic 300g pack, easy to carry and enjoy.", "Premium peach in an elegant carton box – a perfect gift choice.", "Fresh and delicious Peach in a black net bag – convenient for family use." ],
     "Color": "#c42b27",
     "Name": "Peach",
     "Composition": "Vitamins: A, C, E; Minerals: Potassium, magnesium, iron, zinc; High fiber; Antioxidants (especially beta-carotene)",
@@ -90,7 +90,7 @@
     "Id": 10000010,
     "PhotoPath": "Resource\\Photo\\10000010.png",
     "ChildPhotoPath": [ "Resource\\Photo\\10000010_1.png", "Resource\\Photo\\10000010_2.png" ],
-    "AddedPhotoPath": [ "Resource\\Photo\\10000010_1_1.png", "Resource\\Photo\\10000010_1_2.png", "Resource\\Photo\\10000010_1_3.png"],
+    "AddedPhotoPath": [ "Resource\\Photo\\10000010_1_1.png", "Resource\\Photo\\10000010_1_2.png", "Resource\\Photo\\10000010_1_3.png" ],
     "ChildPhotoText": [ "Premium pomegranate in an elegant carton box – a perfect gift choice.", "Premium pomegranate in an elegant carton box – a perfect gift choice." ],
     "Color": "#e73c42",
     "Name": "Pomegranate",
@@ -113,7 +113,7 @@
     "PhotoPath": "Resource\\Photo\\10000012.png",
     "ChildPhotoPath": [ "Resource\\Photo\\10000012_1.png", "Resource\\Photo\\10000012_2.png", "Resource\\Photo\\10000012_3.png" ],
     "AddedPhotoPath": [ "Resource\\Photo\\10000012_1_1.png", "Resource\\Photo\\10000012_1_2.png", "Resource\\Photo\\10000012_1_3.png", "Resource\\Photo\\10000012_1_4.png" ],
-    "ChildPhotoText": [ "Fresh persimmons in a hygienic 300g pack, easy to carry and enjoy.", "Premium Cherry in an elegant carton box – a perfect gift choice.", "Premium Cherry in an elegant carton box – a perfect gift choice." ],
+    "ChildPhotoText": [ "Fresh Hazelnut in a hygienic 300g pack, easy to carry and enjoy.", "Premium Hazelnut in an elegant carton box – a perfect gift choice.", "Premium Hazelnut in an elegant carton box – a perfect gift choice." ],
     "Color": "#6f402a",
     "Name": "Hazelnut",
     "Composition": "Vitamins: E, B1, B2, B6, folic acid; Minerals: Magnesium, potassium, calcium, iron, zinc, phosphorus; Fats: Omega-3 and omega-6 fatty acids; Others: Protein, fiber, antioxidants",
@@ -123,11 +123,44 @@
     "Id": 10000013,
     "PhotoPath": "Resource\\Photo\\10000013.png",
     "ChildPhotoPath": [ "Resource\\Photo\\10000013_1.png", "Resource\\Photo\\10000013_2.png", "Resource\\Photo\\10000013_3.png" ],
-    "AddedPhotoPath": [ "Resource\\Photo\\10000013_1_1.png", "Resource\\Photo\\10000013_1_2.png", "Resource\\Photo\\10000013_1_3.png", "Resource\\Photo\\10000013_1_4.png", "Resource\\Photo\\10000013_1_4.png"],
-    "ChildPhotoText": [ "Fresh persimmons in a hygienic 300g pack, easy to carry and enjoy.", "Premium Cherry in an elegant carton box – a perfect gift choice.", "Premium Cherry in an elegant carton box – a perfect gift choice." ],
+    "AddedPhotoPath": [ "Resource\\Photo\\10000013_1_1.png", "Resource\\Photo\\10000013_1_2.png", "Resource\\Photo\\10000013_1_3.png", "Resource\\Photo\\10000013_1_4.png" ],
+    "ChildPhotoText": [ "Fresh Walnuts in a hygienic 300g pack, easy to carry and enjoy.", "Premium Walnuts in an elegant carton box – a perfect gift choice.", "Premium Walnuts in an elegant carton box – a perfect gift choice." ],
     "Color": "#996929",
     "Name": "Walnuts",
     "Composition": "Vitamins: E, B1, B2, B6, folic acid; Minerals: Magnesium, potassium, calcium, iron, zinc, phosphorus, selenium; Fats: Omega-3 (ALA – alpha-linolenic acid), omega-6; Others: Protein (~15%), fiber, strong antioxidants (polyphenols)",
     "Benefits": [ "Heart health: Omega-3 and vitamin E improve vessel elasticity, reduce cholesterol.", "Brain and memory: B vitamins and magnesium boost brain activity.", "Energy: High protein and fat provide long-lasting energy.", "Skin and hair: Vitamin E slows aging and strengthens hair.", "Bones and muscles: Calcium and magnesium strengthen structure.", "Stress and fatigue: Magnesium calms nerves and improves sleep." ]
+  },
+  {
+    "Id": 10000014,
+    "PhotoPath": "Resource\\Photo\\10000014.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000014_1.png", "Resource\\Photo\\10000014_2.png" ],
+    "AddedPhotoPath": [],
+    "ChildPhotoText": [ "Premium Tomato in an elegant carton box – a perfect gift choice.", "Premium Tomato in an elegant carton box – a perfect gift choice." ],
+    "Color": "#ed2d26",
+    "Name": "Tomato",
+    "Composition": "Vitamin C, vitamin K, potassium, lycopene (powerful  antioxidant)",
+    "Benefits": [ "Protects cardiovascular health", "Lycopene has anti-cancer effects", "Improves digestion", "Helps skin stay healthy and youthful" ]
+  },
+  {
+    "Id": 10000015,
+    "PhotoPath": "Resource\\Photo\\10000015.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000015_1.png", "Resource\\Photo\\10000015_2.png" ],
+    "AddedPhotoPath": [],
+    "ChildPhotoText": [ "Premium Apple in an elegant carton box – a perfect gift choice.", "Premium Apple in an elegant carton box – a perfect gift choice." ],
+    "Color": "#82151a",
+    "Name": "Apple",
+    "Composition": "Vitamin C, fiber (pectin), potassium, small amounts of vitamins A and B)",
+    "Benefits": [ "Cleanses the body of toxins", "Pectin strengthens intestines and improves digestion", "Reduces cholesterol, protects cardiovascular health", "Boosts immunity" ]
+  },
+  {
+    "Id": 10000016,
+    "PhotoPath": "Resource\\Photo\\10000016.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000016_1.png", "Resource\\Photo\\10000016_2.png" ],
+    "AddedPhotoPath": [],
+    "ChildPhotoText": [ "Premium Cucumber in an elegant carton box – a perfect gift choice.", "Premium Cucumber in an elegant carton box – a perfect gift choice." ],
+    "Color": "#2f421e",
+    "Name": "Cucumber",
+    "Composition": "Water (95%), vitamin C, vitamin K, potassium, small amounts of magnesium",
+    "Benefits": [ "Refreshes the body and relieves thirst", "Improves kidney function, acts as a diuretic", "Positively affects skin and hair health", "Ideal for weight loss (very low in calories)" ]
   }
 ]
