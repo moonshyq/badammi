@@ -167,7 +167,7 @@
     "Id": 10000017,
     "PhotoPath": "Resource\\Photo\\10000017.png",
     "ChildPhotoPath": [ "Resource\\Photo\\10000017_1.png", "Resource\\Photo\\10000017_2.png" ],
-    "AddedPhotoPath": [],
+    "AddedPhotoPath": [ "Resource\\Photo\\10000017_1_1.png"],
     "ChildPhotoText": [ "Premium Lemon in an elegant carton box – a perfect gift choice.", "Premium Lemon in an elegant carton box – a perfect gift choice." ],
     "Color": "#e08b28",
     "Name": "Lemon",
