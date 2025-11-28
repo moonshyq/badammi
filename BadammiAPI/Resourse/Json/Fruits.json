@@ -217,6 +217,15 @@
     "Name": "Peach",
     "Composition": "Vitamins A, C, E; potassium, magnesium, iron, fiber",
     "Benefits": [ "Improves digestion, prevents constipation", "Increases skin elasticity", "Calms the nervous system", "Strengthens immunity" ]
+  },
+  {
+    "Id": 100000022,
+    "PhotoPath": "Resource\\Photo\\10000022.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000022_1.png" ],
+    "Name": "Dried Persimmon",
+    "Color": "#a45625",
+    "Composition": "Natural sugars, potassium, magnesium,phosphorus, vitamins B and K",
+    "Benefits": [ "Quick source of energy", "Calms the nervous system", "Improves stomach and intestinal health", "Strengthens immunity" ]
   }
 
 ]
