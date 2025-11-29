@@ -54,15 +54,13 @@
     "Benefits": [ "Cleanses the body of toxins", "Helps with weight control", "Strengthens gut microflora", "Supports cardiovascular system" ]
   },
   {
-    "Id": 10000007,
+    "Id": 100000007,
     "PhotoPath": "Resource\\Photo\\10000007.png",
-    "ChildPhotoPath": [ "Resource\\Photo\\10000007_1.png", "Resource\\Photo\\10000007_2.png", "Resource\\Photo\\10000007_3.png" ],
-    "AddedPhotoPath": [ "Resource\\Photo\\10000007_1_1.png" ],
-    "ChildPhotoText": [ "Fresh apricot in a hygienic 300g pack, easy to carry and enjoy.", "Premium Apricot in an elegant carton box – a perfect gift choice.", "Fresh and delicious Apricot in a black net bag – convenient for family use." ],
-    "Color": "#ed8e21",
-    "Name": "Apricot",
-    "Composition": "Vitamins: A (beta-carotene), C, E, K,  B-group vitamins (B1, B2, B6,folic acid). Minerals: Potassium, calcium, magnesium, iron, phosphorus. Others: Fiber, natural sugars (glucose, fructose, sucrose), antioxidants (flavonoids, carotenoids). Calories: Fresh apricot – 100 g ≈  45–50 kcal; Dried apricot – 100 g ≈ 200–250 kcal.",
-    "Benefits": [ "Eye health: Beta-carotene (vitamin A) st Cardiovascular system: Potassium regulates heart rhythm and balances blood pressure.", "Blood circulation: Iron prevents anemia  and supports hemoglobin.", "Digestive system: Fiber cleanses intestines and relieves constipation.", "Skin and hair: Antioxidants protect skin from aging and strengthen hair roots.", "Immunity: Vitamin C boosts the body’s resistance.", "Bone health: Calcium and magnesium strengthen bones" ]
+    "ChildPhotoPath": [ "Resource\\Photo\\10000007_1.png" ],
+    "Name": "Dried Peach",
+    "Color": "#c7691c",
+    "Composition": "Vitamin A, Vitamin C, Vitamin E, K, and B-complex Minerals: Potassium, Iron, Magnesium, Phosphorus Energy: approx. 240–260 kcal per 100 g",
+    "Benefits": [ "Rich in natural antioxidants – supports immune system health and reduces oxidative stress.", "High in dietary fiber – promotes healthy digestion and helps regulate blood sugar levels.", "Energy-boosting snack – provides natural sugars for a quick, healthy energy source.", "Supports skin health – contains vitamins and minerals that contribute to a healthy, glowing complexion.", "Heart-friendly – potassium content helps maintain healthy blood pressure." ]
   },
   {
     "Id": 10000008,
@@ -219,13 +217,15 @@
     "Benefits": [ "Improves digestion, prevents constipation", "Increases skin elasticity", "Calms the nervous system", "Strengthens immunity" ]
   },
   {
-    "Id": 100000022,
+    "Id": 10000022,
     "PhotoPath": "Resource\\Photo\\10000022.png",
-    "ChildPhotoPath": [ "Resource\\Photo\\10000022_1.png" ],
-    "Name": "Dried Persimmon",
-    "Color": "#a45625",
-    "Composition": "Natural sugars, potassium, magnesium,phosphorus, vitamins B and K",
-    "Benefits": [ "Quick source of energy", "Calms the nervous system", "Improves stomach and intestinal health", "Strengthens immunity" ]
+    "ChildPhotoPath": [ "Resource\\Photo\\10000022_1.png", "Resource\\Photo\\10000022_2.png", "Resource\\Photo\\10000022_3.png" ],
+    "AddedPhotoPath": [ "Resource\\Photo\\10000022_1_1.png" ],
+    "ChildPhotoText": [ "Fresh apricot in a hygienic 300g pack, easy to carry and enjoy.", "Premium Apricot in an elegant carton box – a perfect gift choice.", "Fresh and delicious Apricot in a black net bag – convenient for family use." ],
+    "Color": "#ed8e21",
+    "Name": "Apricot",
+    "Composition": "Vitamins: A (beta-carotene), C, E, K,  B-group vitamins (B1, B2, B6,folic acid). Minerals: Potassium, calcium, magnesium, iron, phosphorus. Others: Fiber, natural sugars (glucose, fructose, sucrose), antioxidants (flavonoids, carotenoids). Calories: Fresh apricot – 100 g ≈  45–50 kcal; Dried apricot – 100 g ≈ 200–250 kcal.",
+    "Benefits": [ "Eye health: Beta-carotene (vitamin A) st Cardiovascular system: Potassium regulates heart rhythm and balances blood pressure.", "Blood circulation: Iron prevents anemia  and supports hemoglobin.", "Digestive system: Fiber cleanses intestines and relieves constipation.", "Skin and hair: Antioxidants protect skin from aging and strengthen hair roots.", "Immunity: Vitamin C boosts the body’s resistance.", "Bone health: Calcium and magnesium strengthen bones" ]
   }
 
 ]
