@@ -331,7 +331,7 @@ async function loadProducts() {
                                 <h2 class="fsz-30 pb-15"> <a href="#"><strong>${fruit.name}</strong></a> </h2>
                                 <p>${fruit.composition}</p>
                             </div>
-                            <div class="img images"> 
+                            <div class="images-dried img"> 
                                 <img alt="${fruit.name}" src="${photoUrl}">
                             </div>
                         </div>
@@ -465,7 +465,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     padding-top: 50px;
 }
 
-.images img {
+.images-dried img {
     width: 250px;
     height: 250px;
     object-fit: cover;
@@ -502,6 +502,10 @@ document.addEventListener("DOMContentLoaded", async () => {
     line-height: 1.4em;
     font-size: 14px;
     color: #555;
+}
+
+.deal-content{
+    cursor: pointer;
 }
 </style>
 <style>

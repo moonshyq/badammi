@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BadammiAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bec71443eb7968b2de84f82a78c897e9a79a6b84")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c385f6ef43d1db1f7194a5742d2e3ab5c8e8784b")]
 [assembly: System.Reflection.AssemblyProductAttribute("BadammiAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BadammiAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
