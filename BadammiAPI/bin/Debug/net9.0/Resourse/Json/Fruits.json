@@ -54,15 +54,13 @@
     "Benefits": [ "Cleanses the body of toxins", "Helps with weight control", "Strengthens gut microflora", "Supports cardiovascular system" ]
   },
   {
-    "Id": 10000007,
+    "Id": 100000007,
     "PhotoPath": "Resource\\Photo\\10000007.png",
-    "ChildPhotoPath": [ "Resource\\Photo\\10000007_1.png", "Resource\\Photo\\10000007_2.png", "Resource\\Photo\\10000007_3.png" ],
-    "AddedPhotoPath": [ "Resource\\Photo\\10000007_1_1.png" ],
-    "ChildPhotoText": [ "Fresh apricot in a hygienic 300g pack, easy to carry and enjoy.", "Premium Apricot in an elegant carton box – a perfect gift choice.", "Fresh and delicious Apricot in a black net bag – convenient for family use." ],
-    "Color": "#ed8e21",
-    "Name": "Apricot",
-    "Composition": "Vitamins: A (beta-carotene), C, E, K,  B-group vitamins (B1, B2, B6,folic acid). Minerals: Potassium, calcium, magnesium, iron, phosphorus. Others: Fiber, natural sugars (glucose, fructose, sucrose), antioxidants (flavonoids, carotenoids). Calories: Fresh apricot – 100 g ≈  45–50 kcal; Dried apricot – 100 g ≈ 200–250 kcal.",
-    "Benefits": [ "Eye health: Beta-carotene (vitamin A) st Cardiovascular system: Potassium regulates heart rhythm and balances blood pressure.", "Blood circulation: Iron prevents anemia  and supports hemoglobin.", "Digestive system: Fiber cleanses intestines and relieves constipation.", "Skin and hair: Antioxidants protect skin from aging and strengthen hair roots.", "Immunity: Vitamin C boosts the body’s resistance.", "Bone health: Calcium and magnesium strengthen bones" ]
+    "ChildPhotoPath": [ "Resource\\Photo\\10000007_1.png" ],
+    "Name": "Dried Peach",
+    "Color": "#c7691c",
+    "Composition": "Vitamin A, Vitamin C, Vitamin E, K, and B-complex Minerals: Potassium, Iron, Magnesium, Phosphorus Energy: approx. 240–260 kcal per 100 g",
+    "Benefits": [ "Rich in natural antioxidants – supports immune system health and reduces oxidative stress.", "High in dietary fiber – promotes healthy digestion and helps regulate blood sugar levels.", "Energy-boosting snack – provides natural sugars for a quick, healthy energy source.", "Supports skin health – contains vitamins and minerals that contribute to a healthy, glowing complexion.", "Heart-friendly – potassium content helps maintain healthy blood pressure." ]
   },
   {
     "Id": 10000008,
@@ -162,5 +160,72 @@
     "Name": "Cucumber",
     "Composition": "Water (95%), vitamin C, vitamin K, potassium, small amounts of magnesium",
     "Benefits": [ "Refreshes the body and relieves thirst", "Improves kidney function, acts as a diuretic", "Positively affects skin and hair health", "Ideal for weight loss (very low in calories)" ]
+  },
+  {
+    "Id": 10000017,
+    "PhotoPath": "Resource\\Photo\\10000017.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000017_1.png", "Resource\\Photo\\10000017_2.png" ],
+    "AddedPhotoPath": [ "Resource\\Photo\\10000017_1_1.png"],
+    "ChildPhotoText": [ "Premium Lemon in an elegant carton box – a perfect gift choice.", "Premium Lemon in an elegant carton box – a perfect gift choice." ],
+    "Color": "#e08b28",
+    "Name": "Lemon",
+    "Composition": "Vitamin C, citric acid, potassium, flavonoids",
+    "Benefits": [ "Strengthens immunity, protects against colds and flu", "Improves blood circulation and vascular health", "Supports digestion", "Antioxidant effect keeps skin youthful" ]
+  },
+  {
+    "Id": 10000018,
+    "PhotoPath": "Resource\\Photo\\10000018.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000018_1.png", "Resource\\Photo\\10000018_2.png" ],
+    "AddedPhotoPath": [],
+    "ChildPhotoText": [ "Premium Green Cherry Plum in an elegant carton box – a perfect gift choice.", "Premium Green Cherry Plum in an elegant carton box – a perfect gift choice." ],
+    "Color": "#7d8f38",
+    "Name": "Green Cherry Plum",
+    "Composition": "Vitamins: C, A, E, K, small amounts of B-group vitamins. Minerals: Potassium, magnesium, calcium, phosphorus,iron. Organic acids: Malic acid, citric acid, tartaric acid. Fiber. Antioxidants (polyphenols, anthocyanins) High water content (low calorie)",
+    "Benefits": [ "Digestive health: Organic acids and fiber stimulate digestion,prevent constipation, and improve appetite.", "Immunity: High vitamin C content strengthens the immune system, protects against colds and infections.", "Cardiovascular health: Potassium regulates blood pressure, protects heart and blood vessels.", "Detox effect: Acts as a mild diuretic, helps cleanse the body of toxins and excess fluids.", "Skin and anti-aging: Antioxidants protect skin from free radicals, slow aging, and give a fresh appearance.", "Weight control: Low in calories, high in water and fiber – ideal for diet nutrition." ]
+  },
+  {
+    "Id": 10000019,
+    "PhotoPath": "Resource\\Photo\\10000019.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000019_1.png", "Resource\\Photo\\10000019_2.png" ],
+    "AddedPhotoPath": [],
+    "ChildPhotoText": [ "Premium Pear in an elegant carton box – a perfect gift choice.", "Premium Pear in an elegant carton box – a perfect gift choice." ],
+    "Color": "#b8b133",
+    "Name": "Pear",
+    "Composition": "Vitamins: C, K, B-group vitamins (B1, B2, B6, folate). Minerals: Potassium, magnesium, calcium, copper, iron. Fiber (especially pectin). Natural sugars (fructose, glucose). Antioxidants (flavonoids, carotenoids, polyphenols). High water content (≈ 80–85%)",
+    "Benefits": [ "Digestive health: High fiber (pectin) improves digestion, prevents constipation, and supports gut microbiota.", "Cardiovascular system: Potassium regulates blood pressure, fiber lowers cholesterol.", "Immunity: Vitamin C strengthens the body’s defenses.", "Weight management: Low-calorie and filling fruit helps with appetite control.", "Skin and anti-aging: Antioxidants protect cells from oxidative stress, maintain youthful skin.", "Bone health: Calcium and magnesium support strong bones.", "Hydration: High water content keeps the body refreshe" ]
+  },
+  {
+    "Id": 10000020,
+    "PhotoPath": "Resource\\Photo\\10000020.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000020_1.png", "Resource\\Photo\\10000020_2.png" ],
+    "AddedPhotoPath": [],
+    "ChildPhotoText": [ "Premium Nectarine in an elegant carton box – a perfect gift choice.", "Premium Nectarine in an elegant carton box – a perfect gift choice." ],
+    "Color": "#9e2f3e",
+    "Name": "Nectarine",
+    "Composition": "Vitamin C, vitamin A (beta-carotene), potassium, magnesium",
+    "Benefits": [ "Supports heart health", "Strengthens skin and eyes", "Regulates bowel function", "Maintains body’s water-salt balance" ]
+  },
+  {
+    "Id": 10000021,
+    "PhotoPath": "Resource\\Photo\\10000021.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000021_1.png", "Resource\\Photo\\10000021_2.png" ],
+    "AddedPhotoPath": [],
+    "ChildPhotoText": [ "Premium Peach in an elegant carton box – a perfect gift choice.", "Premium Peach in an elegant carton box – a perfect gift choice." ],
+    "Color": "#c2645b",
+    "Name": "Peach",
+    "Composition": "Vitamins A, C, E; potassium, magnesium, iron, fiber",
+    "Benefits": [ "Improves digestion, prevents constipation", "Increases skin elasticity", "Calms the nervous system", "Strengthens immunity" ]
+  },
+  {
+    "Id": 10000022,
+    "PhotoPath": "Resource\\Photo\\10000022.png",
+    "ChildPhotoPath": [ "Resource\\Photo\\10000022_1.png", "Resource\\Photo\\10000022_2.png", "Resource\\Photo\\10000022_3.png" ],
+    "AddedPhotoPath": [ "Resource\\Photo\\10000022_1_1.png" ],
+    "ChildPhotoText": [ "Fresh apricot in a hygienic 300g pack, easy to carry and enjoy.", "Premium Apricot in an elegant carton box – a perfect gift choice.", "Fresh and delicious Apricot in a black net bag – convenient for family use." ],
+    "Color": "#ed8e21",
+    "Name": "Apricot",
+    "Composition": "Vitamins: A (beta-carotene), C, E, K,  B-group vitamins (B1, B2, B6,folic acid). Minerals: Potassium, calcium, magnesium, iron, phosphorus. Others: Fiber, natural sugars (glucose, fructose, sucrose), antioxidants (flavonoids, carotenoids). Calories: Fresh apricot – 100 g ≈  45–50 kcal; Dried apricot – 100 g ≈ 200–250 kcal.",
+    "Benefits": [ "Eye health: Beta-carotene (vitamin A) st Cardiovascular system: Potassium regulates heart rhythm and balances blood pressure.", "Blood circulation: Iron prevents anemia  and supports hemoglobin.", "Digestive system: Fiber cleanses intestines and relieves constipation.", "Skin and hair: Antioxidants protect skin from aging and strengthen hair roots.", "Immunity: Vitamin C boosts the body’s resistance.", "Bone health: Calcium and magnesium strengthen bones" ]
   }
+
 ]
