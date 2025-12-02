@@ -409,50 +409,111 @@ function prevPhoto() {
 
 
 
-
+</script>
 
 // === Загрузка всех фруктов для меню ===
+<script>
 document.addEventListener("DOMContentLoaded", async () => {
     const apiUrl = "/api/Fruits/GetAllFruits";
 
     try {
-        const response = await fetch(apiUrl, { headers: { "ngrok-skip-browser-warning": "true" } });
+        const response = await fetch(apiUrl, {
+            headers: {
+                "ngrok-skip-browser-warning": "true"
+            }
+        });
         if (!response.ok) throw new Error("Ошибка загрузки API");
         const fruits = await response.json();
 
-        // --- Dried Products ---
-        const driedDropdown = Array.from(document.querySelectorAll(".primary-navbar .dropdown")).find(drop => 
-            drop.querySelector("a")?.textContent.toLowerCase().includes("dried products")
-        );
+        // === DRIED PRODUCTS ===
+        const dropdowns = document.querySelectorAll(".primary-navbar .dropdown");
+        let driedDropdown = null;
+
+        dropdowns.forEach(drop => {
+            const link = drop.querySelector("a");
+            if (link && link.textContent.trim().toLowerCase().includes("dried products")) {
+                driedDropdown = drop;
+            }
+        });
+
         if (driedDropdown) {
             let driedMenu = driedDropdown.querySelector(".dropdown-menu");
-            if (!driedMenu) { driedMenu = document.createElement("ul"); driedMenu.classList.add("dropdown-menu"); driedDropdown.appendChild(driedMenu); }
-            driedMenu.innerHTML = "";
-            fruits.filter(f => f.name.toLowerCase().includes("dried")).forEach(fruit => {
+            if (!driedMenu) {
+                driedMenu = document.createElement("ul");
+                driedMenu.classList.add("dropdown-menu");
+                driedDropdown.appendChild(driedMenu);
+            } else {
+                driedMenu.innerHTML = "";
+            }
+
+            const driedFruits = fruits.filter(f => f.name.toLowerCase().includes("dried"));
+            driedFruits.forEach(fruit => {
                 const li = document.createElement("li");
-                li.innerHTML = `<a class="fix-a" href="shop-single-dried.html?id=${fruit.id}">${fruit.name}</a>`;;
+                li.innerHTML = `<a class="fix-a" href="shop-single-dried.html?id=${fruit.id}">${fruit.name}</a>`;
                 driedMenu.appendChild(li);
             });
-            driedMenu.innerHTML += `<li><a class="fix-a" href="shop-2.html"><strong>All catalog</strong></a></li>`;
+
+            const allLi = document.createElement("li");
+            allLi.innerHTML = `<a href="shop-2.html" class="fix-a"><strong>All catalog</strong></a>`;
+            driedMenu.appendChild(allLi);
         }
 
-        // --- Fresh Products ---
+        // === FRESH PRODUCTS — 2 СЕКЦИИ ===
         const freshMenu = document.getElementById("fresh");
         if (freshMenu) {
             freshMenu.innerHTML = "";
-            fruits.filter(f => !f.name.toLowerCase().includes("dried")).forEach(fruit => {
+
+            // список овощей
+            const vegetables = ["lemon", "cucumber", "tomato"];
+
+            // секция фруктов
+            const freshFruitList = fruits.filter(f =>
+                !f.name.toLowerCase().includes("dried") &&
+                !vegetables.includes(f.name.toLowerCase())
+            );
+
+            // секция овощей
+            const freshVegetableList = fruits.filter(f =>
+                vegetables.includes(f.name.toLowerCase())
+            );
+
+            // ---------- FRESH FRUITS ----------
+            const fruitsHeader = document.createElement("li");
+            fruitsHeader.innerHTML = `<strong style="padding-left:10px;">Fresh Fruits</strong>`;
+            freshMenu.appendChild(fruitsHeader);
+
+            freshFruitList.forEach(fruit => {
                 const li = document.createElement("li");
                 li.innerHTML = `<a class="fix-a" href="shop-single.html?id=${fruit.id}">${fruit.name}</a>`;
                 freshMenu.appendChild(li);
             });
-            freshMenu.innerHTML += `<li><a class="fix-a" href="shop-1.html"><strong>All catalog</strong></a></li>`;
+
+            // Разделитель
+            const divider = document.createElement("li");
+            divider.innerHTML = `<hr>`;
+            freshMenu.appendChild(divider);
+
+            // ---------- FRESH VEGETABLES ----------
+            const vegHeader = document.createElement("li");
+            vegHeader.innerHTML = `<strong style="padding-left:10px;">Fresh Vegetables</strong>`;
+            freshMenu.appendChild(vegHeader);
+
+            freshVegetableList.forEach(fruit => {
+                const li = document.createElement("li");
+                li.innerHTML = `<a class="fix-a" href="shop-single.html?id=${fruit.id}">${fruit.name}</a>`;
+                freshMenu.appendChild(li);
+            });
+
+            // Общий каталог
+            const allFreshLi = document.createElement("li");
+            allFreshLi.innerHTML = `<a class="fix-a" href="shop-1.html"><strong>All catalog</strong></a>`;
+            freshMenu.appendChild(allFreshLi);
         }
 
     } catch (err) {
         console.error("Ошибка при загрузке фруктов:", err);
     }
 });
-
 </script>
 
 <script>
