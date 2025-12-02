@@ -208,19 +208,8 @@
   {
     "Id": 10000021,
     "PhotoPath": "Resource\\Photo\\10000021.png",
-    "ChildPhotoPath": [ "Resource\\Photo\\10000021_1.png", "Resource\\Photo\\10000021_2.png" ],
-    "AddedPhotoPath": [],
-    "ChildPhotoText": [ "Premium Peach in an elegant carton box – a perfect gift choice.", "Premium Peach in an elegant carton box – a perfect gift choice." ],
-    "Color": "#c2645b",
-    "Name": "Peach",
-    "Composition": "Vitamins A, C, E; potassium, magnesium, iron, fiber",
-    "Benefits": [ "Improves digestion, prevents constipation", "Increases skin elasticity", "Calms the nervous system", "Strengthens immunity" ]
-  },
-  {
-    "Id": 10000022,
-    "PhotoPath": "Resource\\Photo\\10000022.png",
-    "ChildPhotoPath": [ "Resource\\Photo\\10000022_1.png", "Resource\\Photo\\10000022_2.png", "Resource\\Photo\\10000022_3.png" ],
-    "AddedPhotoPath": [ "Resource\\Photo\\10000022_1_1.png" ],
+    "ChildPhotoPath": [ "Resource\\Photo\\10000021_1.png", "Resource\\Photo\\10000021_2.png", "Resource\\Photo\\10000021_3.png" ],
+    "AddedPhotoPath": [ "Resource\\Photo\\10000021_1_1.png" ],
     "ChildPhotoText": [ "Fresh apricot in a hygienic 300g pack, easy to carry and enjoy.", "Premium Apricot in an elegant carton box – a perfect gift choice.", "Fresh and delicious Apricot in a black net bag – convenient for family use." ],
     "Color": "#ed8e21",
     "Name": "Apricot",

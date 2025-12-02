@@ -341,7 +341,7 @@
                                     <li> <a href="index.html"> All Producs </a> </li>
                                     <li>
                                         <div class="social-icons" style="margin-top: 15px;">
-                                            <a href="https://www.youtube.com/" target="_blank" style="margin-right: 10px; color: #ff0000;">
+                                            <a href="https://www.youtube.com/channel/UCfE7fAnO4T6iUG6tB07wfJw" target="_blank" style="margin-right: 10px; color: #ff0000;">
                                                 <i class="fab fa-youtube fa-lg"></i>
                                             </a>
                                         </div>
@@ -407,7 +407,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             const driedFruits = fruits.filter(f => f.name.toLowerCase().includes("dried"));
             driedFruits.forEach(fruit => {
                 const li = document.createElement("li");
-                li.innerHTML = `<a class="fix-a" href="shop-single-dried.html?id=${fruit.id}">${fruit.name}</a>`;;
+                li.innerHTML = `<a class="fix-a" href="shop-single-dried.html?id=${fruit.id}">${fruit.name}</a>`;
                 driedMenu.appendChild(li);
             });
 
@@ -416,18 +416,53 @@ document.addEventListener("DOMContentLoaded", async () => {
             driedMenu.appendChild(allLi);
         }
 
-        // === FRESH PRODUCTS ===
+        // === FRESH PRODUCTS — 2 СЕКЦИИ ===
         const freshMenu = document.getElementById("fresh");
         if (freshMenu) {
             freshMenu.innerHTML = "";
 
-            const freshFruits = fruits.filter(f => !f.name.toLowerCase().includes("dried"));
-            freshFruits.forEach(fruit => {
+            // список овощей
+            const vegetables = ["lemon", "cucumber", "tomato"];
+
+            // секция фруктов
+            const freshFruitList = fruits.filter(f =>
+                !f.name.toLowerCase().includes("dried") &&
+                !vegetables.includes(f.name.toLowerCase())
+            );
+
+            // секция овощей
+            const freshVegetableList = fruits.filter(f =>
+                vegetables.includes(f.name.toLowerCase())
+            );
+
+            // ---------- FRESH FRUITS ----------
+            const fruitsHeader = document.createElement("li");
+            fruitsHeader.innerHTML = `<strong style="padding-left:10px;">Fresh Fruits</strong>`;
+            freshMenu.appendChild(fruitsHeader);
+
+            freshFruitList.forEach(fruit => {
                 const li = document.createElement("li");
                 li.innerHTML = `<a class="fix-a" href="shop-single.html?id=${fruit.id}">${fruit.name}</a>`;
                 freshMenu.appendChild(li);
             });
 
+            // Разделитель
+            const divider = document.createElement("li");
+            divider.innerHTML = `<hr>`;
+            freshMenu.appendChild(divider);
+
+            // ---------- FRESH VEGETABLES ----------
+            const vegHeader = document.createElement("li");
+            vegHeader.innerHTML = `<strong style="padding-left:10px;">Fresh Vegetables</strong>`;
+            freshMenu.appendChild(vegHeader);
+
+            freshVegetableList.forEach(fruit => {
+                const li = document.createElement("li");
+                li.innerHTML = `<a class="fix-a" href="shop-single.html?id=${fruit.id}">${fruit.name}</a>`;
+                freshMenu.appendChild(li);
+            });
+
+            // Общий каталог
             const allFreshLi = document.createElement("li");
             allFreshLi.innerHTML = `<a class="fix-a" href="shop-1.html"><strong>All catalog</strong></a>`;
             freshMenu.appendChild(allFreshLi);

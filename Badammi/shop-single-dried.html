@@ -177,7 +177,7 @@
                                     <li> <a href="index.html"> All Producs </a> </li>
                                     <li>
                                         <div class="social-icons" style="margin-top: 15px;">
-                                            <a href="https://www.youtube.com/" target="_blank" style="margin-right: 10px; color: #ff0000;">
+                                            <a href="https://www.youtube.com/channel/UCfE7fAnO4T6iUG6tB07wfJw" target="_blank" style="margin-right: 10px; color: #ff0000;">
                                                 <i class="fab fa-youtube fa-lg"></i>
                                             </a>
                                         </div>
@@ -406,6 +406,18 @@ $(document).ready(function() {
 </style>
 
 <style>
+#listproduct .deal-text p {
+    height: 60px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;       /* ← исправлено! раньше было -webkit-line-break */
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    line-height: 1.4em;
+    font-size: 14px;
+    color: #555;
+}
+
 .product-layout {
     display: flex;
     align-items: flex-start;
