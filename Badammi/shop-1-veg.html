@@ -64,7 +64,7 @@
                         <div class="responsive-toggle fa fa-bars"> </div>
                         <nav class="fix-navbar" id="primary-navigation">            
                             <ul class="primary-navbar">                                                
-                                <li class="dropdown active">
+                                <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" >Home</a>                                            
                                 </li> 
                                 <li><a href="about-us.html">About Us</a></li>
@@ -73,8 +73,8 @@
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" >Fresh fruits</a> 
                                     <ul id="fresh" class="dropdown-menu"> </ul> 
                                 </li>
-                                <li class="dropdown"> 
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" >Fresh Vegetables</a> 
+                                <li class="dropdown active"> 
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" >Fresh vegetables</a> 
                                     <ul id="vegetables" class="dropdown-menu"> </ul> 
                                 </li>
                                 <li class="dropdown" > 
@@ -246,7 +246,7 @@ async function loadProducts() {
                         <div class="product-media"> 
                             <img class="prod-img" alt="${fruit.name}" src="${photoUrl}" />     
                             <div class="prod-icons"> 
-                                <a href="shop-single.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>
+                                <a href="shop-single-veg.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>
                             </div>
                         </div>                                           
                         <div class="product-caption"> 
@@ -264,7 +264,7 @@ async function loadProducts() {
                 <div class="col-md-6 col-sm-12" onclick="change(${fruit.id})"> 
                     <div class="deal-item list-view">
                         <div class="deal-icons">                                         
-                            <a href="shop-single.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>                                      
+                            <a href="shop-single-veg.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>                                      
                         </div>
                         <div class="deal-content">
                             <div class="deal-text">
@@ -363,7 +363,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             if (freshVegetables.length > 0) {
                 freshVegetables.forEach(veg => {
                     const li = document.createElement("li");
-                    li.innerHTML = `<a class="fix-a" href="shop-single.html?id=${veg.id}">${veg.name}</a>`;
+                    li.innerHTML = `<a class="fix-a" href="shop-single-veg.html?id=${veg.id}">${veg.name}</a>`;
                     vegetablesMenu.appendChild(li);
                 });
             }

@@ -64,17 +64,17 @@
                         <div class="responsive-toggle fa fa-bars"> </div>
                         <nav class="fix-navbar" id="primary-navigation">            
                             <ul class="primary-navbar">                                                
-                                <li class="dropdown active">
+                                <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" >Home</a>                                            
                                 </li> 
                                 <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="shop.html">All Catalog</a></li>
+                                <li class="active"><a href="shop.html">All Catalog</a></li>
                                 <li class="dropdown"> 
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" >Fresh fruits</a> 
                                     <ul id="fresh" class="dropdown-menu"> </ul> 
                                 </li>
                                 <li class="dropdown"> 
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" >Fresh Vegetables</a> 
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" >Fresh vegetables</a> 
                                     <ul id="vegetables" class="dropdown-menu"> </ul> 
                                 </li>
                                 <li class="dropdown" > 
@@ -215,12 +215,14 @@ async function loadProducts() {
         const fruits = await response.json();
 
         const filteredFruitsFresh = fruits.filter(fruit =>
-            !fruit.name.toLowerCase().includes("dried")
+            fruit.type.toLowerCase() === "fruit"
         );
 
         const filteredFruitsDried = fruits.filter(fruit =>
-            fruit.name.toLowerCase().includes("dried")
+            fruit.type.toLowerCase() === "dried"
         );
+
+        const filteredVeg = fruits.filter(fruit => fruit.type.toLowerCase() === "vegetables");
 
 
         console.log(fruits.length);
@@ -304,7 +306,65 @@ async function loadProducts() {
 
             // Первая карточка (сеткой)
             const card = `
-                <div class="col-lg-3 col-md-4 col-sm-6" onclick="change('${fruit.name}',${fruit.id})"> 
+                <div class="col-lg-3 col-md-4 col-sm-6" onclick="change('${fruit.type}',${fruit.id})"> 
+                    <div class="product-box"> 
+                        <div class="product-media"> 
+                            <img class="prod-img-dried" alt="${fruit.name}" src="${photoUrl}" />     
+                            <div class="prod-icons"> 
+                                <a href="shop-single.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>
+                            </div>
+                        </div>                                           
+                        <div class="product-caption"> 
+                            <h3 class="product-title">
+                                <a href="#"><strong>${fruit.name}</strong></a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            `;
+            container.append(card);
+
+            // Вторая карточка (списком)
+            const listCard = `
+                <div class="col-md-6 col-sm-12 goto" onclick="change('${fruit.type}',${fruit.id})"> 
+                    <div class="deal-item list-view">
+                        <div class="deal-icons">                                         
+                            <a href="shop-single.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>                                      
+                        </div>
+                        <div class="deal-content">
+                            <div class="deal-text">
+                                <h4 class="sub-title"> ORGANIC FRUITS </h4>
+                                <h2 class="fsz-30 pb-15"> <a href="#"><strong>${fruit.name}</strong></a> </h2>
+                                <p>${fruit.composition}</p>
+                            </div>
+                            <div class="images img"> 
+                                <img alt="${fruit.name}" src="${photoUrl}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            second.append(listCard);
+            second.hide();
+        }
+        for (const fruit of filteredFruitsDried) {
+            const photoResponse = await fetch(`/api/photos/${fruit.id}.png`, {
+                headers: {
+                    "ngrok-skip-browser-warning": "true"
+                }
+            });
+
+            let photoUrl;
+            if (photoResponse.ok) {
+                const blob = await photoResponse.blob();
+                photoUrl = URL.createObjectURL(blob);
+            } else {
+                photoUrl = "img/placeholder.png"; // запасное изображение
+            }
+
+            // Первая карточка (сеткой)
+            const card = `
+                <div class="col-lg-3 col-md-4 col-sm-6" onclick="change('${fruit.type}',${fruit.id})"> 
                     <div class="product-box"> 
                         <div class="product-media"> 
                             <img class="prod-img-dried" alt="${fruit.name}" src="${photoUrl}" />     
@@ -353,15 +413,17 @@ async function loadProducts() {
     }
 }
 
-function change(name,id) {
+function change(type,id) {
     let toid = id
-    let toname = name
-    toname = toname.toLowerCase();
-    if(toname.includes("dried")){
+    let totype = name
+    totype = totype.toLowerCase();
+    if(totype === "dried"){
         window.location.href = `shop-single-dried.html?id=${toid}`
-    }else{
+    }else if(totype === "fruit"){
         console.log(2);
         window.location.href = `shop-single.html?id=${toid}`
+    }else{
+        window.location.href = `shop-single-veg.html?id=${toid}`
     }
     
 }
@@ -433,7 +495,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             if (freshVegetables.length > 0) {
                 freshVegetables.forEach(veg => {
                     const li = document.createElement("li");
-                    li.innerHTML = `<a class="fix-a" href="shop-single.html?id=${veg.id}">${veg.name}</a>`;
+                    li.innerHTML = `<a class="fix-a" href="shop-single-veg.html?id=${veg.id}">${veg.name}</a>`;
                     vegetablesMenu.appendChild(li);
                 });
             }
