@@ -347,7 +347,7 @@ async function loadProducts() {
             second.append(listCard);
             second.hide();
         }
-        for (const fruit of filteredFruitsDried) {
+        for (const fruit of filteredVeg) {
             const photoResponse = await fetch(`/api/photos/${fruit.id}.png`, {
                 headers: {
                     "ngrok-skip-browser-warning": "true"
