@@ -51,7 +51,7 @@
             <!-- CONTENT AREA -->
 
             <!-- Main Header Start -->
-            <header class="main-header white-bg">                  
+            <header class="main-header">                  
                 <div class="container-fluid rel-div">
                     <div class="col-lg-4 col-sm-8">
                         <div class="main-logo">
@@ -60,29 +60,32 @@
                         </div>
                     </div>
 
-                   <div class="col-lg-6 responsive-menu">  
+                    <div class="col-lg-6 responsive-menu">  
                         <div class="responsive-toggle fa fa-bars"> </div>
                         <nav class="fix-navbar" id="primary-navigation">            
                             <ul class="primary-navbar">                                                
-                                <li class="dropdown">
-                                    <a href="index.html">Home</a>                                            
+                                <li class="dropdown active">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" >Home</a>                                            
                                 </li> 
                                 <li><a href="about-us.html">About Us</a></li>
                                 <li><a href="shop.html">All Catalog</a></li>
-                                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" >Fresh products</a> 
-                                    <ul id="fresh"class="dropdown-menu"> </ul> 
+                                <li class="dropdown"> 
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" >Fresh products</a> 
+                                    <ul id="fresh" class="dropdown-menu"> </ul> 
                                 </li>
-                                <li class="dropdown active"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" >Dried products</a> 
-                                    <ul class="dropdown-menu"> </ul> 
-                                </li>  
+                                <li class="dropdown"> 
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" >Fresh Vegetables</a> 
+                                    <ul id="vegetables" class="dropdown-menu"> </ul> 
+                                </li>
+                                <li class="dropdown" > 
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" >Dried products</a> 
+                                    <ul id="dried" class="dropdown-menu"> </ul>
+                                </li>
                                 <li><a href="contact.html">Contact Us</a></li>   
-                                        </li> 
-                                    </ul>
-                                </li>
-                            </ul>                           
+                            </ul>
                         </nav>
                     </div>
-                    <div class="responsive-toggle fa fa-bars"> </div>
+                <div class="responsive-toggle fa fa-bars"> </div>
                 </div>  
             </header>
             <!-- / Main Header Ends -->   
@@ -272,7 +275,7 @@ $(document).ready(function () {
 });
 </script>
 // === Загрузка всех фруктов для меню ===
-<script>
+    <script>
 document.addEventListener("DOMContentLoaded", async () => {
     const apiUrl = "/api/Fruits/GetAllFruits";
 
@@ -283,95 +286,82 @@ document.addEventListener("DOMContentLoaded", async () => {
             }
         });
         if (!response.ok) throw new Error("Ошибка загрузки API");
-        const fruits = await response.json();
+        const products = await response.json();
+        
+        // --- Фильтрация продуктов по типу ---
+        const freshFruits = products.filter(p => p.type && p.type.toLowerCase() === "fruit");
+        const freshVegetables = products.filter(p => p.type && p.type.toLowerCase() === "vegetables");
+        const driedProducts = products.filter(p => p.type && p.type.toLowerCase() === "dried");
 
-        // === DRIED PRODUCTS ===
-        const dropdowns = document.querySelectorAll(".primary-navbar .dropdown");
-        let driedDropdown = null;
 
-        dropdowns.forEach(drop => {
-            const link = drop.querySelector("a");
-            if (link && link.textContent.trim().toLowerCase().includes("dried products")) {
-                driedDropdown = drop;
-            }
-        });
-
-        if (driedDropdown) {
-            let driedMenu = driedDropdown.querySelector(".dropdown-menu");
-            if (!driedMenu) {
-                driedMenu = document.createElement("ul");
-                driedMenu.classList.add("dropdown-menu");
-                driedDropdown.appendChild(driedMenu);
-            } else {
-                driedMenu.innerHTML = "";
-            }
-
-            const driedFruits = fruits.filter(f => f.name.toLowerCase().includes("dried"));
-            driedFruits.forEach(fruit => {
-                const li = document.createElement("li");
-                li.innerHTML = `<a class="fix-a" href="shop-single-dried.html?id=${fruit.id}">${fruit.name}</a>`;
-                driedMenu.appendChild(li);
-            });
-
-            const allLi = document.createElement("li");
-            allLi.innerHTML = `<a href="shop-2.html" class="fix-a"><strong>All catalog</strong></a>`;
-            driedMenu.appendChild(allLi);
-        }
-
-        // === FRESH PRODUCTS — 2 СЕКЦИИ ===
         const freshMenu = document.getElementById("fresh");
         if (freshMenu) {
             freshMenu.innerHTML = "";
 
-            // список овощей
-            const vegetables = ["lemon", "cucumber", "tomato"];
+            if (freshFruits.length > 0) {
+                freshFruits.forEach(fruit => {
+                    const li = document.createElement("li");
+                    li.innerHTML = `<a class="fix-a" href="shop-single.html?id=${fruit.id}">${fruit.name}</a>`;
+                    freshMenu.appendChild(li);
+                });
+            }
 
-            // секция фруктов
-            const freshFruitList = fruits.filter(f =>
-                !f.name.toLowerCase().includes("dried") &&
-                !vegetables.includes(f.name.toLowerCase())
-            );
-
-            // секция овощей
-            const freshVegetableList = fruits.filter(f =>
-                vegetables.includes(f.name.toLowerCase())
-            );
-
-            // ---------- FRESH FRUITS ----------
-            const fruitsHeader = document.createElement("li");
-            fruitsHeader.innerHTML = `<strong style="padding-left:10px;">Fresh Fruits</strong>`;
-            freshMenu.appendChild(fruitsHeader);
-
-            freshFruitList.forEach(fruit => {
-                const li = document.createElement("li");
-                li.innerHTML = `<a class="fix-a" href="shop-single.html?id=${fruit.id}">${fruit.name}</a>`;
-                freshMenu.appendChild(li);
-            });
-
-            // Разделитель
-            const divider = document.createElement("li");
-            divider.innerHTML = `<hr>`;
-            freshMenu.appendChild(divider);
-
-            // ---------- FRESH VEGETABLES ----------
-            const vegHeader = document.createElement("li");
-            vegHeader.innerHTML = `<strong style="padding-left:10px;">Fresh Vegetables</strong>`;
-            freshMenu.appendChild(vegHeader);
-
-            freshVegetableList.forEach(fruit => {
-                const li = document.createElement("li");
-                li.innerHTML = `<a class="fix-a" href="shop-single.html?id=${fruit.id}">${fruit.name}</a>`;
-                freshMenu.appendChild(li);
-            });
-
-            // Общий каталог
             const allFreshLi = document.createElement("li");
-            allFreshLi.innerHTML = `<a class="fix-a" href="shop-1.html"><strong>All catalog</strong></a>`;
+            if (freshFruits.length > 0) {
+                 const dividerEnd = document.createElement("li");
+                 dividerEnd.innerHTML = `<hr style="margin-top: 5px; margin-bottom: 5px;">`;
+                 freshMenu.appendChild(dividerEnd);
+            }
+            allFreshLi.innerHTML = `<a class="fix-a" href="shop-1.html"><strong>All Fresh Fruit Catalog</strong></a>`;
             freshMenu.appendChild(allFreshLi);
         }
 
+        const vegetablesMenu = document.getElementById("vegetables");
+        if (vegetablesMenu) {
+            vegetablesMenu.innerHTML = "";
+
+            if (freshVegetables.length > 0) {
+                freshVegetables.forEach(veg => {
+                    const li = document.createElement("li");
+                    li.innerHTML = `<a class="fix-a" href="shop-single.html?id=${veg.id}">${veg.name}</a>`;
+                    vegetablesMenu.appendChild(li);
+                });
+            }
+            
+            // Общий каталог для Fresh Vegetables
+            const allVegLi = document.createElement("li");
+            if (freshVegetables.length > 0) {
+                 const dividerEnd = document.createElement("li");
+                 dividerEnd.innerHTML = `<hr style="margin-top: 5px; margin-bottom: 5px;">`;
+                 vegetablesMenu.appendChild(dividerEnd);
+            }
+            allVegLi.innerHTML = `<a class="fix-a" href="shop-1-veg.html"><strong>All Vegetable Catalog</strong></a>`;
+            vegetablesMenu.appendChild(allVegLi);
+        }
+
+        const driedMenu = document.getElementById("dried");
+        if (driedMenu) {
+            driedMenu.innerHTML = "";
+            
+            driedProducts.forEach(product => {
+                const li = document.createElement("li");
+                li.innerHTML = `<a class="fix-a" href="shop-single-dried.html?id=${product.id}">${product.name}</a>`;
+                driedMenu.appendChild(li);
+            });
+
+            const allLi = document.createElement("li");
+            if (driedProducts.length > 0) {
+                 const dividerEnd = document.createElement("li");
+                 dividerEnd.innerHTML = `<hr style="margin-top: 5px; margin-bottom: 5px;">`;
+                 driedMenu.appendChild(dividerEnd);
+            }
+            allLi.innerHTML = `<a href="shop-2.html" class="fix-a"><strong>All Dried Catalog</strong></a>`;
+            driedMenu.appendChild(allLi);
+        }
+
+
     } catch (err) {
-        console.error("Ошибка при загрузке фруктов:", err);
+        console.error("Ошибка при загрузке продуктов:", err);
     }
 });
 </script>

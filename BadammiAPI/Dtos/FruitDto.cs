@@ -4,6 +4,7 @@
     {
         public int Id { get; set; }
         public string PhotoPath { get; set; }
+        public string Type { get; set; }
         public List<string> ChildPhotoPath { get; set; }
         public List<string> ChildPhotoText { get; set; }
         public string Color { get; set; }

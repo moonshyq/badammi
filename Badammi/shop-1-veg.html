@@ -24,6 +24,7 @@
         <link href="assets/css/plugin/bootstrap-select.min.css" rel="stylesheet" type="text/css"> 
         <link href="assets/css/plugin/owl.carousel.css" rel="stylesheet" type="text/css">
         <link href="assets/css/plugin/animate.css" rel="stylesheet" type="text/css"> 
+        <link href="assets/css/plugin/jquery-ui.min.css" rel="stylesheet" type="text/css"> 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
         <!-- Custom CSS -->
@@ -38,6 +39,12 @@
     </head>
 
     <body id="home" class="wide">
+
+        <div id="loading">
+            <div class="loader">
+                <img alt="" style="width: 600px;" src="assets/img/logo/main-logo-loader.png"/>
+            </div>
+        </div>
 
         <!-- WRAPPER -->
         <main class="wrapper"> 
@@ -87,157 +94,47 @@
             
             <!--Breadcrumb Section End-->
 
-            <!-- Organic Farmfood Starts-->
-            <section class="organic-farm-2 sec-space-bottom">
 
-                <img alt="" src="assets/img/extra/sec-img-7.png" class="left-bottom-img" />  
-                <img alt="" src="assets/img/extra/sec-img-8.png" class="right-top-img" />  
-
+            <!-- Shop Starts-->
+            <section class="shop-wrap sec-space-bottom">
                 <div class="pattern"> 
                     <img alt="" src="assets/img/icons/white-pattern.png">
                 </div>
-                <div class="section-icon"> 
-                    <img alt="" src="assets/img/icons/icon-1.png">
-                    <div class="ptb-15 icon"> 
-                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>  
-                        <span class="light-font"> a taste of </span> <strong>real food</strong>
-                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>  
-                    </div>
-                </div>
 
                 <div class="container rel-div">
-                    <div class="row">
-                        <div class="col-sm-6 text-right fsz-16 pt-15 xs-text">
-                            <p>At Badammi, we combine the beauty of nature with modern processing to deliver the purest organic taste.Our farms and production facilities work hand in hand — from carefully grown fruits and nuts to advanced packaging systems that preserve their freshness.Every year, we proudly export our high-quality dried fruits, nuts, and fresh produce to markets in Turkey, Russia, and beyond, sharing the authentic flavor of our land with the world.For us, it’s not just business — it’s a passion for nature, quality, and health.</p>
-                        </div>
-                        <div class="col-sm-6 text-left xs-text">
-                            <h2 class="section-title"> <span class="light-font">we are </span> <strong>organic farmfood <img src="assets/img/icons/logo-icon.png" alt="" /> </strong> </h2>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6 text-center">
-                            <div class="feature-wrap">
-                                <img src="assets/img/extra/feature-1.png" alt="" />
-                                <h3 class="title-1 ptb-15"> <span class="light-font">fresh from </span> <strong> nature’s heart</strong> </h3>
-                                <p>Hand-picked from the most fertile orchards, our fruits are nurtured by sunlight and pure soil — bringing you freshness that tastes real.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 text-center">
-                            <div class="feature-wrap">
-                                <img src="assets/img/extra/feature-2.png" alt="" />
-                                <h3 class="title-1 ptb-15"> <span class="light-font"> 100%</span> <strong> Organic Goods</strong> </h3>
-                                <p>Pure. Honest. Organic.We believe true quality starts at the source. Every Badammi product is made from 100% organically grown fruits — with nothing artificial, ever.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 text-center">
-                            <div class="feature-wrap">
-                                <img src="assets/img/extra/feature-3.png" alt="" />
-                                <h3 class="title-1 ptb-15"> <span class="light-font"> Premium</span> <strong>Quality</strong> </h3>
-                                <p> Crafted with care, trusted for quality From harvest to packaging, every step meets the highest standards. Because premium isn’t just a label — it’s our way of doing things.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6 text-center">
-                            <div class="feature-wrap">
-                                <img src="assets/img/extra/feature-4.png" alt="" />
-                                <h3 class="title-1 ptb-15"> <span class="light-font">100% </span> <strong>Natural</strong> </h3>
-                                <p>Only what nature intended.No preservatives. No additives. Just nature’s own perfection — pure, simple, and full of life.</p>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="row sort-bar">
+                        <div class="icon"> <img alt="" src="assets/img/logo/logo-2.png" /> </div>
+                    </div> 
 
-                    <div class="rel-div feature-img">
-                        <img src="assets/img/extra/feature.png" alt="" />
+                    <div class="divider-full-1"></div>
+
+                    <div class="result-bar block-inline">
+                        <ul class="view-tabs">
+                            <li class="active">
+                                <a href="#grid-view" data-toggle="tab">                                                    
+                                    <i class="fa fa-th" onclick="hidenonlist()"></i>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="#list-view" data-toggle="tab">
+                                    <i class="fa fa-th-list" onclick="hidelist()"></i>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                </div>
+                    <div class="tab-content shop-content"> 
+                        <div id="grid-view" class="tab-pane fade active in" role="tabpanel">
+                            <div id="product" class="row"> 
+                                
+                            </div>
+                        <div id="list-view" class="tab-pane fade" role="tabpanel">
+                            <div id="listproduct" class="row"> 
+                                
+                            </div>
+                        </div>
+                    </div>
             </section>
-            <!-- / Organic Farmfood Ends -->      
-
-            <!-- About Us Starts-->
-            <section class="short-about sec-space light-bg">
-
-                <img alt="" src="assets/img/extra/sec-img-1.png" class="left-top-img">  
-                <img alt="" src="assets/img/extra/sec-img-3.png" class="center-bg-img">  
-                <img alt="" src="assets/img/extra/sec-img-4.png" class="left-bottom-img">  
-
-                <div class="container rel-div">
-                    <div class="title-wrap pt-15">                       
-                        <h2 class="fsz-50 over-txt-title"> 
-                            <span class="light-font"> WE DO <span class="over-txt light-bg">100% ORGANIC GUARANTEE</span> </span> 
-                            <strong>HEALTHY</strong> 
-                        </h2>
-                        <p>We believe that real health begins with real food.That’s why we grow, harvest, and process every fruit and nut with the utmost care — keeping them pure, fresh, and naturally nutritious.From farm to table, we stay true to our promise: 100% organic, 100% healthy.</p>
-                    </div>
-
-                    <div class="about-wrap"> 
-                        <img class="logo-img" alt="" src="assets/img/extra/sign-1.png" />
-                        <img class="logo-img" alt="" src="assets/img/extra/about-1.png" />
-                        <h2 class="font-3 fsz-35">Live Organic Live Healthy</h2>
-                        <div class="container">
-                            <div class="video-wrap" style="text-align:center; margin-top:20px;">
-                                <video width="280px" height="500px" controls>
-                                    <source src="assets/img/video.mp4" type="video/mp4">
-                                    Ваш браузер не поддерживает видео тег.
-                                </video>
-                            </div>
-                        </div>
-                        <div class="icon"> 
-                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>   
-                            <span class="light-font"> a taste of </span> <strong>real food</strong> 
-                            <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>  
-                        </div>
-                    </div>
-                </div>
-                
-                
-
-            </section>
-            <!-- / About Us Ends -->       
-
-            <!-- Our Products Starts-->
-            <section class="organic-product sec-space-bottom">
-                <div class="container"> 
-                    <div class="row sec-space-top"> 
-                        <div class="col-lg-6 col-sm-12"> 
-                            <div class="row"> 
-                                <div class="col-sm-4"> 
-                                    <div class="organic-prod">
-                                        <img src="assets/img/extra/organic-1.png" alt="" />
-                                        <span class="divider"></span>
-                                        <h3 class="title-1"><span class="light-font">organic </span> <strong> fruits</strong></h3>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4"> 
-                                    <div class="organic-prod">
-                                        <img src="assets/img/extra/organic-2.png" alt="" />
-                                        <span class="divider"></span>
-                                        <h3 class="title-1"><span class="light-font">fresh </span> <strong> vegetables</strong></h3>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4"> 
-                                    <div class="organic-prod">
-                                        <img src="assets/img/extra/organic-3.png" alt="" />
-                                        <span class="divider"></span>
-                                        <h3 class="title-1"><span class="light-font">fresh </span> <strong> fruits</strong></h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-sm-12"> 
-                            <div class="organic-prod-info">
-                                <h4 class="sub-title">  FRESH FROM OUR FARM </h4>
-                                <h2 class="section-title ptb-15"> <span class="light-font">220+ </span> <strong>fruits, vegetables </strong> <span class="light-font"> & </span> <strong> lot more</strong> </h2>
-                                <p class="fsz-16">Experience nature’s richness in every bite — over 100+ organic products, from juicy fruits and crisp vegetables to premium nuts and dried fruits.We bring the taste of purity straight from the farm to you.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-            </section>
-
-</section>
-
-            
-            <!-- / Our Products Ends -->        
+            <!-- / Shop Ends -->      
 
             <!-- / CONTENT AREA -->
 
@@ -281,49 +178,144 @@
             </footer>
             <!-- /FOOTER -->
 
-<div id="to-top-mb" class="to-top mb"> <i class="fa fa-arrow-circle-o-up"></i> </div>
-
+            <div id="to-top-mb" class="to-top mb"> <i class="fa fa-arrow-circle-o-up"></i> </div>
+            
         </main>
         <!-- /WRAPPER -->
-
-
-        <!-- Subscribe Popup-Dark -->
-        <!--        <section id="subscribe-popups" class="subscribe-me popups-wrap">                
-                    <div class="modal-content">   
-                        <button type="button" class="sb-close-btn close popup-cls"> <i class="fa-times fa clr-txt"></i> </button>
-                        <div class="subscribe-wrap">                                                                   
-                            <div class="main-logo">
-                                <a href="index.html"> <img alt="" src="assets/img/logo/main-logo.png" />  </a>
-                            </div>
-        
-                            <div class="title-wrap">
-                                <h2 class="section-title"> <strong>Subscribe Newsletter</strong> </h2>
-                                <h4 class="fsz-12"> Join our newsletter for free & get latest news weekly </h4>
-                            </div>
-        
-                            <form class="newsletter-form">
-                                <div class="form-group">
-                                    <input class="form-control" placeholder="enter your email address" required="" type="text">                                                                                     
-                                </div>
-                                <div class="form-group">                                               
-                                    <button class="theme-btn upper-text" type="submit"> <strong> subscribe </strong> </button>                                            
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </section>-->
-        <!-- / Subscribe Popup-Dark -->
 
         <!-- JS Global -->
         <script src="assets/js/plugin/jquery-2.2.4.min.js"></script>   
         <script src="assets/js/plugin/bootstrap.min.js"></script>
-        <script src="assets/js/plugin/bootstrap-select.min.js"></script>
+        <script src="assets/js/plugin/bootstrap-select.min.js"></script>       
         <script src="assets/js/plugin/owl.carousel.min.js"></script>
+        <script src="assets/js/plugin/jquery-ui.min.js"></script>
 
         <!-- Custom JS -->   
         <script src="assets/js/theme.js"></script>
 
-    <script>
+        <script>
+const apiUrl = "/api/Fruits/GetAllFruits";
+
+async function loadProducts() {
+    console.log("test");
+    const container = $("#product"); // div для карточек
+    const resultTxt = $(".result-bar .result-txt b"); // число результатов
+    const second = $("#listproduct"); // второй контейнер
+
+    try {
+        // Основной запрос к API с заголовком
+        const response = await fetch(apiUrl, {
+            headers: {
+                "ngrok-skip-browser-warning": "true"
+            }
+        });
+
+        if (!response.ok) throw new Error("Ошибка загрузки данных с API");
+
+        const fruits = await response.json();
+
+        // 🔥 Оставляем только те продукты, где НЕТ "dried" в названии
+        const filteredVegetables = fruits.filter(fruit =>
+            fruit.type && fruit.type.toLowerCase() === "vegetables"
+        );
+
+        container.empty();
+        second.empty();
+        resultTxt.text(filteredVegetables.length);
+
+        // Асинхронная загрузка изображений с заголовком
+        for (const fruit of filteredVegetables) {
+            const photoResponse = await fetch(`/api/photos/${fruit.id}.png`, {
+                headers: {
+                    "ngrok-skip-browser-warning": "true"
+                }
+            });
+
+            let photoUrl;
+            if (photoResponse.ok) {
+                const blob = await photoResponse.blob();
+                photoUrl = URL.createObjectURL(blob);
+            } else {
+                photoUrl = "img/placeholder.png"; // запасное изображение
+            }
+
+            // Первая карточка (сеткой)
+            const card = `
+                <div class="col-lg-3 col-md-4 col-sm-6" onclick="change(${fruit.id})"> 
+                    <div class="product-box"> 
+                        <div class="product-media"> 
+                            <img class="prod-img" alt="${fruit.name}" src="${photoUrl}" />     
+                            <div class="prod-icons"> 
+                                <a href="shop-single.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>
+                            </div>
+                        </div>                                           
+                        <div class="product-caption"> 
+                            <h3 class="product-title">
+                                <a href="#"><strong>${fruit.name}</strong></a>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            `;
+            container.append(card);
+
+            // Вторая карточка (списком)
+            const listCard = `
+                <div class="col-md-6 col-sm-12" onclick="change(${fruit.id})"> 
+                    <div class="deal-item list-view">
+                        <div class="deal-icons">                                         
+                            <a href="shop-single.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>                                      
+                        </div>
+                        <div class="deal-content">
+                            <div class="deal-text">
+                                <h4 class="sub-title"> ORGANIC FRUITS </h4>
+                                <h2 class="fsz-30 pb-15"> <a href="#"><strong>${fruit.name}</strong></a> </h2>
+                                <p>${fruit.composition}</p>
+                            </div>
+                            <div class="img images"> 
+                                <img alt="${fruit.name}" src="${photoUrl}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            second.append(listCard);
+            second.hide();
+        }
+
+    } catch (error) {
+        console.error("Ошибка при загрузке:", error);
+        container.html("<p>Не удалось загрузить данные о фруктах.</p>");
+        resultTxt.text(0);
+    }
+}
+
+function change(id) {
+    let toid = id
+    window.location.href = `shop-single.html?id=${toid}`
+}
+
+$(document).ready(function() {
+    loadProducts();
+});
+
+async function hidenonlist() {
+    const container = $("#listproduct");
+    container.hide();
+    const toshow = $("#product");
+    toshow.show();
+}
+
+async function hidelist() {
+    const container = $("#product");
+    container.hide();
+    const toshow = $("#listproduct");
+    toshow.show();
+}
+
+</script>
+        
+  <script>
 document.addEventListener("DOMContentLoaded", async () => {
     const apiUrl = "/api/Fruits/GetAllFruits";
 
@@ -413,5 +405,90 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 });
 </script>
+<style>
+.product-box {
+    border: 2px solid #ccc;
+    border-radius: 10px; /* по желанию */
+    padding: 10px;       /* чтобы контент не прилипал к краям */
+    transition: 0.3s;
+}
+
+.product-box:hover {
+    border-color: #888; /* эффект при наведении */
+}
+
+.product-media {
+    background-color: #fff;
+}
+
+.prod-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    padding-top: 50px;
+}
+
+.deal-content{
+    cursor: pointer;
+}
+
+/* === Общие визуальные правки === */
+#listproduct .deal-text p {
+    height: 60px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;       /* ← исправлено! раньше было -webkit-line-break */
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    line-height: 1.4em;
+    font-size: 14px;
+    color: #555;
+}
+</style>
+<style>
+    #loading {
+    position: fixed; /* Закрепляем на экране */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff; /* Цвет фона, пока идет загрузка */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Убедитесь, что он поверх всего */
+}
+
+/* Контейнер для логотипа, чтобы его центрировать */
+.loader {
+    /* Дополнительные стили, если нужны, но для анимации они не критичны */
+}
+
+/* Стили для самого изображения, где будет анимация */
+.loader img {
+    width: 100px; /* Установите желаемый размер */
+    height: auto;
+    /* --- КЛЮЧЕВАЯ ЧАСТЬ: АНИМАЦИЯ --- */
+    animation: bounce 1.2s infinite alternate; /* Применяем анимацию */
+    transform-origin: center; /* Центр, вокруг которого происходит трансформация */
+}
+
+/* Определение анимации */
+@keyframes bounce {
+    /* Кадры анимации */
+    0% {
+        transform: scale(0.9); /* Начальное состояние: немного отдалено */
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(1.15); /* Середина: немного приближено ("прыгнуло") */
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.0); /* Конец: возвращается к нормальному размеру */
+        opacity: 0.9;
+    }
+}
+</style>
     </body>
 </html>
