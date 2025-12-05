@@ -183,7 +183,7 @@
     "ChildPhotoPath": [ "Resource\\Photo\\10000017_1.png", "Resource\\Photo\\10000017_2.png" ],
     "AddedPhotoPath": [ "Resource\\Photo\\10000017_1_1.png" ],
     "ChildPhotoText": [ "Premium Lemon in an elegant carton box – a perfect gift choice.", "Premium Lemon in an elegant carton box – a perfect gift choice." ],
-    "Type": "vegetables",
+    "Type": "fruit",
     "Color": "#e08b28",
     "Name": "Lemon",
     "Composition": "Vitamin C, citric acid, potassium, flavonoids",

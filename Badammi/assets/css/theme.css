@@ -1902,7 +1902,7 @@ blockquote {
 /* ./ Megamenu */
 
 /*-- ./ Megamenu and Shoppingcart --*/
-@media (max-width: 1500px) {
+@media (max-width: 1800px) {
 
     .home-wrap .main-header {
         position: static;
@@ -1999,7 +1999,7 @@ blockquote {
     }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1800px) {
 
     .responsive-toggle {
         display: none !important;
