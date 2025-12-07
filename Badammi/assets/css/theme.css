@@ -1600,7 +1600,7 @@ blockquote {
 
 .primary-navbar > li a {
     font-weight: 500;
-    padding: 10px;
+    padding: 4px;
     text-transform: uppercase;
     position: relative;
     font-size: 15px;
@@ -1901,8 +1901,15 @@ blockquote {
 
 /* ./ Megamenu */
 
+
+@media (min-width: 1200px) {
+    .col-lg-6 {
+        width: 60% !important;
+    }
+}
+
 /*-- ./ Megamenu and Shoppingcart --*/
-@media (max-width: 1800px) {
+@media (max-width: 1350px) {
 
     .home-wrap .main-header {
         position: static;
@@ -1999,7 +2006,7 @@ blockquote {
     }
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 1350px) {
 
     .responsive-toggle {
         display: none !important;
