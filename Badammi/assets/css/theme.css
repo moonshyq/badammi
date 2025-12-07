@@ -1903,7 +1903,7 @@ blockquote {
 
 
 @media (min-width: 1200px) {
-    .col-lg-6 {
+    .col-lg-7 {
         width: 60% !important;
     }
 }
