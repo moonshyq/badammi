@@ -404,6 +404,36 @@ document.addEventListener("DOMContentLoaded", async () => {
     }
 });
 </script>
+
+<style>
+.deal-content {
+    display: flex; 
+    align-items: center; 
+}
+
+.deal-content .deal-text {
+    flex: 1; 
+}
+
+@media (max-width: 767px) {
+    .deal-content {
+        
+        flex-direction: row;
+    }
+
+    
+    .deal-content .images {
+        order: 2; 
+    }
+
+
+    .deal-content {
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between;
+    }
+}
+</style>
 <style>
 .product-box {
     border: 2px solid #ccc;
