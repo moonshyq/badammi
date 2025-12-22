@@ -233,7 +233,7 @@ async function loadProducts() {
 
         // Асинхронная загрузка изображений с заголовком
         for (const fruit of filteredFruitsFresh) {
-           const photoResponse = await fetch(`/api/photos/${fruit.id}.png`, {
+           let photoResponse = await fetch(`/api/photos/${fruit.id}.png`, {
                         headers: {
                             "ngrok-skip-browser-warning": "true"
                         }
@@ -303,7 +303,7 @@ async function loadProducts() {
 
         
         for (const fruit of filteredVeg) {
-            const photoResponse = await fetch(`/api/photos/${fruit.id}.png`, {
+            let photoResponse = await fetch(`/api/photos/${fruit.id}.png`, {
                         headers: {
                             "ngrok-skip-browser-warning": "true"
                         }
@@ -375,7 +375,7 @@ async function loadProducts() {
         idpom = 2;
 
         for (const fruit of filteredFruitsDried) {
-            const photoResponse = await fetch(`/api/photos/${fruit.id}.png`, {
+            let photoResponse = await fetch(`/api/photos/${fruit.id}.png`, {
                         headers: {
                             "ngrok-skip-browser-warning": "true"
                         }
