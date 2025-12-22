@@ -267,7 +267,7 @@ async function loadProducts() {
                         <div class="col-lg-3 col-md-4 col-sm-6" onclick="change('${fruit.type}',${fruit.id})"> 
                             <div class="product-box"> 
                                 <div class="product-media"> 
-                                    <img class="prod-img" alt="${fruit.name}" src="${photoUrl}" />     
+                                    <img class="prod-img-bottle" alt="${fruit.name}" src="${photoUrl}" />     
                                     <div class="prod-icons"> 
                                         <a href="shop-single.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>
                                     </div>
@@ -658,6 +658,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 .prod-img-dried {
     width: 350px;
     height: 300px;
+    object-fit: cover;
+}
+
+.prod-img-bottle{
+    width: 200px;
+    height: 200px;
     object-fit: cover;
 }
 
