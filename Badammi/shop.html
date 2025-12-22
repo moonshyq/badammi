@@ -201,6 +201,7 @@ async function loadProducts() {
     const container = $("#product"); // div для карточек
     const resultTxt = $(".result-bar .result-txt b"); // число результатов
     const second = $("#listproduct"); // второй контейнер
+    const ispom = false;
 
     try {
         // Основной запрос к API с заголовком
@@ -289,12 +290,24 @@ async function loadProducts() {
             second.hide();
         }
 
+        let idpom = 2;
         for (const fruit of filteredVeg) {
             const photoResponse = await fetch(`/api/photos/${fruit.id}.png`, {
-                headers: {
-                    "ngrok-skip-browser-warning": "true"
-                }
+                        headers: {
+                            "ngrok-skip-browser-warning": "true"
+                        }
             });
+            if(fruit.id === 10000010){
+                if(ispom === false){
+                    ispom = true
+                }
+                else
+                {
+                    photoResponse = await fetch(`/api/photos/${fruit.id + "_" + idpom}.png`);
+                    idpom++;
+                }
+            }
+            
 
             let photoUrl;
             if (photoResponse.ok) {
@@ -347,13 +360,24 @@ async function loadProducts() {
             second.append(listCard);
             second.hide();
         }
+        ispom = false;
+        idpom = 2;
 
         for (const fruit of filteredFruitsDried) {
             const photoResponse = await fetch(`/api/photos/${fruit.id}.png`, {
-                headers: {
-                    "ngrok-skip-browser-warning": "true"
-                }
+                        headers: {
+                            "ngrok-skip-browser-warning": "true"
+                        }
             });
+            if(fruit.id === 10000010){
+                if(ispom === false){
+                    ispom = true
+                }
+                else
+                {
+                    photoResponse = await fetch(`/api/photos/${fruit.id + "_" + idpom}.png`);
+                    idpom++;
+            }
 
             let photoUrl;
             if (photoResponse.ok) {
