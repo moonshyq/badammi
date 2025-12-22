@@ -232,11 +232,21 @@ async function loadProducts() {
 
         // Асинхронная загрузка изображений с заголовком
         for (const fruit of filteredFruitsFresh) {
-            const photoResponse = await fetch(`/api/photos/${fruit.id}.png`, {
-                headers: {
-                    "ngrok-skip-browser-warning": "true"
-                }
+           const photoResponse = await fetch(`/api/photos/${fruit.id}.png`, {
+                        headers: {
+                            "ngrok-skip-browser-warning": "true"
+                        }
             });
+            if(fruit.id === 10000010){
+                if(ispom === false){
+                    ispom = true
+                }
+                else
+                {
+                    photoResponse = await fetch(`/api/photos/${fruit.id + "_" + idpom}.png`);
+                    idpom++;
+                }
+            }
 
             let photoUrl;
             if (photoResponse.ok) {
@@ -377,7 +387,9 @@ async function loadProducts() {
                 {
                     photoResponse = await fetch(`/api/photos/${fruit.id + "_" + idpom}.png`);
                     idpom++;
+                }
             }
+                
 
             let photoUrl;
             if (photoResponse.ok) {
@@ -432,12 +444,14 @@ async function loadProducts() {
         }
         
 
-    } catch (error) {
+    } 
+    catch (error) {
         console.error("Ошибка при загрузке:", error);
         container.html("<p>Не удалось загрузить данные о фруктах.</p>");
         resultTxt.text(0);
     }
 }
+
 
 function change(type,id) {
     let toid = id
