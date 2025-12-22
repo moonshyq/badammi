@@ -202,6 +202,7 @@ async function loadProducts() {
     const resultTxt = $(".result-bar .result-txt b"); // число результатов
     const second = $("#listproduct"); // второй контейнер
     let ispom = false;
+    let idpom = 2;
 
     try {
         // Основной запрос к API с заголовком
@@ -300,7 +301,7 @@ async function loadProducts() {
             second.hide();
         }
 
-        let idpom = 2;
+        
         for (const fruit of filteredVeg) {
             const photoResponse = await fetch(`/api/photos/${fruit.id}.png`, {
                         headers: {
