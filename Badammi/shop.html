@@ -203,6 +203,8 @@ async function loadProducts() {
     const second = $("#listproduct"); // второй контейнер
     let ispom = false;
     let idpom = 2;
+    let secondpom = false;
+    let secondidpom = 2;
 
     try {
         // Основной запрос к API с заголовком
@@ -258,6 +260,58 @@ async function loadProducts() {
             }
 
             // Первая карточка (сеткой)
+            if(fruit.id === 10000010){
+                if(secondpom === true){
+                    if(secondidpom <= 4){
+                            const card = `
+                        <div class="col-lg-3 col-md-4 col-sm-6" onclick="change('${fruit.name}',${fruit.id})"> 
+                            <div class="product-box"> 
+                                <div class="product-media"> 
+                                    <img class="prod-img-fresh" alt="${fruit.name}" src="${photoUrl}" />     
+                                    <div class="prod-icons"> 
+                                        <a href="shop-single.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>
+                                    </div>
+                                </div>                                           
+                                <div class="product-caption"> 
+                                    <h3 class="product-title">
+                                        <a href="#"><strong>${fruit.name}</strong></a>
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    container.append(card);
+
+                    // Вторая карточка (списком)
+                    const listCard = `
+                        <div class="col-md-6 col-sm-12 goto" onclick="change('${fruit.name}',${fruit.id})"> 
+                            <div class="deal-item list-view">
+                                <div class="deal-icons">                                         
+                                    <a href="shop-single.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>                                      
+                                </div>
+                                <div class="deal-content">
+                                    <div class="deal-text">
+                                        <h4 class="sub-title"> ORGANIC FRUITS </h4>
+                                        <h2 class="fsz-30 pb-15"> <a href="#"><strong>${fruit.name}</strong></a> </h2>
+                                        <p>${fruit.composition}</p>
+                                    </div>
+                                    <div class="img images"> 
+                                        <img alt="${fruit.name}" src="${photoUrl}">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        `;
+                        second.append(listCard);
+                        second.hide();
+                        secondidpom++;
+                        continue;
+                    }else{
+                        secondpom = false;
+                        secondidpom = 2;
+                    }
+                }
+                       
             const card = `
                 <div class="col-lg-3 col-md-4 col-sm-6" onclick="change('${fruit.name}',${fruit.id})"> 
                     <div class="product-box"> 
@@ -299,6 +353,8 @@ async function loadProducts() {
             `;
             second.append(listCard);
             second.hide();
+            secondpom = true;
+            }
         }
 
         
@@ -308,17 +364,6 @@ async function loadProducts() {
                             "ngrok-skip-browser-warning": "true"
                         }
             });
-            if(fruit.id === 10000010){
-                if(ispom === false){
-                    ispom = true
-                }
-                else
-                {
-                    photoResponse = await fetch(`/api/photos/${fruit.id + "_" + idpom}.png`);
-                    idpom++;
-                }
-            }
-            
 
             let photoUrl;
             if (photoResponse.ok) {
@@ -371,8 +416,6 @@ async function loadProducts() {
             second.append(listCard);
             second.hide();
         }
-        ispom = false;
-        idpom = 2;
 
         for (const fruit of filteredFruitsDried) {
             let photoResponse = await fetch(`/api/photos/${fruit.id}.png`, {
@@ -380,17 +423,6 @@ async function loadProducts() {
                             "ngrok-skip-browser-warning": "true"
                         }
             });
-            if(fruit.id === 10000010){
-                if(ispom === false){
-                    ispom = true
-                }
-                else
-                {
-                    photoResponse = await fetch(`/api/photos/${fruit.id + "_" + idpom}.png`);
-                    idpom++;
-                }
-            }
-                
 
             let photoUrl;
             if (photoResponse.ok) {
