@@ -264,7 +264,7 @@ async function loadProducts() {
                 if(secondpom === true){
                     if(secondidpom <= 4){
                             const card = `
-                        <div class="col-lg-3 col-md-4 col-sm-6" onclick="change('${fruit.name}',${fruit.id})"> 
+                        <div class="col-lg-3 col-md-4 col-sm-6" onclick="change('${fruit.type}',${fruit.id})"> 
                             <div class="product-box"> 
                                 <div class="product-media"> 
                                     <img class="prod-img" alt="${fruit.name}" src="${photoUrl}" />     
@@ -284,7 +284,7 @@ async function loadProducts() {
 
                     // Вторая карточка (списком)
                     const listCard = `
-                        <div class="col-md-6 col-sm-12 goto" onclick="change('${fruit.name}',${fruit.id})"> 
+                        <div class="col-md-6 col-sm-12 goto" onclick="change('${fruit.type}',${fruit.id})"> 
                             <div class="deal-item list-view">
                                 <div class="deal-icons">                                         
                                     <a href="shop-single.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>                                      
@@ -312,7 +312,7 @@ async function loadProducts() {
                     }
                 }       
                 const card = `
-                <div class="col-lg-3 col-md-4 col-sm-6" onclick="change('${fruit.name}',${fruit.id})"> 
+                <div class="col-lg-3 col-md-4 col-sm-6" onclick="change('${fruit.type}',${fruit.id})"> 
                     <div class="product-box"> 
                         <div class="product-media"> 
                             <img class="prod-img-fresh" alt="${fruit.name}" src="${photoUrl}" />     
@@ -332,7 +332,7 @@ async function loadProducts() {
 
             // Вторая карточка (списком)
                 const listCard = `
-                    <div class="col-md-6 col-sm-12 goto" onclick="change('${fruit.name}',${fruit.id})"> 
+                    <div class="col-md-6 col-sm-12 goto" onclick="change('${fruit.type}',${fruit.id})"> 
                         <div class="deal-item list-view">
                             <div class="deal-icons">                                         
                                 <a href="shop-single.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>                                      
@@ -357,7 +357,7 @@ async function loadProducts() {
         else
         {
             const card = `
-                <div class="col-lg-3 col-md-4 col-sm-6" onclick="change('${fruit.name}',${fruit.id})"> 
+                <div class="col-lg-3 col-md-4 col-sm-6" onclick="change('${fruit.type}',${fruit.id})"> 
                     <div class="product-box"> 
                         <div class="product-media"> 
                             <img class="prod-img-fresh" alt="${fruit.name}" src="${photoUrl}" />     
@@ -377,7 +377,7 @@ async function loadProducts() {
 
             // Вторая карточка (списком)
             const listCard = `
-                <div class="col-md-6 col-sm-12 goto" onclick="change('${fruit.name}',${fruit.id})"> 
+                <div class="col-md-6 col-sm-12 goto" onclick="change('${fruit.type}',${fruit.id})"> 
                     <div class="deal-item list-view">
                         <div class="deal-icons">                                         
                             <a href="shop-single.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>                                      
@@ -438,7 +438,7 @@ async function loadProducts() {
 
             // Вторая карточка (списком)
             const listCard = `
-                <div class="col-md-6 col-sm-12 goto" onclick="change('${fruit.name}',${fruit.id})"> 
+                <div class="col-md-6 col-sm-12 goto" onclick="change('${fruit.type}',${fruit.id})"> 
                     <div class="deal-item list-view">
                         <div class="deal-icons">                                         
                             <a href="shop-single.html?id=${fruit.id}" data-toggle="modal" class="fa fa-expand"></a>                                      
