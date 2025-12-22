@@ -201,7 +201,7 @@ async function loadProducts() {
     const container = $("#product"); // div для карточек
     const resultTxt = $(".result-bar .result-txt b"); // число результатов
     const second = $("#listproduct"); // второй контейнер
-    const ispom = false;
+    let ispom = false;
 
     try {
         // Основной запрос к API с заголовком
