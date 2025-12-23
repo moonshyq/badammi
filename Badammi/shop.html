@@ -219,7 +219,8 @@ async function loadProducts() {
         const fruits = await response.json();
 
         const filteredFruitsFresh = fruits.filter(fruit =>
-            fruit.type.toLowerCase() === "fruit"
+            fruit.type.toLowerCase() === "fruit" || fruit.type.toLowerCase() === "bottle"
+            
         );
 
         const filteredFruitsDried = fruits.filter(fruit =>
@@ -580,7 +581,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         const freshFruits = products.filter(p => p.type && p.type.toLowerCase() === "fruit");
         const freshVegetables = products.filter(p => p.type && p.type.toLowerCase() === "vegetables");
         const driedProducts = products.filter(p => p.type && p.type.toLowerCase() === "dried");
-
+        
 
         const freshMenu = document.getElementById("fresh");
         if (freshMenu) {
