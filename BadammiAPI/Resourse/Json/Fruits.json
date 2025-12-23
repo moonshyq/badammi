@@ -98,7 +98,7 @@
     "PhotoPath": "Resource\\Photo\\10000010.png",
     "ChildPhotoPath": [ "Resource\\Photo\\10000010_1.png", "Resource\\Photo\\10000010_2.png", "Resource\\Photo\\10000010_3.png" ],
     "AddedPhotoPath": [ "Resource\\Photo\\10000010_1_1.png", "Resource\\Photo\\10000010_1_2.png", "Resource\\Photo\\10000010_1_3.png" ],
-    "ChildPhotoText": [ "For retail sale, generally used 6-8 and 12 piceces", "Pomegranate juice Organic pomegranate juice, no added sugar, no artifical color", "Narsharab 100% pormegranate concentrate sauce" ],
+    "ChildPhotoText": [ "For retail sale, generally used 6-8 and 12 piceces", "Pomegranate juice is organic pomegranate juice, no added sugar, no artifical color", "Narsharab is 100% pormegranate concentrate sauce" ],
     "Type": "fruit",
     "Color": "#e73c42",
     "Name": "Pomegranate",
